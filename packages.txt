@@ -1,0 +1,14 @@
+wheel
+setuptools
+numpy
+scipy
+matplotlib
+pandas
+seaborn
+pyspark
+findspark
+plotly
+apache-airflow
+html5lib
+httpx
+beautifulsoup4
