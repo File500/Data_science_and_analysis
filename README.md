@@ -23,5 +23,11 @@ to clear cache to ensure 'from scratch' package installation run:
 
 ```bash
 pip cache purge
+```
+
+and then:
+
+```bash
 pip install <package_name>==<desired_version>
 ```
+***
