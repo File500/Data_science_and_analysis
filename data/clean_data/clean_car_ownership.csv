@@ -1,0 +1,427 @@
+,Occupation,Monthly Income,Credit Score,Years of Employment,Finance Status,Car,Number of Children
+0,Teacher,40000,750,10,Good,Yes,2
+1,Engineer,60000,800,8,Good,Yes,1
+2,Nurse,25000,650,5,Fair,No,0
+3,Doctor,80000,900,12,Excellent,Yes,3
+4,Businessman,100000,700,15,Good,Yes,2
+5,Engineer,50000,750,6,Fair,No,1
+6,Teacher,35000,700,8,Fair,Yes,-1
+7,Nurse,20000,600,3,Poor,No,-1
+8,Businessman,120000,850,20,Excellent,Yes,-1
+9,Doctor,90000,800,10,Good,Yes,-1
+11,Engineer,6000,700,3,Good,Yes,-1
+12,Salesperson,3000,600,1,Fair,No,-1
+13,Teacher,4000,750,5,Excellent,Yes,-1
+14,Entrepreneur,8000,800,7,Good,Yes,-1
+15,Lawyer,9000,820,10,Excellent,Yes,-1
+16,Doctor,12000,900,12,Excellent,Yes,-1
+17,Accountant,5000,720,4,Good,No,-1
+18,Software Dev,7000,780,6,Excellent,Yes,-1
+19,Nurse,3500,650,2,Fair,No,-1
+20,Electrician,2500,550,1,Poor,No,-1
+21,Architect,5500,740,8,Good,Yes,-1
+22,Marketing Exec,4500,690,4,Fair,No,-1
+23,Chef,3000,620,2,Fair,No,-1
+24,Police Officer,4000,680,3,Fair,No,-1
+25,Real Estate Ag,6000,760,5,Good,Yes,-1
+26,Pilot,10000,820,10,Excellent,Yes,-1
+27,Graphic Design,3500,670,3,Fair,No,-1
+28,Writer,2000,500,1,Poor,No,-1
+29,Musician,2500,550,1,Unknown,No,-1
+30,Nurse,4500,720,3,Stable,Yes,-1
+31,Software Developer,7800,800,5,Stable,Yes,-1
+32,Chef,3200,650,2,Unstable,No,-1
+33,Accountant,6500,750,7,Stable,Yes,-1
+34,Salesperson,3000,600,1,Unstable,No,-1
+35,Teacher,3800,680,4,Stable,Yes,-1
+36,Lawyer,10000,820,8,Stable,Yes,-1
+37,Mechanic,2500,600,2,Unstable,No,-1
+38,Marketing,5200,720,5,Stable,Yes,-1
+39,Graphic Designer,3700,680,3,Stable,No,-1
+40,Financial Advisor,8500,780,6,Stable,Yes,-1
+41,Real Estate Agent,6200,700,4,Stable,Yes,-1
+42,Chef,2800,620,1,Unstable,No,-1
+43,Engineer,9000,790,7,Stable,Yes,-1
+44,Construction Worker,3000,610,3,Unstable,No,-1
+45,Designer,4500,700,4,Stable,No,-1
+46,Writer,2500,590,1,Unstable,No,-1
+47,Web Developer,6000,730,5,Stable,Yes,-1
+48,Chef,3500,650,2,Unstable,No,-1
+49,Account Manager,5800,720,4,Stable,Yes,-1
+50,Financial Analyst,6800,760,5,Stable,Yes,-1
+51,Electrician,3200,640,2,Unstable,No,-1
+52,Human Resources,4500,690,3,Stable,Yes,-1
+53,Plumber,2700,620,1,Unstable,No,-1
+54,Social Worker,3600,670,2,Unstable,No,-1
+55,Data Scientist,9200,820,6,Good,Yes,-1
+56,Chef,3100,650,2,Fair,No,-1
+57,Customer Service,2500,600,1,Excellent,No,-1
+58,Veterinarian,7000,750,8,Good,Yes,-1
+59,Graphic Designer,3500,680,3,Excellent,No,-1
+60,Architect,8500,790,7,Excellent,Yes,-1
+61,Chef,3200,630,2,Good,No,-1
+62,Web Designer,4800,710,4,Excellent,No,-1
+63,Insurance Agent,4200,680,3,Fair,Yes,-1
+64,Sales Representative,4500,660,2,Poor,No,-1
+65,Musician,3000,620,1,Good,No,-1
+66,Marketing Manager,7500,780,6,Fair,Yes,-1
+67,Software Engineer,9000,820,7,Fair,Yes,-1
+68,Chef,3500,650,2,Fair,No,-1
+69,Dental Hygienist,5000,720,4,Stable,Yes,-1
+70,Retail Manager,3800,670,3,Stable,Yes,-1
+71,Chef,2800,630,1,Unstable,No,-1
+73,Financial Analyst,6800,760,5,Stable,Yes,0
+74,Electrician,32000,640,2,Unstable,No,2
+75,Human Resources,4500,690,3,Stable,Yes,1
+76,Plumber,2700,620,1,Unstable,No,0
+77,Social Worker,3600,670,2,Unstable,No,3
+78,Data Scientist,9200,820,6,Stable,Yes,2
+79,Chef,3100,650,2,Unstable,No,1
+80,Customer Service,2500,600,1,Unstable,No,0
+81,Veterinarian,7000,750,8,Stable,Yes,2
+82,Graphic Designer,3500,680,3,Stable,No,0
+83,Architect,85000,790,7,Stable,Yes,3
+84,Chef,3200,630,2,Unstable,No,2
+85,Web Designer,4800,710,4,Stable,No,1
+86,Insurance Agent,4200,680,3,Stable,Yes,0
+87,Sales Representative,4500,660,2,Unstable,No,2
+88,Musician,3000,620,1,Unstable,No,0
+89,Marketing Manager,7500,780,6,Stable,Yes,1
+90,Software Engineer,9000,820,7,Stable,Yes,0
+91,Chef,3500,650,2,Unstable,No,2
+92,Dental Hygienist,5000,718,4,Unknown,No,-1
+94,Personal Trainer,3000,630,1,Unstable,No,0
+95,Pharmacist,10000,840,10,Stable,Yes,2
+96,Teacher,4000,670,3,Stable,No,1
+97,Computer Programmer,8000,780,5,Stable,Yes,0
+98,Chef,3200,640,2,Unstable,No,1
+99,Physical Therapist,6000,720,5,Stable,Yes,2
+100,Accountant,6500,740,6,Stable,Yes,0
+101,Writer,3500,670,2,Stable,No,0
+102,Mechanic,3000,610,1,Unstable,No,3
+103,Physician,15000,890,12,Stable,Yes,3
+104,Nurse,5000,720,5,Stable,No,2
+105,Real Estate Agent,4500,680,4,Stable,Yes,1
+106,Electrician,3500,650,2,Unknown,No,0
+107,Graphic Designer,3200,670,3,Stable,No,0
+108,Financial Advisor,7000,770,6,Stable,Yes,2
+109,Project Manager,9500,820,8,Stable,Yes,1
+110,Construction Worker,2500,600,1,Unknown,No,4
+111,Hairdresser,2800,630,1,Unstable,No,0
+112,Mechanical Engineer,7500,760,6,Stable,Yes,2
+113,IT Manager,10000,820,9,Stable,Yes,-1
+114,Dental Hygienist,4500,710,4,Stable,Yes,2
+115,Marketing Specialist,5500,720,3,Stable,Yes,0
+116,Carpenter,3000,620,2,Unstable,No,1
+117,Optometrist,9000,820,8,Stable,Yes,3
+118,Graphic Artist,3500,680,3,Stable,No,0
+119,Lawyer,12000,850,11,Stable,Yes,1
+120,Salesperson,4200,670,3,Stable,No,2
+121,Dental Assistant,2500,630,1,Unstable,No,1
+122,Architect,7500,780,7,Stable,Yes,0
+123,Fashion Designer,3800,680,4,Stable,No,0
+124,Engineer,6500,740,5,Stable,Yes,2
+125,Business Owner,15000,800,10,Stable,Yes,2
+126,Barista,2000,610,1,Unstable,No,0
+127,Physical Education Teacher,4500,690,3,Stable,No,1
+128,Human Resources Manager,8000,780,7,Stable,Yes,2
+129,Plumber,3200,650,2,Unstable,No,3
+130,Photographer,3000,640,2,Unstable,No,-1
+131,Entrepreneur,12000,830,8,Stable,Yes,1
+132,Web Developer,5800,730,4,Stable,Yes,0
+133,Waiter/Waitress,1500,560,1,Unstable,No,0
+135,Software Engineer,8500,790,6,Stable,Yes,2
+136,Electrician,3500,640,2,Unstable,No,2
+137,Chef,3200,660,3,Stable,No,-1
+138,Financial Analyst,7200,760,5,Stable,Yes,0
+139,Hair Stylist,2000,600,1,Unstable,No,2
+140,Psychologist,6000,740,4,Stable,Yes,1
+141,Medical Assistant,28000,620,1,Unstable,No,2
+142,Physical Therapist,75000,800,6,Stable,Yes,0
+143,Social Worker,4000,680,3,Stable,No,3
+144,Chef,3200,670,2,Unstable,No,1
+145,Writer,3800,680,3,Stable,No,0
+146,Insurance Agent,4500,700,4,Stable,Yes,2
+147,Real Estate Agent,5000,720,5,Stable,Yes,1
+148,Bartender,2500,610,1,Unstable,No,0
+149,Physician Assistant,8000,820,7,Stable,Yes,1
+150,Veterinarian,9000,800,7,Stable,Yes,2
+151,Customer Service Rep,2500,630,1,Unstable,No,1
+152,Graphic Designer,3500,670,3,Stable,No,0
+153,Financial Advisor,6500,780,6,Stable,Yes,2
+154,Elementary School Teacher,4200,690,4,Stable,No,2
+155,Librarian,4800,695,4,Unknown,No,-1
+156,Nurse,5500,720,5,Stable,Yes,3
+157,Retail Salesperson,2000,590,1,Unstable,No,1
+158,Police Officer,4800,680,4,Stable,Yes,2
+159,Marketing Manager,7000,750,6,Stable,Yes,1
+160,Dental Hygienist,6000,790,5,Stable,Yes,2
+161,Physical Education Teacher,4500,670,3,Stable,No,0
+162,Executive Assistant,4500,710,4,Stable,Yes,1
+163,Pharmacist,10000,810,8,Stable,Yes,0
+164,Automotive Mechanic,3000,640,2,Unstable,No,3
+165,Flight Attendant,4500,700,4,Stable,Yes,0
+166,Architect,8500,780,7,Stable,Yes,2
+167,Physical Therapist Assistant,4000,670,3,Stable,No,1
+168,Financial Manager,9000,800,8,Stable,Yes,0
+169,Veterinarian Technician,3000,620,2,Unstable,No,2
+170,Graphic Designer,4000,710,4,Stable,Yes,0
+171,Project Manager,8000,790,7,Stable,Yes,1
+172,Electrician,3800,660,3,Stable,No,2
+173,IT Manager,10000,810,8,Stable,Yes,3
+174,Marketing Coordinator,3500,650,2,Stable,No,0
+175,Dental Assistant,25000,590,1,Unstable,No,1
+176,Chef,3500,650,3,Stable,No,2
+177,Web Developer,6000,740,5,Stable,Yes,0
+178,Insurance Agent,4500,690,4,Stable,Yes,1
+179,Bank Teller,2800,620,2,Unstable,No,0
+180,Event Planner,3800,680,3,Stable,No,0
+181,Human Resources Manager,7000,780,6,Stable,Yes,2
+182,Personal Trainer,3500,670,2,Stable,No,0
+183,Real Estate Agent,5500,720,5,Stable,Yes,1
+184,Photographer,2500,610,1,Unstable,No,1
+185,Mechanical Engineer,8000,760,7,Stable,Yes,0
+186,Office Manager,4500,710,4,Stable,Yes,1
+187,Hair Stylist,2200,590,1,Unstable,No,0
+188,Business Analyst,6500,750,5,Stable,Yes,1
+189,Construction Worker,3000,630,2,Unstable,No,3
+190,Physician Assistant,7500,800,6,Stable,Yes,2
+191,Insurance Underwriter,4800,690,4,Stable,Yes,0
+192,Marketing Analyst,5000,730,4,Stable,Yes,0
+193,Plumber,4000,650,3,Stable,No,1
+194,IT Support Specialist,3500,660,2,Stable,Yes,2
+195,Financial Advisor,7500,790,6,Stable,Yes,1
+197,Electrician,4500,680,4,Stable,Yes,2
+198,Sales Representative,3800,670,2,Stable,Yes,0
+199,Graphic Designer,2800,620,2,Unstable,No,1
+200,Nurse,4200,720,4,Stable,Yes,3
+201,Data Analyst,6000,740,5,Stable,Yes,0
+202,Retail Manager,4500,690,4,Stable,Yes,2
+203,Mechanical Technician,3000,630,2,Unstable,No,0
+204,Physical Therapist,6500,780,5,Stable,Yes,1
+205,Writer,2200,590,1,Unstable,No,2
+206,Veterinarian,8000,760,6,Stable,Yes,0
+207,Accountant,5500,720,5,Stable,Yes,2
+208,Chef,3500,650,3,Stable,No,1
+209,Web Developer,6000,740,4,Stable,Yes,0
+217,Mechanical Engineer,8,749,6,Unknown,No,-1
+219,Marketing Manager,5800,710,5,Stable,Yes,1
+220,Software Developer,7200,750,6,Stable,Yes,0
+221,Electrician,4200,680,4,Stable,Yes,2
+222,Sales Representative,3600,660,3,Stable,Yes,0
+223,Graphic Designer,2700,610,3,Unstable,No,1
+224,Nurse,4500,720,4,Stable,Yes,3
+225,Data Analyst,5800,730,5,Stable,Yes,0
+226,Retail Manager,4200,670,3,Stable,Yes,2
+227,Mechanical Technician,2900,620,2,Unstable,No,0
+228,Physical Therapist,6200,780,5,Stable,Yes,1
+229,Writer,2000,570,1,Unstable,No,2
+230,Veterinarian,7500,760,7,Stable,Yes,0
+231,Accountant,5000,710,4,Stable,Yes,2
+232,Chef,3200,640,2,Stable,No,1
+233,Web Developer,6200,730,4,Stable,Yes,0
+234,Insurance Agent,4200,670,3,Stable,Yes,1
+235,Bank Teller,2700,610,2,Unstable,No,0
+236,Event Planner,3600,690,3,Stable,No,0
+237,Human Resources Manager,6800,780,6,Stable,Yes,2
+238,Personal Trainer,3200,650,1,Stable,No,-1
+239,Sales Manager,8500,790,6,Stable,Yes,1
+240,Architect,6500,730,6,Stable,Yes,0
+241,Graphic Designer,3800,660,3,Stable,Yes,1
+242,Physician,15000,820,10,Stable,Yes,2
+243,Electrician,4500,690,4,Stable,Yes,0
+244,Customer Service Rep,2800,630,2,Unstable,No,1
+245,IT Manager,9000,780,7,Stable,Yes,2
+246,Account Executive,6000,720,5,Stable,Yes,0
+248,HR Generalist,4800,700,4,Stable,Yes,0
+249,Attorney,12000,800,9,Stable,Yes,1
+250,Marketing Coordinator,4000,670,4,Stable,Yes,1
+251,Sales Representative,3200,630,2,Unstable,Yes,0
+252,Data Scientist,7500,760,6,Stable,Yes,1
+253,Web Designer,4200,680,4,Stable,Yes,0
+254,Physical Therapist,6800,760,6,Stable,Yes,2
+255,Electrician,3800,660,3,Stable,Yes,1
+256,Nurse,5000,720,5,Stable,Yes,0
+257,Sales Manager,7200,740,6,Stable,Yes,2
+258,Accountant,4500,690,4,Stable,Yes,1
+259,Carpenter,3200,613,2,Unknown,No,-1
+289,Musician,2500,550,1,Unknown,No,-1
+297,Mechanic,2500,600,2,Unstable,No,-1
+298,Marketing,5200,720,5,Stable,Yes,-1
+299,Graphic Designer,3700,680,3,Stable,No,-1
+300,Financial Advisor,8500,780,6,Stable,Yes,-1
+301,Real Estate Agent,6200,700,4,Stable,Yes,-1
+302,Chef,2800,620,1,Unstable,No,-1
+303,Engineer,9000,790,7,Stable,Yes,-1
+304,Construction Worker,3000,610,3,Unstable,No,-1
+305,Designer,4500,700,4,Stable,No,-1
+306,Writer,2500,590,1,Unstable,No,-1
+307,Web Developer,6000,730,5,Stable,Yes,-1
+308,Chef,3500,650,2,Unstable,No,-1
+309,Account Manager,5800,720,4,Stable,Yes,-1
+310,Financial Analyst,6800,760,5,Stable,Yes,-1
+311,Electrician,3200,640,2,Unstable,No,-1
+312,Human Resources,4500,690,3,Stable,Yes,-1
+313,Plumber,2700,620,1,Unstable,No,-1
+314,Social Worker,3600,670,2,Unstable,No,-1
+315,Data Scientist,9200,820,6,Good,Yes,-1
+316,Chef,3100,650,2,Fair,No,-1
+317,Customer Service,2500,600,1,Excellent,No,-1
+318,Veterinarian,7000,750,8,Good,Yes,-1
+319,Graphic Designer,3500,680,3,Excellent,No,-1
+320,Architect,8500,790,7,Excellent,Yes,-1
+321,Chef,3200,630,2,Good,No,-1
+322,Web Designer,4800,710,4,Excellent,No,-1
+331,Chef,2800,643,1,Unstable,No,-1
+332,Financial Analyst,6800,753,5,Stable,Yes,0
+333,Electrician,32000,652,2,Unstable,No,2
+334,Human Resources,4500,687,3,Stable,Yes,1
+335,Plumber,2700,632,1,Unstable,No,0
+336,Social Worker,3600,672,2,Unstable,No,3
+337,Data Scientist,9200,795,6,Stable,Yes,2
+338,Chef,3100,643,2,Unstable,No,1
+339,Customer Service,2500,600,1,Unstable,No,0
+340,Veterinarian,7000,760,8,Stable,Yes,2
+341,Graphic Designer,3500,673,3,Stable,No,0
+342,Architect,85000,754,7,Stable,Yes,3
+343,Chef,3200,643,2,Unstable,No,2
+344,Web Designer,4800,695,4,Stable,No,1
+345,Insurance Agent,4200,691,3,Stable,Yes,0
+346,Sales Representative,4500,633,2,Unstable,No,2
+347,Musician,3000,585,1,Unstable,No,0
+348,Marketing Manager,7500,752,6,Stable,Yes,1
+349,Software Engineer,9000,793,7,Stable,Yes,0
+350,Chef,3500,643,2,Unstable,No,2
+351,Dental Hygienist,5000,718,4,Unknown,No,-1
+353,Personal Trainer,3000,650,1,Unstable,No,0
+354,Sales Manager,7800,810,6,Stable,Yes,2
+355,Graphic Designer,4100,689,3,Stable,Yes,0
+356,Data Scientist,8200,755,7,Stable,Yes,1
+357,Physical Therapist,7000,765,6,Stable,Yes,2
+358,Chef,3900,631,3,Stable,No,2
+359,Marketing Coordinator,3500,643,2,Unstable,No,1
+360,Customer Service Rep,2900,590,1,Unstable,No,1
+361,HR Generalist,4400,701,4,Stable,Yes,0
+362,Architect,6100,718,5,Stable,No,0
+363,Carpenter,3400,610,2,Stable,Yes,1
+364,IT Manager,8400,790,7,Stable,No,2
+365,Electrician,4000,670,4,Stable,Yes,0
+366,Account Executive,5800,710,5,Stable,Yes,1
+367,Sales Representative,3100,598,2,Unstable,No,0
+368,Attorney,11000,806,9,Stable,Yes,1
+369,Electrician,3700,642,3,Stable,Yes,1
+370,Web Designer,4600,693,4,Stable,Yes,-1
+371,Nurse,5400,728,5,Stable,Yes,0
+372,Sales Manager,6800,724,6,Stable,Yes,2
+373,Accountant,4200,672,4,Stable,Yes,-1
+375,Graphic Designer,3681,689,3,Stable,Yes,0
+377,Physical Therapist,7000,765,6,Unknown,Yes,2
+381,HR Generalist,4400,703,4,Stable,Yes,0
+382,Architect,6100,718,5,Stable,Yes,0
+383,Carpenter,3400,610,3,Stable,Yes,1
+384,IT Manager,8400,792,7,Stable,Yes,2
+387,Sales Representative,3100,598,2,Unstable,Yes,0
+388,Attorney,11000,806,9,Stable,Yes,1
+390,Web Designer,4600,693,4,Stable,Yes,0
+393,Accountant,4200,672,4,Stable,Yes,1
+394,Human Resources,4500,678,4,Stable,Yes,1
+395,Dental Hygienist,5200,723,5,Stable,Yes,2
+396,Software Developer,7500,775,6,Stable,Yes,0
+397,Account Manager,6200,720,5,Stable,Yes,0
+398,Mechanical Engineer,7200,758,6,Stable,Yes,1
+399,Medical Assistant,2900,610,2,Unknown,No,0
+400,Real Estate Agent,5400,702,5,Stable,Yes,1
+401,Software Engineer,8600,795,7,Stable,Yes,1
+402,Account Executive,6800,715,5,Unknown,Yes,0
+403,Chef,4000,654,4,Stable,No,1
+404,Sales Representative,3400,590,2,Unstable,Yes,2
+405,Marketing Manager,7000,750,6,Stable,Yes,0
+406,Physical Therapist,6900,742,6,Stable,Yes,2
+407,Financial Analyst,6800,732,5,Stable,Yes,1
+408,HR Specialist,4300,695,4,Stable,Yes,0
+409,Sales Manager,7200,726,6,Stable,Yes,2
+410,Pharmacist,9200,780,8,Stable,Yes,1
+411,Construction Worker,3200,630,3,Stable,Yes,2
+412,Nurse Practitioner,8000,742,7,Stable,Yes,1
+413,Customer Service Rep,3000,600,2,Unstable,No,1
+414,Physical Trainer,4800,670,4,Stable,Yes,0
+415,Graphic Designer,4000,695,4,Stable,No,0
+416,Insurance Agent,5200,732,5,Stable,Yes,2
+417,Web Developer,6800,760,6,Stable,Yes,0
+418,Physical Education Teacher,4400,670,4,Stable,Yes,1
+419,Psychologist,7800,790,7,Stable,Yes,0
+420,Interior Designer,5500,700,5,Stable,Yes,2
+421,Computer Technician,4200,680,3,Unstable,Yes,1
+422,Dentist,10000,820,9,Stable,Yes,2
+423,Veterinarian,7500,750,6,Stable,Yes,0
+424,Financial Advisor,6900,725,5,Stable,Yes,1
+425,Fitness Instructor,3200,630,3,Unstable,No,0
+426,Office Manager,5200,708,5,Stable,Yes,2
+427,Electrician,4500,680,4,Stable,Yes,1
+428,Software Architect,9000,790,8,Stable,Yes,0
+429,Graphic Artist,3800,650,3,Stable,Yes,0
+430,IT Consultant,7200,750,6,Stable,Yes,2
+431,Mechanical Technician,3500,650,3,Unstable,Yes,1
+432,Physician Assistant,8200,765,7,Stable,Yes,1
+433,Architect,7000,740,6,Stable,Yes,0
+434,Copywriter,4800,695,4,Unknown,No,-1
+435,Sales Manager,7500,720,6,Stable,Yes,2
+436,Graphic Designer,5200,690,5,Stable,Yes,1
+437,Real Estate Agent,6000,725,5,Stable,Yes,0
+438,Business Analyst,8000,760,7,Stable,Yes,2
+439,Dental Hygienist,4800,700,4,Stable,Yes,1
+440,Physical Therapist,7500,780,6,Stable,Yes,0
+441,Marketing Manager,8500,745,7,Stable,Yes,2
+442,Electrical Engineer,6500,710,5,Stable,Yes,1
+443,Investment Banker,12000,820,10,Stable,Yes,0
+444,Registered Nurse,5800,700,4,Stable,Yes,2
+445,Financial Analyst,7200,750,6,Stable,Yes,1
+446,Art Director,6000,690,5,Stable,Yes,0
+447,Project Manager,8000,740,7,Stable,Yes,1
+448,Mechanical Engineer,6800,720,5,Stable,Yes,2
+449,Executive Assistant,4500,680,4,Stable,Yes,0
+450,Physical Education Teacher,4200,670,4,Stable,Yes,1
+451,Web Designer,4800,670,4,Stable,No,0
+452,Physician,10500,790,9,Stable,Yes,2
+453,Human Resources Manager,8200,740,7,Stable,Yes,1
+454,Mechanical Designer,5500,700,5,Stable,Yes,0
+455,Software Developer,7,775,6,Stable,Yes,-1
+457,Civil Engineer,6800,720,6,Stable,Yes,1
+458,Social Media Manager,5500,680,4,Stable,Yes,0
+459,Architect,7000,720,6,Stable,Yes,2
+460,Accountant,6500,730,5,Stable,Yes,1
+461,Teacher,4200,660,3,Stable,No,3
+462,Insurance Agent,5800,690,4,Stable,Yes,1
+463,Lawyer,11000,800,8,Stable,Yes,0
+464,IT Manager,8500,750,7,Unknown,Yes,2
+465,Dental Assistant,3800,650,3,Stable,No,2
+466,Financial Planner,7500,760,6,Stable,Yes,1
+467,Chef,4500,680,4,Stable,Yes,0
+468,Software Engineer,8200,740,7,Stable,Yes,2
+469,Interior Designer,5500,690,4,Stable,Yes,1
+470,Medical Assistant,11466,640,3,Stable,No,1
+471,Customer Service Rep,3200,620,2,Stable,No,0
+472,Bank Teller,3800,650,3,Stable,No,2
+473,Physical Trainer,4200,670,4,Stable,Yes,1
+474,Public Relations,5800,690,4,Stable,Yes,0
+475,Data Analyst,6500,730,5,Stable,Yes,2
+476,Pharmacist,9000,780,8,Stable,Yes,1
+477,Writer,3500,650,1,Unknown,No,-1
+479,Event Planner,4800,680,4,Stable,Yes,0
+480,Graphic Designer,4200,670,4,Stable,No,1
+482,HR Manager,6800,710,5,Stable,Yes,1
+483,Real Estate Agent,5500,690,4,Stable,Yes,0
+484,Fashion Designer,5200,680,4,Stable,No,2
+485,Executive Assistant,4500,660,3,Stable,No,1
+486,Marketing Coordinator,4800,670,4,Stable,Yes,0
+487,Physical Therapist,6800,720,6,Stable,Yes,1
+488,Business Analyst,7000,740,5,Stable,Yes,0
+489,Web Developer,5800,690,4,Stable,No,1
+490,Nurse,4500,670,4,Stable,Yes,2
+491,Electrician,4800,660,3,Stable,Yes,1
+492,Management Consultant,8500,750,7,Stable,Yes,0
+493,Customer Support,3500,640,3,Stable,No,1
+494,Dental Hygienist,4800,670,4,Stable,Yes,2
+495,Project Manager,7000,730,5,Stable,Yes,0
+498,Medical Assistant,3500,640,3,Stable,No,1
+499,Customer Service Rep,3200,641,4,Stable,No,2
