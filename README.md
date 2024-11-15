@@ -6,7 +6,7 @@ packages needed for project are listed in *packages.txt*
 
 ***
 
-to automaticaly setup your project run:
+***RUN BEFORE YOU START WORKING***
 ```bash
 ./setup.sh
 ```
@@ -31,3 +31,36 @@ and then:
 pip install <package_name>==<desired_version>
 ```
 ***
+
+**GIT SECTION**
+
+how to properly push changes to repo:
+
+1. stash your local changes and pull remote changes:
+```bash
+git stash
+git fetch
+git pull
+git stash pop
+```
+
+2. then commit and push to remote 
+(*you can avoid this below set of commands by using 
+integrated commit and push feature of DataSpell*):
+```bash
+git add .
+git commit -m "your message"
+git push
+```
+***
+
+**TROUBLESHOOTING SECTION**
+
+if you make a mistake and commit and push before fetching and pulling
+there is a easy way to fix it:
+
+```bash
+git reset HEAD~
+```
+
+and then repeat git pushing set of commands from section above 
