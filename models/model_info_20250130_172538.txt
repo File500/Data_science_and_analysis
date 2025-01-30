@@ -1,0 +1,11 @@
+Model Name: Gradient_Boosting
+Timestamp: 20250130_172538
+
+Performance Metrics:
+R2 Score: 0.8332
+MSE: 22815943.8296
+RMSE: 4776.6038
+MAE: 2068.3069
+
+Model Parameters:
+{'model__learning_rate': 0.1, 'model__max_depth': 5, 'model__min_samples_leaf': 2, 'model__min_samples_split': 6, 'model__n_estimators': 500}
