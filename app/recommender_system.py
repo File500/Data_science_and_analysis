@@ -2,18 +2,45 @@ import pandas as pd
 import numpy as np
 from joblib import load
 import warnings
+import findspark
+from pyspark.sql import SparkSession
+from tabulate import tabulate
 
 
 def warn(*args, **kwargs):
     pass
 
-def find_car_listing(customer_price: float, car_list_df: pd.DataFrame) -> pd.DataFrame:
-    print(customer_price)
-    car_recommendation = car_list_df
+
+def sql_to_df(command: str) -> pd.DataFrame:
+    return spark.sql(command).toPandas()
+
+
+def find_car_listing(customer_price: float) -> pd.DataFrame:
+
+    threshold = 1000
+
+    upper_bound = customer_price + threshold
+    lower_bound = customer_price - threshold
+
+    car_recommendation = sql_to_df(f'''
+        SELECT * FROM price 
+        WHERE selling_price <= {upper_bound} 
+        AND selling_price >= {lower_bound}
+        AND seller_type NOT LIKE '%Test Drive Car%'
+        ORDER BY year DESC, km_driven ASC 
+        LIMIT 5
+    ''')
+
+    car_recommendation = car_recommendation.drop(columns=['_c0'])
 
     return car_recommendation
 
+
+findspark.init()
+spark = SparkSession.builder.appName("Price").getOrCreate()
+
 warnings.warn = warn
+warnings.filterwarnings('ignore')
 
 reg_model = load('../models/best_model_Gradient_Boosting_R2_0.8332_20250130_172538.joblib')
 class_model = load('../models/best_model_XGBoost_ACC_0.9481_20250131_201426.joblib')
@@ -28,7 +55,8 @@ label_mapping = {
     'Excellent': 6
 }
 
-car_list = pd.read_csv("../data/clean_data/clean_car_price.csv")
+car_list = spark.read.csv(path="../data/clean_data/clean_car_price.csv", header=True, inferSchema=True)
+car_list.createOrReplaceTempView("price")
 
 data_columns = ['Occupation', 'Annual_Income', 'Credit_Score', 'Years_of_Employment', 'Finance_Status',
                 'Number_of_Children']
@@ -47,6 +75,7 @@ for col in data_columns:
     input_values.append(x)
 
 data = pd.DataFrame([input_values], columns=data_columns)
+output_customer_info = data.__deepcopy__()
 
 data['Annual_Income_Credit_Score'] = data['Annual_Income'] / data['Credit_Score']
 data['Annual_Income_Years_Employment'] = data['Annual_Income'] / data['Years_of_Employment']
@@ -79,10 +108,14 @@ if class_prediction[0] == 1:
 
     regg_prediction = reg_model.predict(data_reg_model)
     price_for_customer = regg_prediction[0].astype(int)
-    recommendations = find_car_listing(price_for_customer, car_list)
+    recommendations = find_car_listing(price_for_customer)
 
-    print("Recommendations for customer:")
-    print(recommendations)
+    print("\nRecommendations for customer:\n")
+    print(tabulate(output_customer_info, headers='keys', tablefmt='pretty', showindex=False), '\n')
+    print(tabulate(recommendations, headers='keys', tablefmt='pretty', showindex=False), '\n')
 
 else:
     print('Customer with likelihood of 95% will not buy a car at the moment.')
+
+
+spark.stop()
