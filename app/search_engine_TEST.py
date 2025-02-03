@@ -35,7 +35,7 @@ result = sql_to_df(f'''
     SELECT * FROM price 
     WHERE selling_price <= {upper_bound} 
     AND selling_price >= {lower_bound}
-    AND seller_type NOT LIKE '%Test Drive Car%'
+    AND owner NOT LIKE '%Test Drive Car%'
     ORDER BY year DESC, km_driven ASC 
     LIMIT 5
 ''')
