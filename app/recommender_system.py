@@ -16,7 +16,6 @@ def sql_to_df(command: str) -> pd.DataFrame:
 
 
 def find_car_listing(customer_price: float) -> pd.DataFrame:
-
     threshold = 1000
 
     upper_bound = customer_price + threshold
@@ -50,8 +49,6 @@ def prepare_features(df, label_mapping_dict, prep_ptype) -> pd.DataFrame:
         return df.drop(columns=['Occupation'])
 
     return pd.DataFrame()
-
-
 
 
 findspark.init()
@@ -109,6 +106,5 @@ for index, data in data_test.iterrows():
     else:
         print('\nCustomer with likelihood of 95% will not buy a car at the moment. For customer:')
         print(tabulate(output_customer_info, headers='keys', tablefmt='pretty', showindex=False), '\n')
-
 
 spark.stop()
