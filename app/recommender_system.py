@@ -73,8 +73,9 @@ label_mapping = {
 car_list = spark.read.csv(path="../data/clean_data/clean_car_price.csv", header=True, inferSchema=True)
 car_list.createOrReplaceTempView("price")
 
-data_test = pd.read_csv("./test_mock_data.csv")
-data_test = data_test.where((data_test['Annual_Income'] < 45000)).dropna(axis=0)
+data_test = pd.read_csv("data/synthetic_people_data.csv")
+# data_test = data_test.where((data_test['Annual_Income'] < 45000)).dropna(axis=0)
+output_csv = pd.DataFrame(columns=["name","year","selling_price","km_driven","fuel","seller_type","transmission","owner","person_id"])
 
 for index, data in data_test.iterrows():
 
@@ -99,7 +100,11 @@ for index, data in data_test.iterrows():
         price_for_customer = regg_prediction[0].astype(int)
         recommendations = find_car_listing(price_for_customer)
 
-        print("\nRecommendations for customer:\n")
+        recommendations['person_id'] = index
+
+        output_csv = pd.concat([output_csv, recommendations], ignore_index=True)
+
+        print(f"\nRecommendations for customer: with index {index}\n")
         print(tabulate(output_customer_info, headers='keys', tablefmt='pretty', showindex=False), '\n')
         print(tabulate(recommendations, headers='keys', tablefmt='pretty', showindex=False), '\n')
 
@@ -107,4 +112,5 @@ for index, data in data_test.iterrows():
         print('\nCustomer with likelihood of 95% will not buy a car at the moment. For customer:')
         print(tabulate(output_customer_info, headers='keys', tablefmt='pretty', showindex=False), '\n')
 
+output_csv.to_csv("./data/recommendations.csv", index=False)
 spark.stop()

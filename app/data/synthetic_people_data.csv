@@ -1,0 +1,101 @@
+Occupation,Annual_Income,Credit_Score,Years_of_Employment,Finance_Status,Number_of_Children
+Architect,79618.3,766,8,Poor,2
+Data Scientist,136185.55,785,17,Stable,1
+Marketing Manager,99229.53,575,14,Stable,2
+Business Analyst,70637.13,753,13,Stable,4
+Software Engineer,127960.09,669,9,Unstable,2
+IT Manager,131105.1,523,12,Stable,1
+Electrician,42790.01,648,17,Unstable,2
+HR Manager,74882.62,741,17,Unstable,0
+Doctor,251273.52,559,20,Stable,1
+Software Engineer,122503.03,703,13,Stable,2
+Software Engineer,132009.29,680,6,Fair,0
+Real Estate Agent,86764.18,823,6,Stable,1
+Teacher,60882.07,756,9,Stable,1
+Electrician,77884.25,674,10,Fair,3
+Project Manager,77335.69,664,2,Stable,-1
+Writer,30432.06,647,19,Stable,0
+Web Developer,116968.17,604,15,Unstable,1
+HR Manager,92392.37,655,2,Unstable,3
+Interior Designer,63017.95,590,5,Unstable,1
+Teacher,64535.6,727,4,Unstable,2
+Accountant,66873.74,629,20,Unstable,1
+Software Engineer,143537.8,568,2,Stable,1
+Sales Representative,39234.77,546,9,Unstable,0
+Musician,48107.47,843,2,Good,1
+Teacher,68538.65,702,6,Unstable,0
+Financial Analyst,103132.28,715,7,Stable,3
+HR Manager,99332.09,574,2,Stable,0
+Graphic Designer,50482.1,536,1,Stable,0
+Software Engineer,90793.98,565,17,Stable,1
+Executive Assistant,47162.66,655,18,Stable,0
+Marketing Manager,94554.09,536,13,Stable,2
+Teacher,65589.09,706,6,Stable,1
+Pharmacist,123164.71,745,20,Unstable,2
+Physical Therapist,77241.52,751,8,Unstable,3
+Insurance Agent,72201.27,835,10,Stable,1
+Dental Hygienist,87711.42,580,17,Stable,1
+Graphic Designer,52344.57,745,19,Stable,-1
+Doctor,208031.35,736,12,Stable,1
+Musician,46611.39,834,20,Stable,1
+Veterinarian,99296.97,793,14,Stable,0
+Web Developer,77606.77,583,19,Unstable,0
+Doctor,291008.17,762,13,Stable,3
+Sales Representative,47086.66,626,13,Stable,1
+Architect,106156.1,756,9,Stable,1
+Accountant,65873.54,542,11,Stable,0
+Teacher,66542.64,607,14,Stable,2
+Software Engineer,124365.45,736,10,Stable,0
+Teacher,44235.53,680,2,Stable,-1
+Financial Analyst,103642.16,677,2,Unstable,1
+Nurse,56684.02,824,19,Stable,0
+Doctor,200065.19,762,8,Stable,1
+Physical Therapist,98565.66,653,7,Good,-1
+Doctor,148796.6,549,12,Unstable,-1
+Business Analyst,99046.43,681,20,Stable,1
+Teacher,56464.28,774,12,Stable,1
+Lawyer,144910.55,554,7,Stable,2
+Nurse,68701.78,780,6,Stable,0
+Nurse,79601.76,746,2,Stable,2
+Web Developer,88112.59,600,1,Stable,2
+Writer,48837.61,796,13,Unstable,3
+Nurse,65593.75,575,3,Stable,-1
+Teacher,52577.55,725,5,Unstable,1
+Project Manager,76451.56,679,2,Stable,1
+Doctor,224960.82,693,2,Good,2
+Insurance Agent,57520.04,708,9,Stable,1
+Doctor,273429.75,620,8,Stable,1
+Teacher,64150.51,728,15,Stable,0
+Software Engineer,119562.61,695,9,Unstable,1
+Doctor,194928.16,775,6,Stable,0
+Graphic Designer,55769.03,714,3,Stable,1
+Nurse,84775.96,668,8,Stable,2
+Data Scientist,92392.75,582,1,Stable,1
+Physical Therapist,77115.86,651,17,Stable,2
+IT Manager,105660.93,747,16,Stable,2
+Software Engineer,135877.24,652,15,Stable,0
+Nurse,88549.84,669,15,Stable,0
+Insurance Agent,42732.74,699,1,Stable,0
+Software Engineer,85966.82,736,2,Stable,0
+Graphic Designer,55271.02,508,6,Excellent,0
+Sales Representative,68261.46,514,17,Stable,1
+Web Developer,99955.56,520,8,Unstable,1
+Mechanical Engineer,101261.04,666,12,Stable,1
+Musician,64366.81,661,11,Stable,1
+Nurse,83683.34,693,5,Stable,1
+Sales Representative,71856.17,553,14,Stable,3
+Customer Service Rep,42792.24,848,8,Unstable,3
+Graphic Designer,64026.33,838,10,Stable,3
+Nurse,50219.07,740,3,Stable,1
+Nurse,75986.29,554,1,Stable,1
+Social Worker,40054.76,669,11,Stable,0
+Software Engineer,102232.95,534,7,Unstable,1
+Marketing Manager,73963.65,548,1,Unstable,0
+Project Manager,71251.22,799,4,Stable,3
+Photographer,63143.24,522,2,Stable,1
+Business Analyst,66410.98,812,14,Fair,0
+Graphic Designer,46842.26,825,7,Stable,1
+Financial Analyst,78228.03,580,16,Good,3
+Graphic Designer,78853.38,591,18,Stable,3
+Project Manager,107279.25,564,10,Stable,2
+Dental Hygienist,70297.52,583,7,Stable,3
