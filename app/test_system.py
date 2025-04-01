@@ -5,6 +5,7 @@ import warnings
 import findspark
 from pyspark.sql import SparkSession
 from tabulate import tabulate
+from difflib import SequenceMatcher
 
 def warn(*args, **kwargs):
     pass
@@ -97,6 +98,45 @@ def compare_rows(row_original: pd.DataFrame, row_recommendations: pd.DataFrame, 
 
     for col in row_recommendations.columns:
 
+        match_name = col + "_match"
+        int_threshold = 2
+        float_threshold = 1000
+        str_threshold = 0.8
+
+        if row_recommendations[col].dtype == np.integer:
+
+            int_diff = row_original.iloc[0][col] - row_recommendations.iloc[0][col]
+
+            if int_diff == 0:
+                update_points(rec_type=rec_type, match_type="match", points_type=match_name)
+            elif int_threshold > int_diff > -int_threshold:
+                update_points(rec_type=rec_type, match_type="similar", points_type=match_name)
+            else:
+                update_points(rec_type=rec_type, match_type="different", points_type=match_name)
+
+        elif row_recommendations[col].dtype == np.float32:
+
+            float_diff = row_original.iloc[0][col] - row_recommendations.iloc[0][col]
+
+            if float_diff == 0:
+                update_points(rec_type=rec_type, match_type="match", points_type=match_name)
+            elif float_threshold > float_diff > -float_threshold:
+                update_points(rec_type=rec_type, match_type="similar", points_type=match_name)
+            else:
+                update_points(rec_type=rec_type, match_type="different", points_type=match_name)
+
+        else:
+
+            ratio = SequenceMatcher(None, row_original.iloc[0][col], row_recommendations.iloc[0][col]).ratio()
+
+            if ratio == 1.0:
+                update_points(rec_type=rec_type, match_type="match", points_type=match_name)
+            elif ratio >= str_threshold:
+                update_points(rec_type=rec_type, match_type="similar", points_type=match_name)
+            else:
+                update_points(rec_type=rec_type, match_type="different", points_type=match_name)
+
+
 def test_system(recommendations: pd.DataFrame, user_cars: pd.DataFrame, rec_type: str) -> pd.DataFrame:
 
     if rec_type != 'smart' and rec_type != 'naive':
@@ -116,6 +156,10 @@ def test_system(recommendations: pd.DataFrame, user_cars: pd.DataFrame, rec_type
         for index_rec, data_rec in rec_data.iterrows():
 
             data_rec_row = pd.DataFrame(data=[data_rec], index=[index_rec])
+
+            data_user_row = data_user_row.drop(columns=['person_id'])
+            data_rec_row = data_rec_row.drop(columns=['person_id'])
+
             compare_rows(data_rec_row, data_user_row, rec_type)
 
     return pd.DataFrame()
@@ -129,8 +173,10 @@ car_list.createOrReplaceTempView("price")
 
 naive_car_recommendation = find_car_listing_naive()
 smart_car_recommendation = pd.read_csv("./data/recommendations.csv")
+
 mock_matched_cars = pd.read_csv("./data/matched_cars_dataset.csv")
 mock_matched_cars =  mock_matched_cars.drop(columns=['Unnamed: 0'])
+mock_matched_cars['year'] = mock_matched_cars['year'].astype(int)
 
 test_results_smart = test_system(smart_car_recommendation, mock_matched_cars, "smart")
 test_results_smart.to_csv(path_or_buf="./test_results_smart.csv")
