@@ -548,33 +548,6 @@ def train_DL_REG(X_train, X_val, y_train, y_val, X_test, y_test):
     # Initialize the regressor
     regressor = CarPriceRegressor()
 
-    # Train the model with more stable hyperparameters
-    print("Training ultra-deep neural network model...")
-
-    # Start with a smaller learning rate and batch size to ensure stability
-    regressor.fit(X_train, y_train, X_val, y_val, epochs=200, batch_size=32, learning_rate=0.002)
-
-    # Evaluate on test set
-    test_metrics = regressor.evaluate(X_test, y_test)
-    print("\nTest Metrics:")
-    for metric, value in test_metrics.items():
-        print(f"{metric}: {value:.4f}")
-
-    # Plot the training metrics
-    regressor.plot_metrics()
-
-    # Save the model
-    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-    model_path = f"../../DL_models/car_price_ultra_deep_regressor_{timestamp}.pt"
-    regressor.save(model_path)
-
-    return regressor
-
-
-def train_DL_REG(X_train, X_val, y_train, y_val, X_test, y_test):
-    # Initialize the regressor
-    regressor = CarPriceRegressor()
-
     # Train the model
     print("Training ultra-deep neural network model...")
     regressor.fit(X_train, y_train, X_val, y_val, epochs=500, batch_size=64, learning_rate=0.003)
