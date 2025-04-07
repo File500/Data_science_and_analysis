@@ -22,14 +22,14 @@ match_values = {
 }
 
 match_weights = {
-    "name_match_w": 0.9,
-    "year_match_w": 1,
-    "selling_price_match_w": 1,
-    "km_driven_match_w": 1,
-    "fuel_match_w": 0.7,
+    "name_match_w": 0.7028,
+    "year_match_w": 0.6943,
+    "selling_price_match_w": 0.88,
+    "km_driven_match_w": 0.6614,
+    "fuel_match_w": 0.8857,
     "seller_type_match_w": 0.7,
-    "transmission_match_w": 0.7,
-    "owner_match_w": 0.7
+    "transmission_match_w": 0.74,
+    "owner_match_w": 0.6714
 }
 
 points_smart = {
@@ -168,6 +168,7 @@ def test_system(recommendations: pd.DataFrame, user_cars: pd.DataFrame, rec_type
             compare_rows(data_rec_row, data_user_row, rec_type)
 
     result_df = pd.DataFrame.from_dict(systems[rec_type], orient='index')
+    print(result_df.columns)
     return result_df
 
 
@@ -190,3 +191,4 @@ test_results_smart.to_csv(path_or_buf="./test_results_smart.csv")
 test_results_naive = test_system(naive_car_recommendation, mock_matched_cars, "naive")
 test_results_naive.to_csv(path_or_buf="./test_results_naive.csv")
 
+spark.stop()

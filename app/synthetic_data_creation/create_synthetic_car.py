@@ -60,34 +60,24 @@ def would_buy_car(person):
 
 
 # Function to match a car to a person
-def match_car_to_person(person, car_data):
-    # Higher income -> more expensive cars
-    income_tier = person['Annual_Income'] / 20000  # Rough income tier
+def match_car_to_person(person, car_data, sales_reference_data):
 
-    # Filter cars based on rough affordability (people tend to buy cars worth about 1/3 of annual income)
-    affordable_price = person['Annual_Income'] / 3
+    closest_income_idx = (sales_reference_data['Annual_Income'] - person['Annual_Income']).abs().idxmin()
+    found_price = sales_reference_data.loc[closest_income_idx, 'Price']
 
-    # Add some randomness to price range
-    price_range_min = affordable_price * 0.5
-    price_range_max = affordable_price * 1.5
+    closest_price_idx = (car_data['selling_price'] - found_price).abs().idxmin()
+    found_car = car_data.loc[closest_price_idx]
 
-    # Filter cars in that price range (if we have enough data)
-    affordable_cars = car_data[
-        (car_data['selling_price'] >= price_range_min / 1000) &
-        (car_data['selling_price'] <= price_range_max / 1000)
-        ]
+    print(found_car)
 
-    # If no cars in range, just take all cars
-    if len(affordable_cars) == 0:
-        affordable_cars = car_data
-
-    # Randomly select a car from the appropriate price range
-    return affordable_cars.sample(1).iloc[0].to_dict()
+    return found_car.to_dict()
 
 
 # Main function to create the matched dataset
-def create_car_matching_dataset(people_data_path, car_data_path, output_path=None):
+def create_car_matching_dataset(people_data_path, car_data_path, sales_reference_data_path, output_path=None):
     # Load datasets
+    sales_reference_data = pd.read_csv(sales_reference_data_path)
+    sales_reference_data = sales_reference_data[['Annual_Income', 'Price']]
     people_df = load_people_data(people_data_path)
     car_df = load_car_data(car_data_path)
 
@@ -98,7 +88,7 @@ def create_car_matching_dataset(people_data_path, car_data_path, output_path=Non
     for idx, person in people_df.iterrows():
         if would_buy_car(person):
             # Person buys a car - match them with an appropriate one
-            car = match_car_to_person(person, car_df)
+            car = match_car_to_person(person, car_df, sales_reference_data)
             car['person_id'] = idx  # Link to the person
             matched_cars.append(car)
         else:
@@ -129,9 +119,10 @@ if __name__ == "__main__":
     people_data_path = "../data/synthetic_people_data.csv"
     car_data_path = "../../data/clean_data/clean_car_price.csv"
     output_path = "../data/matched_cars_dataset.csv"
+    sales_reference_data_path = "../../data/final_data/final_sales_data.csv"
 
     # Create the matched dataset
-    matched_cars_df = create_car_matching_dataset(people_data_path, car_data_path, output_path)
+    matched_cars_df = create_car_matching_dataset(people_data_path, car_data_path, sales_reference_data_path, output_path)
 
     # Display sample of the matched dataset
     print("\nSample of the matched dataset:")
