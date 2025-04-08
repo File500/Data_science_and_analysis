@@ -54,10 +54,27 @@ points_naive = {
     "owner_match": 0
 }
 
+match_counts_smart = {
+    "match_count": 0,
+    "similar_count": 0,
+    "different_count": 0,
+    "incorrect_count": 0
+}
+
+match_counts_naive = {
+    "match_count": 0,
+    "similar_count": 0,
+    "different_count": 0,
+    "incorrect_count": 0
+}
+
 systems = {
     "smart": points_smart,
-    "naive": points_naive
+    "naive": points_naive,
+    "smart_count": match_counts_smart,
+    "naive_count": match_counts_naive
 }
+
 
 def warn(*args, **kwargs):
     pass
@@ -65,6 +82,7 @@ def warn(*args, **kwargs):
 
 def sql_to_df(command: str) -> pd.DataFrame:
     return spark.sql(command).toPandas()
+
 
 def find_car_listing_naive() -> pd.DataFrame:
 
@@ -93,9 +111,24 @@ def update_points(rec_type: str, match_type: str, points_type: str = "all") -> N
 
 def compare_rows(row_original: pd.DataFrame, row_recommendations: pd.DataFrame, rec_type: str) -> None:
 
+    count_sufix = "_count"
+    match_type = ""
+
     if ((row_original.isna().sum().sum() and not row_recommendations.isna().sum().sum())
             or (not row_original.isna().sum().sum() and row_recommendations.isna().sum().sum())):
-        update_points(rec_type=rec_type, match_type="incorrect")
+
+        match_type = "incorrect"
+        systems[rec_type+count_sufix][match_type+count_sufix] += 1
+        update_points(rec_type=rec_type, match_type=match_type)
+
+        return
+
+    elif row_original.isna().sum().sum() and row_recommendations.isna().sum().sum():
+
+        match_type = "match"
+        systems[rec_type+count_sufix][match_type+count_sufix] += 1
+        update_points(rec_type=rec_type, match_type=match_type)
+
         return
 
     #print(row_original.iloc[0])
@@ -114,36 +147,39 @@ def compare_rows(row_original: pd.DataFrame, row_recommendations: pd.DataFrame, 
                 int_diff = row_original.iloc[0][col] - row_recommendations.iloc[0][col]
 
                 if int_diff == 0:
-                    update_points(rec_type=rec_type, match_type="match", points_type=match_name)
+                    match_type = "match"
                 elif int_threshold > int_diff > -int_threshold:
-                    update_points(rec_type=rec_type, match_type="similar", points_type=match_name)
+                    match_type = "similar"
                 else:
-                    update_points(rec_type=rec_type, match_type="different", points_type=match_name)
+                    match_type = "different"
 
             elif row_recommendations[col].dtype == np.float32 or row_recommendations[col].dtype == np.float64:
 
                 float_diff = row_original.iloc[0][col] - row_recommendations.iloc[0][col]
 
                 if float_diff == 0:
-                    update_points(rec_type=rec_type, match_type="match", points_type=match_name)
+                    match_type = "match"
                 elif float_threshold > float_diff > -float_threshold:
-                    update_points(rec_type=rec_type, match_type="similar", points_type=match_name)
+                    match_type = "similar"
                 else:
-                    update_points(rec_type=rec_type, match_type="different", points_type=match_name)
+                    match_type = "different"
 
             else:
 
                 ratio = SequenceMatcher(None, row_original.iloc[0][col], row_recommendations.iloc[0][col]).ratio()
 
                 if ratio == 1.0:
-                    update_points(rec_type=rec_type, match_type="match", points_type=match_name)
+                    match_type = "match"
                 elif ratio >= str_threshold:
-                    update_points(rec_type=rec_type, match_type="similar", points_type=match_name)
+                    match_type = "similar"
                 else:
-                    update_points(rec_type=rec_type, match_type="different", points_type=match_name)
+                    match_type = "different"
+
+            systems[rec_type+count_sufix][match_type+count_sufix] += 1
+            update_points(rec_type=rec_type, match_type=match_type, points_type=match_name)
 
 
-def test_system(recommendations: pd.DataFrame, user_cars: pd.DataFrame, rec_type: str) -> pd.DataFrame:
+def test_system(recommendations: pd.DataFrame, user_cars: pd.DataFrame, rec_type: str):
 
     if rec_type != 'smart' and rec_type != 'naive':
         print('Invalid rec_type')
@@ -167,9 +203,10 @@ def test_system(recommendations: pd.DataFrame, user_cars: pd.DataFrame, rec_type
 
             compare_rows(data_rec_row, data_user_row, rec_type)
 
-    result_df = pd.DataFrame.from_dict(systems[rec_type], orient='index')
-    print(result_df.columns)
-    return result_df
+    result_df_score = pd.DataFrame.from_dict(systems[rec_type], orient='index')
+    result_df_count = pd.DataFrame.from_dict(systems[rec_type+"_count"], orient='index')
+
+    return result_df_score, result_df_count
 
 
 findspark.init()
@@ -185,10 +222,12 @@ mock_matched_cars = pd.read_csv("./data/matched_cars_dataset.csv")
 mock_matched_cars = mock_matched_cars.drop(columns=['Unnamed: 0'])
 mock_matched_cars['year'] = mock_matched_cars['year'].apply(lambda x: int(x) if not pd.isna(x) else x)
 
-test_results_smart = test_system(smart_car_recommendation, mock_matched_cars, "smart")
-test_results_smart.to_csv(path_or_buf="./test_results_smart.csv")
+test_results_smart, test_results_smart_count = test_system(smart_car_recommendation, mock_matched_cars, "smart")
+test_results_smart.to_csv(path_or_buf="test_results/test_results_smart.csv")
+test_results_smart_count.to_csv(path_or_buf="test_results/test_results_smart_count.csv")
 
-test_results_naive = test_system(naive_car_recommendation, mock_matched_cars, "naive")
-test_results_naive.to_csv(path_or_buf="./test_results_naive.csv")
+test_results_naive, test_results_naive_count = test_system(naive_car_recommendation, mock_matched_cars, "naive")
+test_results_naive.to_csv(path_or_buf="test_results/test_results_naive.csv")
+test_results_naive_count.to_csv(path_or_buf="test_results/test_results_naive_count.csv")
 
 spark.stop()
