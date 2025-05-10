@@ -76,6 +76,7 @@ car_list.createOrReplaceTempView("price")
 data_test = pd.read_csv("data/synthetic_people_data.csv")
 # data_test = data_test.where((data_test['Annual_Income'] < 45000)).dropna(axis=0)
 output_csv = pd.DataFrame(columns=["name","year","selling_price","km_driven","fuel","seller_type","transmission","owner","person_id"])
+threshold = 0.38
 
 for index, data in data_test.iterrows():
 
@@ -94,7 +95,7 @@ for index, data in data_test.iterrows():
 
     class_prediction = class_model.predict(data_class_model)
 
-    if class_prediction[0] == 1:
+    if class_model.predict_proba(data_class_model)[0,1] >= threshold:
 
         regg_prediction = reg_model.predict(data_reg_model)
         price_for_customer = regg_prediction[0].astype(int)

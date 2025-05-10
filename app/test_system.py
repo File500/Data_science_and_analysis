@@ -139,7 +139,7 @@ def compare_rows(row_original: pd.DataFrame, row_recommendations: pd.DataFrame, 
 
             match_name = col + "_match"
             int_threshold = 2
-            float_threshold = 1000
+            float_threshold = 2000
             str_threshold = 0.8
 
             if row_recommendations[col].dtype == np.integer:
