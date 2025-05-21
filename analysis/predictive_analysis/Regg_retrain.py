@@ -15,7 +15,7 @@ from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score
 from sklearn.preprocessing import StandardScaler
 
 # Set random seed for reproducibility
-RANDOM_SEED = 42
+RANDOM_SEED = 43
 np.random.seed(RANDOM_SEED)
 
 
@@ -504,7 +504,7 @@ def main(data_path, model_params):
 if __name__ == "__main__":
     # Define model parameters
     model_params = {
-        'model__learning_rate': 0.1,
+        'model__learning_rate': 0.01,
         'model__max_depth': 5,
         'model__min_samples_leaf': 2,
         'model__min_samples_split': 6,
