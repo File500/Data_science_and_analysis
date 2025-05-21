@@ -59,6 +59,8 @@ warnings.filterwarnings('ignore')
 
 reg_model = load('../models/best_model_Gradient_Boosting_R2_0.8332_20250130_172538.joblib')
 class_model = load('../models/best_model_XGBoost_ACC_0.9481_20250131_201426.joblib')
+# reg_model = load('../models_retrained/gradient_boosting_model_20250521_165657.joblib')['model']
+# class_model = load('../models_retrained/xgboost_binary_classifier_20250414_121504.joblib')['model']
 
 label_mapping = {
     'Unknown': 0,

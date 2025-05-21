@@ -46,7 +46,7 @@ def load_data(data_path):
 
         # Assuming the last column is the target variable - modify as needed
         y = data['Price']
-        X = data.drop(columns=['Price'])
+        X = data.drop(columns=['Price', 'Unnamed: 0'])
 
         print(f"Data loaded successfully: {X.shape[0]} samples, {X.shape[1]} features")
         return X, y
@@ -55,7 +55,7 @@ def load_data(data_path):
         raise
 
 
-def split_data(X, y, test_size=0.2, valid_size=0.25):
+def split_data(X, y, test_size=0.15, valid_size=0.15):
     """
     Split data into train, validation, and test sets.
 
