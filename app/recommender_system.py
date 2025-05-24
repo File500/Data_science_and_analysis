@@ -16,7 +16,7 @@ def sql_to_df(command: str) -> pd.DataFrame:
 
 
 def find_car_listing(customer_price: float) -> pd.DataFrame:
-    threshold = 1000
+    threshold = 3000
 
     upper_bound = customer_price + threshold
     lower_bound = customer_price - threshold

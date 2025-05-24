@@ -8,6 +8,9 @@ from tabulate import tabulate
 from difflib import SequenceMatcher
 from tqdm import tqdm
 
+import re
+from fuzzywuzzy import fuzz
+
 def warn(*args, **kwargs):
     pass
 
@@ -80,6 +83,35 @@ def warn(*args, **kwargs):
     pass
 
 
+def preprocess_car_name(name):
+    """Clean and normalize car names"""
+    name = name.lower()
+    
+    stop_words = ['car', 'auto', 'vehicle', 'truck', 'suv', 'sedan', 'coupe']
+    for word in stop_words:
+        name = re.sub(r'\b' + word + r'\b', '', name)
+    
+    name = re.sub(r'[-_/]', ' ', name)
+    
+    name = re.sub(r'\s+', ' ', name).strip()
+    
+    return name
+
+def advanced_car_match(name1, name2):
+    """Compare car names with preprocessing"""
+    clean1 = preprocess_car_name(name1)
+    clean2 = preprocess_car_name(name2)
+    
+    scores = [
+        fuzz.ratio(clean1, clean2),
+        fuzz.partial_ratio(clean1, clean2),
+        fuzz.token_sort_ratio(clean1, clean2),
+        fuzz.token_set_ratio(clean1, clean2)
+    ]
+    
+    best_score = max(scores)
+    return  best_score
+
 def sql_to_df(command: str) -> pd.DataFrame:
     return spark.sql(command).toPandas()
 
@@ -139,8 +171,8 @@ def compare_rows(row_original: pd.DataFrame, row_recommendations: pd.DataFrame, 
 
             match_name = col + "_match"
             int_threshold = 2
-            float_threshold = 2000
-            str_threshold = 0.8
+            float_threshold = 3500
+            str_threshold = 80
 
             if row_recommendations[col].dtype == np.integer:
 
@@ -165,10 +197,11 @@ def compare_rows(row_original: pd.DataFrame, row_recommendations: pd.DataFrame, 
                     match_type = "different"
 
             else:
+                
+                ratio = advanced_car_match(row_original.iloc[0][col], row_recommendations.iloc[0][col])
+                # ratio = SequenceMatcher(None, row_original.iloc[0][col], row_recommendations.iloc[0][col]).ratio()
 
-                ratio = SequenceMatcher(None, row_original.iloc[0][col], row_recommendations.iloc[0][col]).ratio()
-
-                if ratio == 1.0:
+                if ratio >= 99:
                     match_type = "match"
                 elif ratio >= str_threshold:
                     match_type = "similar"

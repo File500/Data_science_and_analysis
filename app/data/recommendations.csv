@@ -1,441 +1,441 @@
 name,year,selling_price,km_driven,fuel,seller_type,transmission,owner,person_id
 Tata Harrier XZ Plus,2020,18150.0,16000,Diesel,Dealer,Manual,First Owner,0
 Toyota Innova Crysta 2.4 G MT 8 STR,2020,17160.0,20102,Diesel,Dealer,Manual,First Owner,0
-Jeep Compass 1.4 Sport,2019,16720.0,10000,Petrol,Individual,Manual,First Owner,0
-Tata Harrier XZ,2019,18150.0,15000,Diesel,Dealer,Manual,First Owner,0
-Mahindra XUV500 W9 BSIV,2019,17325.0,18000,Diesel,Individual,Manual,First Owner,0
+Toyota Innova Crysta 2.7 GX AT 8 STR,2020,16500.0,40000,Petrol,Individual,Automatic,First Owner,0
+Mahindra Scorpio S11 4WD BSIV,2020,16500.0,50000,Diesel,Individual,Manual,First Owner,0
+Mahindra Marazzo M8,2019,16059.999999999998,5000,Diesel,Individual,Manual,First Owner,0
+Toyota Innova Crysta 2.4 ZX AT,2020,25300.0,1000,Diesel,Individual,Automatic,First Owner,1
+MG Hector Sharp DCT Dualtone,2020,20900.0,1600,Petrol,Dealer,Automatic,First Owner,1
+Hyundai Creta 1.6 CRDi AT SX Plus,2020,21450.0,2700,Diesel,Dealer,Automatic,First Owner,1
+Kia Seltos HTX Plus AT D,2020,20900.0,5000,Diesel,Dealer,Automatic,First Owner,1
 Honda Civic ZX Diesel BSIV,2020,23375.0,5500,Diesel,Dealer,Manual,First Owner,1
-Jeep Compass 1.4 Limited Plus BSIV,2019,23100.0,5000,Petrol,Individual,Automatic,First Owner,1
-Jeep Compass 2.0 Limited Plus 4X4,2019,23650.0,25000,Diesel,Dealer,Manual,First Owner,1
-Audi Q3 35 TDI Quattro Technology,2018,24200.0,25000,Diesel,Individual,Automatic,Second Owner,1
-Mercedes-Benz GLA Class 200 D Sport Edition,2017,24189.0,10000,Diesel,Individual,Automatic,Second Owner,1
-Mahindra XUV500 W10 AWD,2019,19800.0,10000,Diesel,Individual,Manual,First Owner,2
-Jeep Compass 2.0 Longitude Option BSIV,2019,20350.0,14000,Diesel,Individual,Manual,First Owner,2
-Tata Harrier XZ BSIV,2019,18700.0,15000,Diesel,Individual,Manual,First Owner,2
-MG Hector Smart DCT,2019,18700.0,16500,Petrol,Dealer,Automatic,First Owner,2
-MG Hector Sharp AT BSIV,2019,19250.0,19000,Petrol,Dealer,Automatic,First Owner,2
+MG Hector Sharp DCT Dualtone,2020,20900.0,1600,Petrol,Dealer,Automatic,First Owner,2
+Hyundai Creta 1.6 CRDi AT SX Plus,2020,21450.0,2700,Diesel,Dealer,Automatic,First Owner,2
+Kia Seltos HTX Plus AT D,2020,20900.0,5000,Diesel,Dealer,Automatic,First Owner,2
+Tata Harrier XZ Plus,2020,18150.0,16000,Diesel,Dealer,Manual,First Owner,2
+Toyota Innova Crysta 2.4 G MT 8 STR,2020,17160.0,20102,Diesel,Dealer,Manual,First Owner,2
 Tata Harrier XZ Plus,2020,18150.0,16000,Diesel,Dealer,Manual,First Owner,3
 Toyota Innova Crysta 2.4 G MT 8 STR,2020,17160.0,20102,Diesel,Dealer,Manual,First Owner,3
 Toyota Innova Crysta 2.7 GX AT 8 STR,2020,16500.0,40000,Petrol,Individual,Automatic,First Owner,3
 Mahindra Scorpio S11 4WD BSIV,2020,16500.0,50000,Diesel,Individual,Manual,First Owner,3
-Jeep Compass 1.4 Sport,2019,16720.0,10000,Petrol,Individual,Manual,First Owner,3
+Mahindra Marazzo M8,2019,16059.999999999998,5000,Diesel,Individual,Manual,First Owner,3
 Tata Harrier XZ Plus,2020,18150.0,16000,Diesel,Dealer,Manual,First Owner,4
 Toyota Innova Crysta 2.4 G MT 8 STR,2020,17160.0,20102,Diesel,Dealer,Manual,First Owner,4
-Jeep Compass 1.4 Sport,2019,16720.0,10000,Petrol,Individual,Manual,First Owner,4
-Tata Harrier XZ,2019,18150.0,15000,Diesel,Dealer,Manual,First Owner,4
-Mahindra XUV500 W9 BSIV,2019,17325.0,18000,Diesel,Individual,Manual,First Owner,4
+Toyota Innova Crysta 2.7 GX AT 8 STR,2020,16500.0,40000,Petrol,Individual,Automatic,First Owner,4
+Mahindra Scorpio S11 4WD BSIV,2020,16500.0,50000,Diesel,Individual,Manual,First Owner,4
+Mahindra Marazzo M8,2019,16059.999999999998,5000,Diesel,Individual,Manual,First Owner,4
 Toyota Innova Crysta 2.4 ZX AT,2020,25300.0,1000,Diesel,Individual,Automatic,First Owner,5
-Audi Q3 35 TDI Quattro Technology,2018,24200.0,25000,Diesel,Individual,Automatic,Second Owner,5
-Mercedes-Benz GLA Class 200 D Sport Edition,2017,24189.0,10000,Diesel,Individual,Automatic,Second Owner,5
-Audi Q3 2.0 TDI Quattro Premium Plus,2016,26125.0,30000,Diesel,Dealer,Automatic,First Owner,5
-Ford Endeavour 3.2 Titanium AT 4X4,2016,25080.0,120000,Diesel,Individual,Automatic,Second Owner,5
+Honda Civic ZX Diesel BSIV,2020,23375.0,5500,Diesel,Dealer,Manual,First Owner,5
+Jeep Compass 1.4 Limited Plus BSIV,2019,23100.0,5000,Petrol,Individual,Automatic,First Owner,5
+Jeep Compass 2.0 Limited Plus 4X4,2019,23650.0,25000,Diesel,Dealer,Manual,First Owner,5
+Volvo V40 D3 R-Design,2018,27225.0,2000,Diesel,Dealer,Automatic,First Owner,5
+Toyota Innova Crysta 2.4 ZX AT,2020,25300.0,1000,Diesel,Individual,Automatic,First Owner,7
+MG Hector Sharp DCT Dualtone,2020,20900.0,1600,Petrol,Dealer,Automatic,First Owner,7
+Hyundai Creta 1.6 CRDi AT SX Plus,2020,21450.0,2700,Diesel,Dealer,Automatic,First Owner,7
+Kia Seltos HTX Plus AT D,2020,20900.0,5000,Diesel,Dealer,Automatic,First Owner,7
 Honda Civic ZX Diesel BSIV,2020,23375.0,5500,Diesel,Dealer,Manual,First Owner,7
-Jeep Compass 1.4 Limited Plus BSIV,2019,23100.0,5000,Petrol,Individual,Automatic,First Owner,7
-Jeep Compass 2.0 Limited Plus 4X4,2019,23650.0,25000,Diesel,Dealer,Manual,First Owner,7
-Toyota Innova Crysta 2.4 VX MT 8S BSIV,2018,22704.0,24000,Diesel,Individual,Manual,First Owner,7
-BMW X1 sDrive 20D xLine,2017,23650.0,27000,Diesel,Dealer,Automatic,First Owner,7
 Toyota Innova Crysta 2.4 ZX AT,2020,25300.0,1000,Diesel,Individual,Automatic,First Owner,8
-Audi Q3 35 TDI Quattro Technology,2018,24200.0,25000,Diesel,Individual,Automatic,Second Owner,8
-Mercedes-Benz GLA Class 200 D Sport Edition,2017,24189.0,10000,Diesel,Individual,Automatic,Second Owner,8
-Audi Q3 2.0 TDI Quattro Premium Plus,2016,26125.0,30000,Diesel,Dealer,Automatic,First Owner,8
-Ford Endeavour 3.2 Titanium AT 4X4,2016,25080.0,120000,Diesel,Individual,Automatic,Second Owner,8
+Honda Civic ZX Diesel BSIV,2020,23375.0,5500,Diesel,Dealer,Manual,First Owner,8
+Jeep Compass 1.4 Limited Plus BSIV,2019,23100.0,5000,Petrol,Individual,Automatic,First Owner,8
+Jeep Compass 2.0 Limited Plus 4X4,2019,23650.0,25000,Diesel,Dealer,Manual,First Owner,8
+Volvo V40 D3 R-Design,2018,27225.0,2000,Diesel,Dealer,Automatic,First Owner,8
 Tata Harrier XZ Plus,2020,18150.0,16000,Diesel,Dealer,Manual,First Owner,9
 Toyota Innova Crysta 2.4 G MT 8 STR,2020,17160.0,20102,Diesel,Dealer,Manual,First Owner,9
 Toyota Innova Crysta 2.7 GX AT 8 STR,2020,16500.0,40000,Petrol,Individual,Automatic,First Owner,9
 Mahindra Scorpio S11 4WD BSIV,2020,16500.0,50000,Diesel,Individual,Manual,First Owner,9
-Jeep Compass 1.4 Sport,2019,16720.0,10000,Petrol,Individual,Manual,First Owner,9
+Mahindra Marazzo M8,2019,16059.999999999998,5000,Diesel,Individual,Manual,First Owner,9
+Toyota Innova Crysta 2.4 ZX AT,2020,25300.0,1000,Diesel,Individual,Automatic,First Owner,10
+MG Hector Sharp DCT Dualtone,2020,20900.0,1600,Petrol,Dealer,Automatic,First Owner,10
+Hyundai Creta 1.6 CRDi AT SX Plus,2020,21450.0,2700,Diesel,Dealer,Automatic,First Owner,10
+Kia Seltos HTX Plus AT D,2020,20900.0,5000,Diesel,Dealer,Automatic,First Owner,10
 Honda Civic ZX Diesel BSIV,2020,23375.0,5500,Diesel,Dealer,Manual,First Owner,10
-Jeep Compass 1.4 Limited Plus BSIV,2019,23100.0,5000,Petrol,Individual,Automatic,First Owner,10
-Jeep Compass 2.0 Limited Plus 4X4,2019,23650.0,25000,Diesel,Dealer,Manual,First Owner,10
-Toyota Innova Crysta 2.4 VX MT 8S BSIV,2018,22704.0,24000,Diesel,Individual,Manual,First Owner,10
-BMW X1 sDrive 20D xLine,2017,23650.0,27000,Diesel,Dealer,Automatic,First Owner,10
+MG Hector Sharp DCT Dualtone,2020,20900.0,1600,Petrol,Dealer,Automatic,First Owner,11
 Hyundai Creta 1.6 CRDi AT SX Plus,2020,21450.0,2700,Diesel,Dealer,Automatic,First Owner,11
-Toyota Innova Crysta 2.8 GX AT 8S BSIV,2019,21175.0,43000,Diesel,Dealer,Automatic,First Owner,11
-Toyota Innova Crysta 2.4 VX MT 8S BSIV,2018,22704.0,24000,Diesel,Individual,Manual,First Owner,11
-Toyota Innova Crysta 2.4 VX MT BSIV,2018,21318.0,35000,Diesel,Individual,Manual,First Owner,11
-Jeep Compass 2.0 Limited Option 4X4,2017,21120.0,20000,Diesel,Individual,Manual,Second Owner,11
+Kia Seltos HTX Plus AT D,2020,20900.0,5000,Diesel,Dealer,Automatic,First Owner,11
+Honda Civic ZX Diesel BSIV,2020,23375.0,5500,Diesel,Dealer,Manual,First Owner,11
+Jeep Compass 1.4 Limited Plus BSIV,2019,23100.0,5000,Petrol,Individual,Automatic,First Owner,11
+Toyota Innova Crysta 2.4 ZX AT,2020,25300.0,1000,Diesel,Individual,Automatic,First Owner,12
+Hyundai Creta 1.6 CRDi AT SX Plus,2020,21450.0,2700,Diesel,Dealer,Automatic,First Owner,12
 Honda Civic ZX Diesel BSIV,2020,23375.0,5500,Diesel,Dealer,Manual,First Owner,12
 Jeep Compass 1.4 Limited Plus BSIV,2019,23100.0,5000,Petrol,Individual,Automatic,First Owner,12
 Jeep Compass 2.0 Limited Plus 4X4,2019,23650.0,25000,Diesel,Dealer,Manual,First Owner,12
-Audi Q3 35 TDI Quattro Technology,2018,24200.0,25000,Diesel,Individual,Automatic,Second Owner,12
-Mercedes-Benz GLA Class 200 D Sport Edition,2017,24189.0,10000,Diesel,Individual,Automatic,Second Owner,12
 Tata Harrier XZ Plus,2020,18150.0,16000,Diesel,Dealer,Manual,First Owner,13
 Toyota Innova Crysta 2.4 G MT 8 STR,2020,17160.0,20102,Diesel,Dealer,Manual,First Owner,13
-Jeep Compass 1.4 Sport,2019,16720.0,10000,Petrol,Individual,Manual,First Owner,13
-Tata Harrier XZ,2019,18150.0,15000,Diesel,Dealer,Manual,First Owner,13
-Mahindra XUV500 W9 BSIV,2019,17325.0,18000,Diesel,Individual,Manual,First Owner,13
+Toyota Innova Crysta 2.7 GX AT 8 STR,2020,16500.0,40000,Petrol,Individual,Automatic,First Owner,13
+Mahindra Scorpio S11 4WD BSIV,2020,16500.0,50000,Diesel,Individual,Manual,First Owner,13
+Mahindra Marazzo M8,2019,16059.999999999998,5000,Diesel,Individual,Manual,First Owner,13
+Toyota Innova Crysta 2.4 ZX AT,2020,25300.0,1000,Diesel,Individual,Automatic,First Owner,14
+MG Hector Sharp DCT Dualtone,2020,20900.0,1600,Petrol,Dealer,Automatic,First Owner,14
 Hyundai Creta 1.6 CRDi AT SX Plus,2020,21450.0,2700,Diesel,Dealer,Automatic,First Owner,14
+Kia Seltos HTX Plus AT D,2020,20900.0,5000,Diesel,Dealer,Automatic,First Owner,14
 Honda Civic ZX Diesel BSIV,2020,23375.0,5500,Diesel,Dealer,Manual,First Owner,14
-Jeep Compass 1.4 Limited Plus BSIV,2019,23100.0,5000,Petrol,Individual,Automatic,First Owner,14
-Toyota Innova Crysta 2.4 VX MT 8S BSIV,2018,22704.0,24000,Diesel,Individual,Manual,First Owner,14
-Mercedes-Benz GLA Class 200 CDI SPORT,2017,23100.0,48000,Diesel,Individual,Automatic,Second Owner,14
 Toyota Innova Crysta 2.4 ZX AT,2020,25300.0,1000,Diesel,Individual,Automatic,First Owner,15
-Audi Q3 35 TDI Quattro Technology,2018,24200.0,25000,Diesel,Individual,Automatic,Second Owner,15
-Mercedes-Benz GLA Class 200 D Sport Edition,2017,24189.0,10000,Diesel,Individual,Automatic,Second Owner,15
-Ford Endeavour 3.2 Titanium AT 4X4,2016,25080.0,120000,Diesel,Individual,Automatic,Second Owner,15
-Audi A6 2.0 TDI,2014,24200.0,60000,Diesel,Individual,Automatic,First Owner,15
+Honda Civic ZX Diesel BSIV,2020,23375.0,5500,Diesel,Dealer,Manual,First Owner,15
+Jeep Compass 1.4 Limited Plus BSIV,2019,23100.0,5000,Petrol,Individual,Automatic,First Owner,15
+Jeep Compass 2.0 Limited Plus 4X4,2019,23650.0,25000,Diesel,Dealer,Manual,First Owner,15
+Volvo V40 D3 R-Design,2018,27225.0,2000,Diesel,Dealer,Automatic,First Owner,15
 Toyota Innova Crysta 2.4 ZX AT,2020,25300.0,1000,Diesel,Individual,Automatic,First Owner,16
-Audi Q3 35 TDI Quattro Technology,2018,24200.0,25000,Diesel,Individual,Automatic,Second Owner,16
-Mercedes-Benz GLA Class 200 D Sport Edition,2017,24189.0,10000,Diesel,Individual,Automatic,Second Owner,16
-Audi Q3 2.0 TDI Quattro Premium Plus,2016,26125.0,30000,Diesel,Dealer,Automatic,First Owner,16
-Ford Endeavour 3.2 Titanium AT 4X4,2016,25080.0,120000,Diesel,Individual,Automatic,Second Owner,16
+Honda Civic ZX Diesel BSIV,2020,23375.0,5500,Diesel,Dealer,Manual,First Owner,16
+Jeep Compass 1.4 Limited Plus BSIV,2019,23100.0,5000,Petrol,Individual,Automatic,First Owner,16
+Jeep Compass 2.0 Limited Plus 4X4,2019,23650.0,25000,Diesel,Dealer,Manual,First Owner,16
+Volvo V40 D3 R-Design,2018,27225.0,2000,Diesel,Dealer,Automatic,First Owner,16
+Toyota Innova Crysta 2.4 ZX AT,2020,25300.0,1000,Diesel,Individual,Automatic,First Owner,18
+Hyundai Creta 1.6 CRDi AT SX Plus,2020,21450.0,2700,Diesel,Dealer,Automatic,First Owner,18
 Honda Civic ZX Diesel BSIV,2020,23375.0,5500,Diesel,Dealer,Manual,First Owner,18
+Jeep Compass 1.4 Limited Plus BSIV,2019,23100.0,5000,Petrol,Individual,Automatic,First Owner,18
 Jeep Compass 2.0 Limited Plus 4X4,2019,23650.0,25000,Diesel,Dealer,Manual,First Owner,18
-Audi Q3 35 TDI Quattro Technology,2018,24200.0,25000,Diesel,Individual,Automatic,Second Owner,18
-Mercedes-Benz GLA Class 200 D Sport Edition,2017,24189.0,10000,Diesel,Individual,Automatic,Second Owner,18
-BMW X1 sDrive 20D xLine,2017,23650.0,27000,Diesel,Dealer,Automatic,First Owner,18
 Tata Harrier XZ Plus,2020,18150.0,16000,Diesel,Dealer,Manual,First Owner,19
 Toyota Innova Crysta 2.4 G MT 8 STR,2020,17160.0,20102,Diesel,Dealer,Manual,First Owner,19
 Toyota Innova Crysta 2.7 GX AT 8 STR,2020,16500.0,40000,Petrol,Individual,Automatic,First Owner,19
 Mahindra Scorpio S11 4WD BSIV,2020,16500.0,50000,Diesel,Individual,Manual,First Owner,19
-Jeep Compass 1.4 Sport,2019,16720.0,10000,Petrol,Individual,Manual,First Owner,19
+Mahindra Marazzo M8,2019,16059.999999999998,5000,Diesel,Individual,Manual,First Owner,19
 Toyota Innova Crysta 2.4 ZX AT,2020,25300.0,1000,Diesel,Individual,Automatic,First Owner,20
-Audi Q3 35 TDI Quattro Technology,2018,24200.0,25000,Diesel,Individual,Automatic,Second Owner,20
-Mercedes-Benz GLA Class 200 D Sport Edition,2017,24189.0,10000,Diesel,Individual,Automatic,Second Owner,20
-Ford Endeavour 3.2 Titanium AT 4X4,2016,25080.0,120000,Diesel,Individual,Automatic,Second Owner,20
-Audi A6 2.0 TDI,2014,24200.0,60000,Diesel,Individual,Automatic,First Owner,20
+Honda Civic ZX Diesel BSIV,2020,23375.0,5500,Diesel,Dealer,Manual,First Owner,20
+Jeep Compass 1.4 Limited Plus BSIV,2019,23100.0,5000,Petrol,Individual,Automatic,First Owner,20
+Jeep Compass 2.0 Limited Plus 4X4,2019,23650.0,25000,Diesel,Dealer,Manual,First Owner,20
+Volvo V40 D3 R-Design,2018,27225.0,2000,Diesel,Dealer,Automatic,First Owner,20
 Toyota Innova Crysta 2.4 ZX AT,2020,25300.0,1000,Diesel,Individual,Automatic,First Owner,22
+Honda Civic ZX Diesel BSIV,2020,23375.0,5500,Diesel,Dealer,Manual,First Owner,22
+Skoda Octavia Style Plus 2.0 TDI AT,2019,28600.0,11000,Diesel,Dealer,Automatic,First Owner,22
+Jeep Compass 2.0 Limited Plus 4X4,2019,23650.0,25000,Diesel,Dealer,Manual,First Owner,22
 Volvo V40 D3 R-Design,2018,27225.0,2000,Diesel,Dealer,Automatic,First Owner,22
-Audi Q3 2.0 TDI Quattro Premium Plus,2016,26125.0,30000,Diesel,Dealer,Automatic,First Owner,22
-Ford Endeavour 2.2 Titanium AT 4X2,2016,26400.0,30000,Diesel,Individual,Automatic,First Owner,22
-Audi A4 35 TDI Premium Plus,2016,26950.0,30000,Diesel,Dealer,Automatic,First Owner,22
+Toyota Innova Crysta 2.4 ZX AT,2020,25300.0,1000,Diesel,Individual,Automatic,First Owner,23
+MG Hector Sharp DCT Dualtone,2020,20900.0,1600,Petrol,Dealer,Automatic,First Owner,23
 Hyundai Creta 1.6 CRDi AT SX Plus,2020,21450.0,2700,Diesel,Dealer,Automatic,First Owner,23
-Jeep Compass 1.4 Limited Plus BSIV,2019,23100.0,5000,Petrol,Individual,Automatic,First Owner,23
-Toyota Innova Crysta 2.4 VX MT 8S BSIV,2018,22704.0,24000,Diesel,Individual,Manual,First Owner,23
-Toyota Innova Crysta 2.4 VX MT BSIV,2018,21318.0,35000,Diesel,Individual,Manual,First Owner,23
-Mercedes-Benz GLA Class 200 CDI SPORT,2017,23100.0,48000,Diesel,Individual,Automatic,Second Owner,23
+Kia Seltos HTX Plus AT D,2020,20900.0,5000,Diesel,Dealer,Automatic,First Owner,23
+Honda Civic ZX Diesel BSIV,2020,23375.0,5500,Diesel,Dealer,Manual,First Owner,23
+Toyota Innova Crysta 2.4 ZX AT,2020,25300.0,1000,Diesel,Individual,Automatic,First Owner,24
+MG Hector Sharp DCT Dualtone,2020,20900.0,1600,Petrol,Dealer,Automatic,First Owner,24
+Hyundai Creta 1.6 CRDi AT SX Plus,2020,21450.0,2700,Diesel,Dealer,Automatic,First Owner,24
+Kia Seltos HTX Plus AT D,2020,20900.0,5000,Diesel,Dealer,Automatic,First Owner,24
 Honda Civic ZX Diesel BSIV,2020,23375.0,5500,Diesel,Dealer,Manual,First Owner,24
-Jeep Compass 1.4 Limited Plus BSIV,2019,23100.0,5000,Petrol,Individual,Automatic,First Owner,24
-Jeep Compass 2.0 Limited Plus 4X4,2019,23650.0,25000,Diesel,Dealer,Manual,First Owner,24
-Toyota Innova Crysta 2.4 VX MT 8S BSIV,2018,22704.0,24000,Diesel,Individual,Manual,First Owner,24
-BMW X1 sDrive 20D xLine,2017,23650.0,27000,Diesel,Dealer,Automatic,First Owner,24
 Tata Harrier XZ Plus,2020,18150.0,16000,Diesel,Dealer,Manual,First Owner,25
 Toyota Innova Crysta 2.4 G MT 8 STR,2020,17160.0,20102,Diesel,Dealer,Manual,First Owner,25
-Jeep Compass 1.4 Sport,2019,16720.0,10000,Petrol,Individual,Manual,First Owner,25
-Tata Harrier XZ,2019,18150.0,15000,Diesel,Dealer,Manual,First Owner,25
-Mahindra XUV500 W9 BSIV,2019,17325.0,18000,Diesel,Individual,Manual,First Owner,25
+Toyota Innova Crysta 2.7 GX AT 8 STR,2020,16500.0,40000,Petrol,Individual,Automatic,First Owner,25
+Mahindra Scorpio S11 4WD BSIV,2020,16500.0,50000,Diesel,Individual,Manual,First Owner,25
+Mahindra Marazzo M8,2019,16059.999999999998,5000,Diesel,Individual,Manual,First Owner,25
 Toyota Innova Crysta 2.4 ZX AT,2020,25300.0,1000,Diesel,Individual,Automatic,First Owner,28
-Audi Q3 35 TDI Quattro Technology,2018,24200.0,25000,Diesel,Individual,Automatic,Second Owner,28
-Mercedes-Benz GLA Class 200 D Sport Edition,2017,24189.0,10000,Diesel,Individual,Automatic,Second Owner,28
-Audi Q3 2.0 TDI Quattro Premium Plus,2016,26125.0,30000,Diesel,Dealer,Automatic,First Owner,28
-Ford Endeavour 3.2 Titanium AT 4X4,2016,25080.0,120000,Diesel,Individual,Automatic,Second Owner,28
+Honda Civic ZX Diesel BSIV,2020,23375.0,5500,Diesel,Dealer,Manual,First Owner,28
+Jeep Compass 1.4 Limited Plus BSIV,2019,23100.0,5000,Petrol,Individual,Automatic,First Owner,28
+Jeep Compass 2.0 Limited Plus 4X4,2019,23650.0,25000,Diesel,Dealer,Manual,First Owner,28
+Volvo V40 D3 R-Design,2018,27225.0,2000,Diesel,Dealer,Automatic,First Owner,28
 Toyota Innova Crysta 2.4 ZX AT,2020,25300.0,1000,Diesel,Individual,Automatic,First Owner,29
-Audi Q3 35 TDI Quattro Technology,2018,24200.0,25000,Diesel,Individual,Automatic,Second Owner,29
-Mercedes-Benz GLA Class 200 D Sport Edition,2017,24189.0,10000,Diesel,Individual,Automatic,Second Owner,29
-Toyota Innova Crysta 2.8 ZX AT BSIV,2017,23925.0,50000,Diesel,Individual,Automatic,First Owner,29
-Ford Endeavour 3.2 Titanium AT 4X4,2016,25080.0,120000,Diesel,Individual,Automatic,Second Owner,29
-Mahindra XUV500 W10 AWD,2019,19800.0,10000,Diesel,Individual,Manual,First Owner,30
-Jeep Compass 2.0 Longitude Option BSIV,2019,20350.0,14000,Diesel,Individual,Manual,First Owner,30
-Tata Harrier XZ BSIV,2019,18700.0,15000,Diesel,Individual,Manual,First Owner,30
-MG Hector Smart DCT,2019,18700.0,16500,Petrol,Dealer,Automatic,First Owner,30
-MG Hector Sharp AT BSIV,2019,19250.0,19000,Petrol,Dealer,Automatic,First Owner,30
+Honda Civic ZX Diesel BSIV,2020,23375.0,5500,Diesel,Dealer,Manual,First Owner,29
+Jeep Compass 1.4 Limited Plus BSIV,2019,23100.0,5000,Petrol,Individual,Automatic,First Owner,29
+Jeep Compass 2.0 Limited Plus 4X4,2019,23650.0,25000,Diesel,Dealer,Manual,First Owner,29
+Volvo V40 D3 R-Design,2018,27225.0,2000,Diesel,Dealer,Automatic,First Owner,29
+MG Hector Sharp DCT Dualtone,2020,20900.0,1600,Petrol,Dealer,Automatic,First Owner,30
+Hyundai Creta 1.6 CRDi AT SX Plus,2020,21450.0,2700,Diesel,Dealer,Automatic,First Owner,30
+Kia Seltos HTX Plus AT D,2020,20900.0,5000,Diesel,Dealer,Automatic,First Owner,30
+Tata Harrier XZ Plus,2020,18150.0,16000,Diesel,Dealer,Manual,First Owner,30
+Toyota Innova Crysta 2.4 G MT 8 STR,2020,17160.0,20102,Diesel,Dealer,Manual,First Owner,30
+Toyota Innova Crysta 2.4 ZX AT,2020,25300.0,1000,Diesel,Individual,Automatic,First Owner,31
+MG Hector Sharp DCT Dualtone,2020,20900.0,1600,Petrol,Dealer,Automatic,First Owner,31
+Hyundai Creta 1.6 CRDi AT SX Plus,2020,21450.0,2700,Diesel,Dealer,Automatic,First Owner,31
+Kia Seltos HTX Plus AT D,2020,20900.0,5000,Diesel,Dealer,Automatic,First Owner,31
 Honda Civic ZX Diesel BSIV,2020,23375.0,5500,Diesel,Dealer,Manual,First Owner,31
-Jeep Compass 1.4 Limited Plus BSIV,2019,23100.0,5000,Petrol,Individual,Automatic,First Owner,31
-Jeep Compass 2.0 Limited Plus 4X4,2019,23650.0,25000,Diesel,Dealer,Manual,First Owner,31
-Toyota Innova Crysta 2.4 VX MT 8S BSIV,2018,22704.0,24000,Diesel,Individual,Manual,First Owner,31
-BMW X1 sDrive 20D xLine,2017,23650.0,27000,Diesel,Dealer,Automatic,First Owner,31
+Tata Harrier XZ Plus,2020,18150.0,16000,Diesel,Dealer,Manual,First Owner,32
 Toyota Innova Crysta 2.4 G MT 8 STR,2020,17160.0,20102,Diesel,Dealer,Manual,First Owner,32
 Toyota Innova Crysta 2.7 GX AT 8 STR,2020,16500.0,40000,Petrol,Individual,Automatic,First Owner,32
 Mahindra Scorpio S11 4WD BSIV,2020,16500.0,50000,Diesel,Individual,Manual,First Owner,32
 Mahindra Marazzo M8,2019,16059.999999999998,5000,Diesel,Individual,Manual,First Owner,32
-Mahindra Marazzo M8,2019,15949.999999999998,10000,Diesel,Individual,Manual,First Owner,32
 Tata Harrier XZ Plus,2020,18150.0,16000,Diesel,Dealer,Manual,First Owner,33
 Toyota Innova Crysta 2.4 G MT 8 STR,2020,17160.0,20102,Diesel,Dealer,Manual,First Owner,33
-Jeep Compass 1.4 Sport,2019,16720.0,10000,Petrol,Individual,Manual,First Owner,33
-Tata Harrier XZ,2019,18150.0,15000,Diesel,Dealer,Manual,First Owner,33
-Mahindra XUV500 W9 BSIV,2019,17325.0,18000,Diesel,Individual,Manual,First Owner,33
+Toyota Innova Crysta 2.7 GX AT 8 STR,2020,16500.0,40000,Petrol,Individual,Automatic,First Owner,33
+Mahindra Scorpio S11 4WD BSIV,2020,16500.0,50000,Diesel,Individual,Manual,First Owner,33
+Mahindra Marazzo M8,2019,16059.999999999998,5000,Diesel,Individual,Manual,First Owner,33
+Toyota Innova Crysta 2.4 ZX AT,2020,25300.0,1000,Diesel,Individual,Automatic,First Owner,34
+MG Hector Sharp DCT Dualtone,2020,20900.0,1600,Petrol,Dealer,Automatic,First Owner,34
+Hyundai Creta 1.6 CRDi AT SX Plus,2020,21450.0,2700,Diesel,Dealer,Automatic,First Owner,34
+Kia Seltos HTX Plus AT D,2020,20900.0,5000,Diesel,Dealer,Automatic,First Owner,34
 Honda Civic ZX Diesel BSIV,2020,23375.0,5500,Diesel,Dealer,Manual,First Owner,34
-Jeep Compass 1.4 Limited Plus BSIV,2019,23100.0,5000,Petrol,Individual,Automatic,First Owner,34
-Jeep Compass 2.0 Limited Plus 4X4,2019,23650.0,25000,Diesel,Dealer,Manual,First Owner,34
-Toyota Innova Crysta 2.4 VX MT 8S BSIV,2018,22704.0,24000,Diesel,Individual,Manual,First Owner,34
-Audi Q3 35 TDI Quattro Technology,2018,24200.0,25000,Diesel,Individual,Automatic,Second Owner,34
 Toyota Innova Crysta 2.4 ZX AT,2020,25300.0,1000,Diesel,Individual,Automatic,First Owner,35
-Audi Q3 35 TDI Quattro Technology,2018,24200.0,25000,Diesel,Individual,Automatic,Second Owner,35
-Mercedes-Benz GLA Class 200 D Sport Edition,2017,24189.0,10000,Diesel,Individual,Automatic,Second Owner,35
-Audi Q3 2.0 TDI Quattro Premium Plus,2016,26125.0,30000,Diesel,Dealer,Automatic,First Owner,35
-Ford Endeavour 3.2 Titanium AT 4X4,2016,25080.0,120000,Diesel,Individual,Automatic,Second Owner,35
+Honda Civic ZX Diesel BSIV,2020,23375.0,5500,Diesel,Dealer,Manual,First Owner,35
+Jeep Compass 1.4 Limited Plus BSIV,2019,23100.0,5000,Petrol,Individual,Automatic,First Owner,35
+Jeep Compass 2.0 Limited Plus 4X4,2019,23650.0,25000,Diesel,Dealer,Manual,First Owner,35
+Volvo V40 D3 R-Design,2018,27225.0,2000,Diesel,Dealer,Automatic,First Owner,35
+Toyota Innova Crysta 2.4 ZX AT,2020,25300.0,1000,Diesel,Individual,Automatic,First Owner,36
+MG Hector Sharp DCT Dualtone,2020,20900.0,1600,Petrol,Dealer,Automatic,First Owner,36
+Hyundai Creta 1.6 CRDi AT SX Plus,2020,21450.0,2700,Diesel,Dealer,Automatic,First Owner,36
+Kia Seltos HTX Plus AT D,2020,20900.0,5000,Diesel,Dealer,Automatic,First Owner,36
 Honda Civic ZX Diesel BSIV,2020,23375.0,5500,Diesel,Dealer,Manual,First Owner,36
-Jeep Compass 1.4 Limited Plus BSIV,2019,23100.0,5000,Petrol,Individual,Automatic,First Owner,36
-Jeep Compass 2.0 Limited Plus 4X4,2019,23650.0,25000,Diesel,Dealer,Manual,First Owner,36
-Toyota Innova Crysta 2.4 VX MT 8S BSIV,2018,22704.0,24000,Diesel,Individual,Manual,First Owner,36
-BMW X1 sDrive 20D xLine,2017,23650.0,27000,Diesel,Dealer,Automatic,First Owner,36
+Toyota Innova Crysta 2.4 ZX AT,2020,25300.0,1000,Diesel,Individual,Automatic,First Owner,37
+Hyundai Creta 1.6 CRDi AT SX Plus,2020,21450.0,2700,Diesel,Dealer,Automatic,First Owner,37
 Honda Civic ZX Diesel BSIV,2020,23375.0,5500,Diesel,Dealer,Manual,First Owner,37
 Jeep Compass 1.4 Limited Plus BSIV,2019,23100.0,5000,Petrol,Individual,Automatic,First Owner,37
 Jeep Compass 2.0 Limited Plus 4X4,2019,23650.0,25000,Diesel,Dealer,Manual,First Owner,37
-Audi Q3 35 TDI Quattro Technology,2018,24200.0,25000,Diesel,Individual,Automatic,Second Owner,37
-Mercedes-Benz GLA Class 200 D Sport Edition,2017,24189.0,10000,Diesel,Individual,Automatic,Second Owner,37
+Toyota Innova Crysta 2.4 ZX AT,2020,25300.0,1000,Diesel,Individual,Automatic,First Owner,38
+MG Hector Sharp DCT Dualtone,2020,20900.0,1600,Petrol,Dealer,Automatic,First Owner,38
+Hyundai Creta 1.6 CRDi AT SX Plus,2020,21450.0,2700,Diesel,Dealer,Automatic,First Owner,38
+Kia Seltos HTX Plus AT D,2020,20900.0,5000,Diesel,Dealer,Automatic,First Owner,38
 Honda Civic ZX Diesel BSIV,2020,23375.0,5500,Diesel,Dealer,Manual,First Owner,38
-Jeep Compass 1.4 Limited Plus BSIV,2019,23100.0,5000,Petrol,Individual,Automatic,First Owner,38
-Jeep Compass 2.0 Limited Plus 4X4,2019,23650.0,25000,Diesel,Dealer,Manual,First Owner,38
-Toyota Innova Crysta 2.4 VX MT 8S BSIV,2018,22704.0,24000,Diesel,Individual,Manual,First Owner,38
-Audi Q3 35 TDI Quattro Technology,2018,24200.0,25000,Diesel,Individual,Automatic,Second Owner,38
+Toyota Innova Crysta 2.4 ZX AT,2020,25300.0,1000,Diesel,Individual,Automatic,First Owner,39
+MG Hector Sharp DCT Dualtone,2020,20900.0,1600,Petrol,Dealer,Automatic,First Owner,39
+Hyundai Creta 1.6 CRDi AT SX Plus,2020,21450.0,2700,Diesel,Dealer,Automatic,First Owner,39
+Kia Seltos HTX Plus AT D,2020,20900.0,5000,Diesel,Dealer,Automatic,First Owner,39
 Honda Civic ZX Diesel BSIV,2020,23375.0,5500,Diesel,Dealer,Manual,First Owner,39
-Jeep Compass 1.4 Limited Plus BSIV,2019,23100.0,5000,Petrol,Individual,Automatic,First Owner,39
-Jeep Compass 2.0 Limited Plus 4X4,2019,23650.0,25000,Diesel,Dealer,Manual,First Owner,39
-Audi Q3 35 TDI Quattro Technology,2018,24200.0,25000,Diesel,Individual,Automatic,Second Owner,39
-Mercedes-Benz GLA Class 200 D Sport Edition,2017,24189.0,10000,Diesel,Individual,Automatic,Second Owner,39
 Toyota Innova Crysta 2.4 ZX AT,2020,25300.0,1000,Diesel,Individual,Automatic,First Owner,40
+Honda Civic ZX Diesel BSIV,2020,23375.0,5500,Diesel,Dealer,Manual,First Owner,40
+Skoda Octavia Style Plus 2.0 TDI AT,2019,28600.0,11000,Diesel,Dealer,Automatic,First Owner,40
+Jeep Compass 2.0 Limited Plus 4X4,2019,23650.0,25000,Diesel,Dealer,Manual,First Owner,40
 Volvo V40 D3 R-Design,2018,27225.0,2000,Diesel,Dealer,Automatic,First Owner,40
-Audi Q3 2.0 TDI Quattro Premium Plus,2016,26125.0,30000,Diesel,Dealer,Automatic,First Owner,40
-Ford Endeavour 2.2 Titanium AT 4X2,2016,26400.0,30000,Diesel,Individual,Automatic,First Owner,40
-Audi A4 35 TDI Premium Plus,2016,26950.0,30000,Diesel,Dealer,Automatic,First Owner,40
 Tata Harrier XZ Plus,2020,18150.0,16000,Diesel,Dealer,Manual,First Owner,41
 Toyota Innova Crysta 2.4 G MT 8 STR,2020,17160.0,20102,Diesel,Dealer,Manual,First Owner,41
 Toyota Innova Crysta 2.7 GX AT 8 STR,2020,16500.0,40000,Petrol,Individual,Automatic,First Owner,41
 Mahindra Scorpio S11 4WD BSIV,2020,16500.0,50000,Diesel,Individual,Manual,First Owner,41
-Jeep Compass 1.4 Sport,2019,16720.0,10000,Petrol,Individual,Manual,First Owner,41
+Mahindra Marazzo M8,2019,16059.999999999998,5000,Diesel,Individual,Manual,First Owner,41
 Toyota Innova Crysta 2.4 ZX AT,2020,25300.0,1000,Diesel,Individual,Automatic,First Owner,42
-Audi Q3 35 TDI Quattro Technology,2018,24200.0,25000,Diesel,Individual,Automatic,Second Owner,42
-Mercedes-Benz GLA Class 200 D Sport Edition,2017,24189.0,10000,Diesel,Individual,Automatic,Second Owner,42
-Audi Q3 2.0 TDI Quattro Premium Plus,2016,26125.0,30000,Diesel,Dealer,Automatic,First Owner,42
-Ford Endeavour 3.2 Titanium AT 4X4,2016,25080.0,120000,Diesel,Individual,Automatic,Second Owner,42
+Honda Civic ZX Diesel BSIV,2020,23375.0,5500,Diesel,Dealer,Manual,First Owner,42
+Jeep Compass 1.4 Limited Plus BSIV,2019,23100.0,5000,Petrol,Individual,Automatic,First Owner,42
+Jeep Compass 2.0 Limited Plus 4X4,2019,23650.0,25000,Diesel,Dealer,Manual,First Owner,42
+Volvo V40 D3 R-Design,2018,27225.0,2000,Diesel,Dealer,Automatic,First Owner,42
+Toyota Innova Crysta 2.4 ZX AT,2020,25300.0,1000,Diesel,Individual,Automatic,First Owner,43
+Hyundai Creta 1.6 CRDi AT SX Plus,2020,21450.0,2700,Diesel,Dealer,Automatic,First Owner,43
 Honda Civic ZX Diesel BSIV,2020,23375.0,5500,Diesel,Dealer,Manual,First Owner,43
 Jeep Compass 1.4 Limited Plus BSIV,2019,23100.0,5000,Petrol,Individual,Automatic,First Owner,43
 Jeep Compass 2.0 Limited Plus 4X4,2019,23650.0,25000,Diesel,Dealer,Manual,First Owner,43
-Audi Q3 35 TDI Quattro Technology,2018,24200.0,25000,Diesel,Individual,Automatic,Second Owner,43
-Mercedes-Benz GLA Class 200 D Sport Edition,2017,24189.0,10000,Diesel,Individual,Automatic,Second Owner,43
 Toyota Innova Crysta 2.4 ZX AT,2020,25300.0,1000,Diesel,Individual,Automatic,First Owner,44
-Audi Q3 2.0 TDI Quattro Premium Plus,2016,26125.0,30000,Diesel,Dealer,Automatic,First Owner,44
-Ford Endeavour 2.2 Titanium AT 4X2,2016,26400.0,30000,Diesel,Individual,Automatic,First Owner,44
-Audi A4 35 TDI Premium Plus,2016,26950.0,30000,Diesel,Dealer,Automatic,First Owner,44
-Ford Endeavour 3.2 Titanium AT 4X4,2016,25080.0,120000,Diesel,Individual,Automatic,Second Owner,44
-Mahindra XUV500 W10 AWD,2019,19800.0,10000,Diesel,Individual,Manual,First Owner,45
-Jeep Compass 2.0 Longitude Option BSIV,2019,20350.0,14000,Diesel,Individual,Manual,First Owner,45
-Tata Harrier XZ BSIV,2019,18700.0,15000,Diesel,Individual,Manual,First Owner,45
-MG Hector Smart DCT,2019,18700.0,16500,Petrol,Dealer,Automatic,First Owner,45
-MG Hector Sharp AT BSIV,2019,19250.0,19000,Petrol,Dealer,Automatic,First Owner,45
+Honda Civic ZX Diesel BSIV,2020,23375.0,5500,Diesel,Dealer,Manual,First Owner,44
+Jeep Compass 1.4 Limited Plus BSIV,2019,23100.0,5000,Petrol,Individual,Automatic,First Owner,44
+Skoda Octavia Style Plus 2.0 TDI AT,2019,28600.0,11000,Diesel,Dealer,Automatic,First Owner,44
+Jeep Compass 2.0 Limited Plus 4X4,2019,23650.0,25000,Diesel,Dealer,Manual,First Owner,44
+MG Hector Sharp DCT Dualtone,2020,20900.0,1600,Petrol,Dealer,Automatic,First Owner,45
+Hyundai Creta 1.6 CRDi AT SX Plus,2020,21450.0,2700,Diesel,Dealer,Automatic,First Owner,45
+Kia Seltos HTX Plus AT D,2020,20900.0,5000,Diesel,Dealer,Automatic,First Owner,45
+Tata Harrier XZ Plus,2020,18150.0,16000,Diesel,Dealer,Manual,First Owner,45
+Toyota Innova Crysta 2.4 G MT 8 STR,2020,17160.0,20102,Diesel,Dealer,Manual,First Owner,45
+Toyota Innova Crysta 2.4 ZX AT,2020,25300.0,1000,Diesel,Individual,Automatic,First Owner,46
+Hyundai Creta 1.6 CRDi AT SX Plus,2020,21450.0,2700,Diesel,Dealer,Automatic,First Owner,46
 Honda Civic ZX Diesel BSIV,2020,23375.0,5500,Diesel,Dealer,Manual,First Owner,46
 Jeep Compass 1.4 Limited Plus BSIV,2019,23100.0,5000,Petrol,Individual,Automatic,First Owner,46
 Jeep Compass 2.0 Limited Plus 4X4,2019,23650.0,25000,Diesel,Dealer,Manual,First Owner,46
-Audi Q3 35 TDI Quattro Technology,2018,24200.0,25000,Diesel,Individual,Automatic,Second Owner,46
-Mercedes-Benz GLA Class 200 D Sport Edition,2017,24189.0,10000,Diesel,Individual,Automatic,Second Owner,46
+MG Hector Sharp DCT Dualtone,2020,20900.0,1600,Petrol,Dealer,Automatic,First Owner,47
 Hyundai Creta 1.6 CRDi AT SX Plus,2020,21450.0,2700,Diesel,Dealer,Automatic,First Owner,47
-Toyota Innova Crysta 2.8 GX AT 8S BSIV,2019,21175.0,43000,Diesel,Dealer,Automatic,First Owner,47
-Toyota Innova Crysta 2.4 VX MT 8S BSIV,2018,22704.0,24000,Diesel,Individual,Manual,First Owner,47
-Toyota Innova Crysta 2.4 VX MT BSIV,2018,21318.0,35000,Diesel,Individual,Manual,First Owner,47
-Jeep Compass 2.0 Limited Option 4X4,2017,21120.0,20000,Diesel,Individual,Manual,Second Owner,47
+Kia Seltos HTX Plus AT D,2020,20900.0,5000,Diesel,Dealer,Automatic,First Owner,47
+Honda Civic ZX Diesel BSIV,2020,23375.0,5500,Diesel,Dealer,Manual,First Owner,47
+Jeep Compass 1.4 Limited Plus BSIV,2019,23100.0,5000,Petrol,Individual,Automatic,First Owner,47
+Toyota Innova Crysta 2.4 ZX AT,2020,25300.0,1000,Diesel,Individual,Automatic,First Owner,49
+MG Hector Sharp DCT Dualtone,2020,20900.0,1600,Petrol,Dealer,Automatic,First Owner,49
+Hyundai Creta 1.6 CRDi AT SX Plus,2020,21450.0,2700,Diesel,Dealer,Automatic,First Owner,49
+Kia Seltos HTX Plus AT D,2020,20900.0,5000,Diesel,Dealer,Automatic,First Owner,49
 Honda Civic ZX Diesel BSIV,2020,23375.0,5500,Diesel,Dealer,Manual,First Owner,49
-Jeep Compass 1.4 Limited Plus BSIV,2019,23100.0,5000,Petrol,Individual,Automatic,First Owner,49
-Jeep Compass 2.0 Limited Plus 4X4,2019,23650.0,25000,Diesel,Dealer,Manual,First Owner,49
-Toyota Innova Crysta 2.4 VX MT 8S BSIV,2018,22704.0,24000,Diesel,Individual,Manual,First Owner,49
-Audi Q3 35 TDI Quattro Technology,2018,24200.0,25000,Diesel,Individual,Automatic,Second Owner,49
+Toyota Innova Crysta 2.4 ZX AT,2020,25300.0,1000,Diesel,Individual,Automatic,First Owner,50
+MG Hector Sharp DCT Dualtone,2020,20900.0,1600,Petrol,Dealer,Automatic,First Owner,50
+Hyundai Creta 1.6 CRDi AT SX Plus,2020,21450.0,2700,Diesel,Dealer,Automatic,First Owner,50
+Kia Seltos HTX Plus AT D,2020,20900.0,5000,Diesel,Dealer,Automatic,First Owner,50
 Honda Civic ZX Diesel BSIV,2020,23375.0,5500,Diesel,Dealer,Manual,First Owner,50
-Jeep Compass 1.4 Limited Plus BSIV,2019,23100.0,5000,Petrol,Individual,Automatic,First Owner,50
-Jeep Compass 2.0 Limited Plus 4X4,2019,23650.0,25000,Diesel,Dealer,Manual,First Owner,50
-Toyota Innova Crysta 2.4 VX MT 8S BSIV,2018,22704.0,24000,Diesel,Individual,Manual,First Owner,50
-BMW X1 sDrive 20D xLine,2017,23650.0,27000,Diesel,Dealer,Automatic,First Owner,50
+Toyota Innova Crysta 2.4 ZX AT,2020,25300.0,1000,Diesel,Individual,Automatic,First Owner,51
+MG Hector Sharp DCT Dualtone,2020,20900.0,1600,Petrol,Dealer,Automatic,First Owner,51
+Hyundai Creta 1.6 CRDi AT SX Plus,2020,21450.0,2700,Diesel,Dealer,Automatic,First Owner,51
+Kia Seltos HTX Plus AT D,2020,20900.0,5000,Diesel,Dealer,Automatic,First Owner,51
 Honda Civic ZX Diesel BSIV,2020,23375.0,5500,Diesel,Dealer,Manual,First Owner,51
-Jeep Compass 1.4 Limited Plus BSIV,2019,23100.0,5000,Petrol,Individual,Automatic,First Owner,51
-Jeep Compass 2.0 Limited Plus 4X4,2019,23650.0,25000,Diesel,Dealer,Manual,First Owner,51
-Toyota Innova Crysta 2.4 VX MT 8S BSIV,2018,22704.0,24000,Diesel,Individual,Manual,First Owner,51
-Audi Q3 35 TDI Quattro Technology,2018,24200.0,25000,Diesel,Individual,Automatic,Second Owner,51
 Toyota Innova Crysta 2.4 ZX AT,2020,25300.0,1000,Diesel,Individual,Automatic,First Owner,52
-Audi Q3 2.0 TDI Quattro Premium Plus,2016,26125.0,30000,Diesel,Dealer,Automatic,First Owner,52
-Ford Endeavour 2.2 Titanium AT 4X2,2016,26400.0,30000,Diesel,Individual,Automatic,First Owner,52
-Audi A4 35 TDI Premium Plus,2016,26950.0,30000,Diesel,Dealer,Automatic,First Owner,52
-Ford Endeavour 3.2 Titanium AT 4X4,2016,25080.0,120000,Diesel,Individual,Automatic,Second Owner,52
+Honda Civic ZX Diesel BSIV,2020,23375.0,5500,Diesel,Dealer,Manual,First Owner,52
+Jeep Compass 1.4 Limited Plus BSIV,2019,23100.0,5000,Petrol,Individual,Automatic,First Owner,52
+Skoda Octavia Style Plus 2.0 TDI AT,2019,28600.0,11000,Diesel,Dealer,Automatic,First Owner,52
+Jeep Compass 2.0 Limited Plus 4X4,2019,23650.0,25000,Diesel,Dealer,Manual,First Owner,52
+Toyota Innova Crysta 2.4 ZX AT,2020,25300.0,1000,Diesel,Individual,Automatic,First Owner,53
+MG Hector Sharp DCT Dualtone,2020,20900.0,1600,Petrol,Dealer,Automatic,First Owner,53
+Hyundai Creta 1.6 CRDi AT SX Plus,2020,21450.0,2700,Diesel,Dealer,Automatic,First Owner,53
+Kia Seltos HTX Plus AT D,2020,20900.0,5000,Diesel,Dealer,Automatic,First Owner,53
 Honda Civic ZX Diesel BSIV,2020,23375.0,5500,Diesel,Dealer,Manual,First Owner,53
-Jeep Compass 1.4 Limited Plus BSIV,2019,23100.0,5000,Petrol,Individual,Automatic,First Owner,53
-Jeep Compass 2.0 Limited Plus 4X4,2019,23650.0,25000,Diesel,Dealer,Manual,First Owner,53
-Audi Q3 35 TDI Quattro Technology,2018,24200.0,25000,Diesel,Individual,Automatic,Second Owner,53
-Mercedes-Benz GLA Class 200 D Sport Edition,2017,24189.0,10000,Diesel,Individual,Automatic,Second Owner,53
+Toyota Innova Crysta 2.4 ZX AT,2020,25300.0,1000,Diesel,Individual,Automatic,First Owner,54
+MG Hector Sharp DCT Dualtone,2020,20900.0,1600,Petrol,Dealer,Automatic,First Owner,54
+Hyundai Creta 1.6 CRDi AT SX Plus,2020,21450.0,2700,Diesel,Dealer,Automatic,First Owner,54
+Kia Seltos HTX Plus AT D,2020,20900.0,5000,Diesel,Dealer,Automatic,First Owner,54
 Honda Civic ZX Diesel BSIV,2020,23375.0,5500,Diesel,Dealer,Manual,First Owner,54
-Jeep Compass 1.4 Limited Plus BSIV,2019,23100.0,5000,Petrol,Individual,Automatic,First Owner,54
-Jeep Compass 2.0 Limited Plus 4X4,2019,23650.0,25000,Diesel,Dealer,Manual,First Owner,54
-Audi Q3 35 TDI Quattro Technology,2018,24200.0,25000,Diesel,Individual,Automatic,Second Owner,54
-Mercedes-Benz GLA Class 200 D Sport Edition,2017,24189.0,10000,Diesel,Individual,Automatic,Second Owner,54
-Mahindra XUV500 W10 AWD,2019,19800.0,10000,Diesel,Individual,Manual,First Owner,55
-Jeep Compass 2.0 Longitude Option BSIV,2019,20350.0,14000,Diesel,Individual,Manual,First Owner,55
-Tata Harrier XZ BSIV,2019,18700.0,15000,Diesel,Individual,Manual,First Owner,55
-MG Hector Smart DCT,2019,18700.0,16500,Petrol,Dealer,Automatic,First Owner,55
-MG Hector Sharp AT BSIV,2019,19250.0,19000,Petrol,Dealer,Automatic,First Owner,55
+MG Hector Sharp DCT Dualtone,2020,20900.0,1600,Petrol,Dealer,Automatic,First Owner,55
+Hyundai Creta 1.6 CRDi AT SX Plus,2020,21450.0,2700,Diesel,Dealer,Automatic,First Owner,55
+Kia Seltos HTX Plus AT D,2020,20900.0,5000,Diesel,Dealer,Automatic,First Owner,55
+Tata Harrier XZ Plus,2020,18150.0,16000,Diesel,Dealer,Manual,First Owner,55
+Toyota Innova Crysta 2.4 G MT 8 STR,2020,17160.0,20102,Diesel,Dealer,Manual,First Owner,55
+Toyota Innova Crysta 2.4 ZX AT,2020,25300.0,1000,Diesel,Individual,Automatic,First Owner,56
+MG Hector Sharp DCT Dualtone,2020,20900.0,1600,Petrol,Dealer,Automatic,First Owner,56
+Hyundai Creta 1.6 CRDi AT SX Plus,2020,21450.0,2700,Diesel,Dealer,Automatic,First Owner,56
+Kia Seltos HTX Plus AT D,2020,20900.0,5000,Diesel,Dealer,Automatic,First Owner,56
 Honda Civic ZX Diesel BSIV,2020,23375.0,5500,Diesel,Dealer,Manual,First Owner,56
-Jeep Compass 1.4 Limited Plus BSIV,2019,23100.0,5000,Petrol,Individual,Automatic,First Owner,56
-Toyota Innova Crysta 2.4 VX MT 8S BSIV,2018,22704.0,24000,Diesel,Individual,Manual,First Owner,56
-Mercedes-Benz GLA Class 200 CDI SPORT,2017,23100.0,48000,Diesel,Individual,Automatic,Second Owner,56
-Toyota Innova Crysta 2.7 ZX AT BSIV,2016,23100.0,40000,Petrol,Individual,Automatic,First Owner,56
+Tata Harrier XZ Plus,2020,18150.0,16000,Diesel,Dealer,Manual,First Owner,57
+Toyota Innova Crysta 2.4 G MT 8 STR,2020,17160.0,20102,Diesel,Dealer,Manual,First Owner,57
 Toyota Innova Crysta 2.7 GX AT 8 STR,2020,16500.0,40000,Petrol,Individual,Automatic,First Owner,57
 Mahindra Scorpio S11 4WD BSIV,2020,16500.0,50000,Diesel,Individual,Manual,First Owner,57
 Mahindra Marazzo M8,2019,16059.999999999998,5000,Diesel,Individual,Manual,First Owner,57
-Mahindra Marazzo M8,2019,15949.999999999998,10000,Diesel,Individual,Manual,First Owner,57
-Jeep Compass 1.4 Sport,2019,16720.0,10000,Petrol,Individual,Manual,First Owner,57
 Tata Harrier XZ Plus,2020,18150.0,16000,Diesel,Dealer,Manual,First Owner,59
 Toyota Innova Crysta 2.4 G MT 8 STR,2020,17160.0,20102,Diesel,Dealer,Manual,First Owner,59
 Toyota Innova Crysta 2.7 GX AT 8 STR,2020,16500.0,40000,Petrol,Individual,Automatic,First Owner,59
 Mahindra Scorpio S11 4WD BSIV,2020,16500.0,50000,Diesel,Individual,Manual,First Owner,59
-Jeep Compass 1.4 Sport,2019,16720.0,10000,Petrol,Individual,Manual,First Owner,59
+Mahindra Marazzo M8,2019,16059.999999999998,5000,Diesel,Individual,Manual,First Owner,59
+Toyota Innova Crysta 2.4 ZX AT,2020,25300.0,1000,Diesel,Individual,Automatic,First Owner,61
+MG Hector Sharp DCT Dualtone,2020,20900.0,1600,Petrol,Dealer,Automatic,First Owner,61
+Hyundai Creta 1.6 CRDi AT SX Plus,2020,21450.0,2700,Diesel,Dealer,Automatic,First Owner,61
+Kia Seltos HTX Plus AT D,2020,20900.0,5000,Diesel,Dealer,Automatic,First Owner,61
 Honda Civic ZX Diesel BSIV,2020,23375.0,5500,Diesel,Dealer,Manual,First Owner,61
-Jeep Compass 1.4 Limited Plus BSIV,2019,23100.0,5000,Petrol,Individual,Automatic,First Owner,61
-Toyota Innova Crysta 2.4 VX MT 8S BSIV,2018,22704.0,24000,Diesel,Individual,Manual,First Owner,61
-Mercedes-Benz GLA Class 200 CDI SPORT,2017,23100.0,48000,Diesel,Individual,Automatic,Second Owner,61
-Toyota Innova Crysta 2.7 ZX AT BSIV,2016,23100.0,40000,Petrol,Individual,Automatic,First Owner,61
+MG Hector Sharp DCT Dualtone,2020,20900.0,1600,Petrol,Dealer,Automatic,First Owner,62
 Hyundai Creta 1.6 CRDi AT SX Plus,2020,21450.0,2700,Diesel,Dealer,Automatic,First Owner,62
+Kia Seltos HTX Plus AT D,2020,20900.0,5000,Diesel,Dealer,Automatic,First Owner,62
+Honda Civic ZX Diesel BSIV,2020,23375.0,5500,Diesel,Dealer,Manual,First Owner,62
 Jeep Compass 1.4 Limited Plus BSIV,2019,23100.0,5000,Petrol,Individual,Automatic,First Owner,62
-Toyota Innova Crysta 2.4 VX MT 8S BSIV,2018,22704.0,24000,Diesel,Individual,Manual,First Owner,62
-Toyota Innova Crysta 2.4 VX MT BSIV,2018,21318.0,35000,Diesel,Individual,Manual,First Owner,62
-Mercedes-Benz GLA Class 200 CDI SPORT,2017,23100.0,48000,Diesel,Individual,Automatic,Second Owner,62
 Tata Harrier XZ Plus,2020,18150.0,16000,Diesel,Dealer,Manual,First Owner,63
 Toyota Innova Crysta 2.4 G MT 8 STR,2020,17160.0,20102,Diesel,Dealer,Manual,First Owner,63
 Toyota Innova Crysta 2.7 GX AT 8 STR,2020,16500.0,40000,Petrol,Individual,Automatic,First Owner,63
 Mahindra Scorpio S11 4WD BSIV,2020,16500.0,50000,Diesel,Individual,Manual,First Owner,63
-Jeep Compass 1.4 Sport,2019,16720.0,10000,Petrol,Individual,Manual,First Owner,63
+Mahindra Marazzo M8,2019,16059.999999999998,5000,Diesel,Individual,Manual,First Owner,63
+Toyota Innova Crysta 2.4 ZX AT,2020,25300.0,1000,Diesel,Individual,Automatic,First Owner,64
+MG Hector Sharp DCT Dualtone,2020,20900.0,1600,Petrol,Dealer,Automatic,First Owner,64
+Hyundai Creta 1.6 CRDi AT SX Plus,2020,21450.0,2700,Diesel,Dealer,Automatic,First Owner,64
+Kia Seltos HTX Plus AT D,2020,20900.0,5000,Diesel,Dealer,Automatic,First Owner,64
 Honda Civic ZX Diesel BSIV,2020,23375.0,5500,Diesel,Dealer,Manual,First Owner,64
-Jeep Compass 1.4 Limited Plus BSIV,2019,23100.0,5000,Petrol,Individual,Automatic,First Owner,64
-Jeep Compass 2.0 Limited Plus 4X4,2019,23650.0,25000,Diesel,Dealer,Manual,First Owner,64
-Audi Q3 35 TDI Quattro Technology,2018,24200.0,25000,Diesel,Individual,Automatic,Second Owner,64
-Mercedes-Benz GLA Class 200 D Sport Edition,2017,24189.0,10000,Diesel,Individual,Automatic,Second Owner,64
 Toyota Innova Crysta 2.4 ZX AT,2020,25300.0,1000,Diesel,Individual,Automatic,First Owner,65
-Audi Q3 35 TDI Quattro Technology,2018,24200.0,25000,Diesel,Individual,Automatic,Second Owner,65
-Mercedes-Benz GLA Class 200 D Sport Edition,2017,24189.0,10000,Diesel,Individual,Automatic,Second Owner,65
-Audi Q3 2.0 TDI Quattro Premium Plus,2016,26125.0,30000,Diesel,Dealer,Automatic,First Owner,65
-Ford Endeavour 3.2 Titanium AT 4X4,2016,25080.0,120000,Diesel,Individual,Automatic,Second Owner,65
+Honda Civic ZX Diesel BSIV,2020,23375.0,5500,Diesel,Dealer,Manual,First Owner,65
+Jeep Compass 1.4 Limited Plus BSIV,2019,23100.0,5000,Petrol,Individual,Automatic,First Owner,65
+Jeep Compass 2.0 Limited Plus 4X4,2019,23650.0,25000,Diesel,Dealer,Manual,First Owner,65
+Volvo V40 D3 R-Design,2018,27225.0,2000,Diesel,Dealer,Automatic,First Owner,65
+Toyota Innova Crysta 2.4 ZX AT,2020,25300.0,1000,Diesel,Individual,Automatic,First Owner,66
+Hyundai Creta 1.6 CRDi AT SX Plus,2020,21450.0,2700,Diesel,Dealer,Automatic,First Owner,66
 Honda Civic ZX Diesel BSIV,2020,23375.0,5500,Diesel,Dealer,Manual,First Owner,66
 Jeep Compass 1.4 Limited Plus BSIV,2019,23100.0,5000,Petrol,Individual,Automatic,First Owner,66
 Jeep Compass 2.0 Limited Plus 4X4,2019,23650.0,25000,Diesel,Dealer,Manual,First Owner,66
-Audi Q3 35 TDI Quattro Technology,2018,24200.0,25000,Diesel,Individual,Automatic,Second Owner,66
-Mercedes-Benz GLA Class 200 D Sport Edition,2017,24189.0,10000,Diesel,Individual,Automatic,Second Owner,66
+Toyota Innova Crysta 2.4 ZX AT,2020,25300.0,1000,Diesel,Individual,Automatic,First Owner,67
+MG Hector Sharp DCT Dualtone,2020,20900.0,1600,Petrol,Dealer,Automatic,First Owner,67
+Hyundai Creta 1.6 CRDi AT SX Plus,2020,21450.0,2700,Diesel,Dealer,Automatic,First Owner,67
+Kia Seltos HTX Plus AT D,2020,20900.0,5000,Diesel,Dealer,Automatic,First Owner,67
 Honda Civic ZX Diesel BSIV,2020,23375.0,5500,Diesel,Dealer,Manual,First Owner,67
-Jeep Compass 1.4 Limited Plus BSIV,2019,23100.0,5000,Petrol,Individual,Automatic,First Owner,67
-Jeep Compass 2.0 Limited Plus 4X4,2019,23650.0,25000,Diesel,Dealer,Manual,First Owner,67
-Audi Q3 35 TDI Quattro Technology,2018,24200.0,25000,Diesel,Individual,Automatic,Second Owner,67
-Mercedes-Benz GLA Class 200 D Sport Edition,2017,24189.0,10000,Diesel,Individual,Automatic,Second Owner,67
+Toyota Innova Crysta 2.4 ZX AT,2020,25300.0,1000,Diesel,Individual,Automatic,First Owner,68
+MG Hector Sharp DCT Dualtone,2020,20900.0,1600,Petrol,Dealer,Automatic,First Owner,68
+Hyundai Creta 1.6 CRDi AT SX Plus,2020,21450.0,2700,Diesel,Dealer,Automatic,First Owner,68
+Kia Seltos HTX Plus AT D,2020,20900.0,5000,Diesel,Dealer,Automatic,First Owner,68
 Honda Civic ZX Diesel BSIV,2020,23375.0,5500,Diesel,Dealer,Manual,First Owner,68
-Jeep Compass 1.4 Limited Plus BSIV,2019,23100.0,5000,Petrol,Individual,Automatic,First Owner,68
-Toyota Innova Crysta 2.4 VX MT 8S BSIV,2018,22704.0,24000,Diesel,Individual,Manual,First Owner,68
-Mercedes-Benz GLA Class 200 CDI SPORT,2017,23100.0,48000,Diesel,Individual,Automatic,Second Owner,68
-Toyota Innova Crysta 2.7 ZX AT BSIV,2016,23100.0,40000,Petrol,Individual,Automatic,First Owner,68
+Toyota Innova Crysta 2.4 ZX AT,2020,25300.0,1000,Diesel,Individual,Automatic,First Owner,69
+MG Hector Sharp DCT Dualtone,2020,20900.0,1600,Petrol,Dealer,Automatic,First Owner,69
 Hyundai Creta 1.6 CRDi AT SX Plus,2020,21450.0,2700,Diesel,Dealer,Automatic,First Owner,69
+Kia Seltos HTX Plus AT D,2020,20900.0,5000,Diesel,Dealer,Automatic,First Owner,69
 Honda Civic ZX Diesel BSIV,2020,23375.0,5500,Diesel,Dealer,Manual,First Owner,69
-Jeep Compass 1.4 Limited Plus BSIV,2019,23100.0,5000,Petrol,Individual,Automatic,First Owner,69
-Toyota Innova Crysta 2.4 VX MT 8S BSIV,2018,22704.0,24000,Diesel,Individual,Manual,First Owner,69
-Mercedes-Benz GLA Class 200 CDI SPORT,2017,23100.0,48000,Diesel,Individual,Automatic,Second Owner,69
 Tata Harrier XZ Plus,2020,18150.0,16000,Diesel,Dealer,Manual,First Owner,70
 Toyota Innova Crysta 2.4 G MT 8 STR,2020,17160.0,20102,Diesel,Dealer,Manual,First Owner,70
 Toyota Innova Crysta 2.7 GX AT 8 STR,2020,16500.0,40000,Petrol,Individual,Automatic,First Owner,70
 Mahindra Scorpio S11 4WD BSIV,2020,16500.0,50000,Diesel,Individual,Manual,First Owner,70
-Jeep Compass 1.4 Sport,2019,16720.0,10000,Petrol,Individual,Manual,First Owner,70
+Mahindra Marazzo M8,2019,16059.999999999998,5000,Diesel,Individual,Manual,First Owner,70
 Tata Harrier XZ Plus,2020,18150.0,16000,Diesel,Dealer,Manual,First Owner,72
 Toyota Innova Crysta 2.4 G MT 8 STR,2020,17160.0,20102,Diesel,Dealer,Manual,First Owner,72
-Tata Harrier XZ,2019,18150.0,15000,Diesel,Dealer,Manual,First Owner,72
-Tata Harrier XZ BSIV,2019,18700.0,15000,Diesel,Individual,Manual,First Owner,72
-MG Hector Smart DCT,2019,18700.0,16500,Petrol,Dealer,Automatic,First Owner,72
+Toyota Innova Crysta 2.7 GX AT 8 STR,2020,16500.0,40000,Petrol,Individual,Automatic,First Owner,72
+Mahindra Scorpio S11 4WD BSIV,2020,16500.0,50000,Diesel,Individual,Manual,First Owner,72
+Mahindra Marazzo M8,2019,16059.999999999998,5000,Diesel,Individual,Manual,First Owner,72
+Tata Harrier XZ Plus,2020,18150.0,16000,Diesel,Dealer,Manual,First Owner,73
 Toyota Innova Crysta 2.4 G MT 8 STR,2020,17160.0,20102,Diesel,Dealer,Manual,First Owner,73
 Toyota Innova Crysta 2.7 GX AT 8 STR,2020,16500.0,40000,Petrol,Individual,Automatic,First Owner,73
 Mahindra Scorpio S11 4WD BSIV,2020,16500.0,50000,Diesel,Individual,Manual,First Owner,73
 Mahindra Marazzo M8,2019,16059.999999999998,5000,Diesel,Individual,Manual,First Owner,73
-Mahindra Marazzo M8,2019,15949.999999999998,10000,Diesel,Individual,Manual,First Owner,73
 Toyota Innova Crysta 2.4 ZX AT,2020,25300.0,1000,Diesel,Individual,Automatic,First Owner,74
-Audi Q3 35 TDI Quattro Technology,2018,24200.0,25000,Diesel,Individual,Automatic,Second Owner,74
-Mercedes-Benz GLA Class 200 D Sport Edition,2017,24189.0,10000,Diesel,Individual,Automatic,Second Owner,74
-Toyota Innova Crysta 2.8 ZX AT BSIV,2017,23925.0,50000,Diesel,Individual,Automatic,First Owner,74
-Ford Endeavour 3.2 Titanium AT 4X4,2016,25080.0,120000,Diesel,Individual,Automatic,Second Owner,74
+Honda Civic ZX Diesel BSIV,2020,23375.0,5500,Diesel,Dealer,Manual,First Owner,74
+Jeep Compass 1.4 Limited Plus BSIV,2019,23100.0,5000,Petrol,Individual,Automatic,First Owner,74
+Jeep Compass 2.0 Limited Plus 4X4,2019,23650.0,25000,Diesel,Dealer,Manual,First Owner,74
+Volvo V40 D3 R-Design,2018,27225.0,2000,Diesel,Dealer,Automatic,First Owner,74
+Toyota Innova Crysta 2.4 ZX AT,2020,25300.0,1000,Diesel,Individual,Automatic,First Owner,75
+MG Hector Sharp DCT Dualtone,2020,20900.0,1600,Petrol,Dealer,Automatic,First Owner,75
+Hyundai Creta 1.6 CRDi AT SX Plus,2020,21450.0,2700,Diesel,Dealer,Automatic,First Owner,75
+Kia Seltos HTX Plus AT D,2020,20900.0,5000,Diesel,Dealer,Automatic,First Owner,75
 Honda Civic ZX Diesel BSIV,2020,23375.0,5500,Diesel,Dealer,Manual,First Owner,75
-Jeep Compass 1.4 Limited Plus BSIV,2019,23100.0,5000,Petrol,Individual,Automatic,First Owner,75
-Jeep Compass 2.0 Limited Plus 4X4,2019,23650.0,25000,Diesel,Dealer,Manual,First Owner,75
-Audi Q3 35 TDI Quattro Technology,2018,24200.0,25000,Diesel,Individual,Automatic,Second Owner,75
-Mercedes-Benz GLA Class 200 D Sport Edition,2017,24189.0,10000,Diesel,Individual,Automatic,Second Owner,75
+Toyota Innova Crysta 2.4 ZX AT,2020,25300.0,1000,Diesel,Individual,Automatic,First Owner,76
+MG Hector Sharp DCT Dualtone,2020,20900.0,1600,Petrol,Dealer,Automatic,First Owner,76
 Hyundai Creta 1.6 CRDi AT SX Plus,2020,21450.0,2700,Diesel,Dealer,Automatic,First Owner,76
-Jeep Compass 1.4 Limited Plus BSIV,2019,23100.0,5000,Petrol,Individual,Automatic,First Owner,76
-Toyota Innova Crysta 2.4 VX MT 8S BSIV,2018,22704.0,24000,Diesel,Individual,Manual,First Owner,76
-Mercedes-Benz GLA Class 200 CDI SPORT,2017,23100.0,48000,Diesel,Individual,Automatic,Second Owner,76
-Jeep Compass 2.0 Limited 4X4,2017,21450.0,70000,Diesel,Individual,Manual,First Owner,76
+Kia Seltos HTX Plus AT D,2020,20900.0,5000,Diesel,Dealer,Automatic,First Owner,76
+Honda Civic ZX Diesel BSIV,2020,23375.0,5500,Diesel,Dealer,Manual,First Owner,76
+Toyota Innova Crysta 2.4 ZX AT,2020,25300.0,1000,Diesel,Individual,Automatic,First Owner,77
+MG Hector Sharp DCT Dualtone,2020,20900.0,1600,Petrol,Dealer,Automatic,First Owner,77
 Hyundai Creta 1.6 CRDi AT SX Plus,2020,21450.0,2700,Diesel,Dealer,Automatic,First Owner,77
-Jeep Compass 1.4 Limited Plus BSIV,2019,23100.0,5000,Petrol,Individual,Automatic,First Owner,77
-Toyota Innova Crysta 2.4 VX MT 8S BSIV,2018,22704.0,24000,Diesel,Individual,Manual,First Owner,77
-Mercedes-Benz GLA Class 200 CDI SPORT,2017,23100.0,48000,Diesel,Individual,Automatic,Second Owner,77
-Jeep Compass 2.0 Limited 4X4,2017,21450.0,70000,Diesel,Individual,Manual,First Owner,77
+Kia Seltos HTX Plus AT D,2020,20900.0,5000,Diesel,Dealer,Automatic,First Owner,77
+Honda Civic ZX Diesel BSIV,2020,23375.0,5500,Diesel,Dealer,Manual,First Owner,77
 Toyota Innova Crysta 2.4 ZX AT,2020,25300.0,1000,Diesel,Individual,Automatic,First Owner,78
+Honda Civic ZX Diesel BSIV,2020,23375.0,5500,Diesel,Dealer,Manual,First Owner,78
+Skoda Octavia Style Plus 2.0 TDI AT,2019,28600.0,11000,Diesel,Dealer,Automatic,First Owner,78
+Jeep Compass 2.0 Limited Plus 4X4,2019,23650.0,25000,Diesel,Dealer,Manual,First Owner,78
 Volvo V40 D3 R-Design,2018,27225.0,2000,Diesel,Dealer,Automatic,First Owner,78
-Audi Q3 2.0 TDI Quattro Premium Plus,2016,26125.0,30000,Diesel,Dealer,Automatic,First Owner,78
-Ford Endeavour 2.2 Titanium AT 4X2,2016,26400.0,30000,Diesel,Individual,Automatic,First Owner,78
-Audi A4 35 TDI Premium Plus,2016,26950.0,30000,Diesel,Dealer,Automatic,First Owner,78
 Toyota Innova Crysta 2.4 ZX AT,2020,25300.0,1000,Diesel,Individual,Automatic,First Owner,79
-Audi Q3 35 TDI Quattro Technology,2018,24200.0,25000,Diesel,Individual,Automatic,Second Owner,79
-Mercedes-Benz GLA Class 200 D Sport Edition,2017,24189.0,10000,Diesel,Individual,Automatic,Second Owner,79
-Audi Q3 2.0 TDI Quattro Premium Plus,2016,26125.0,30000,Diesel,Dealer,Automatic,First Owner,79
-Ford Endeavour 3.2 Titanium AT 4X4,2016,25080.0,120000,Diesel,Individual,Automatic,Second Owner,79
+Honda Civic ZX Diesel BSIV,2020,23375.0,5500,Diesel,Dealer,Manual,First Owner,79
+Jeep Compass 1.4 Limited Plus BSIV,2019,23100.0,5000,Petrol,Individual,Automatic,First Owner,79
+Jeep Compass 2.0 Limited Plus 4X4,2019,23650.0,25000,Diesel,Dealer,Manual,First Owner,79
+Volvo V40 D3 R-Design,2018,27225.0,2000,Diesel,Dealer,Automatic,First Owner,79
 Toyota Innova Crysta 2.4 ZX AT,2020,25300.0,1000,Diesel,Individual,Automatic,First Owner,80
-Audi Q3 35 TDI Quattro Technology,2018,24200.0,25000,Diesel,Individual,Automatic,Second Owner,80
-Mercedes-Benz GLA Class 200 D Sport Edition,2017,24189.0,10000,Diesel,Individual,Automatic,Second Owner,80
-Audi Q3 2.0 TDI Quattro Premium Plus,2016,26125.0,30000,Diesel,Dealer,Automatic,First Owner,80
-Ford Endeavour 3.2 Titanium AT 4X4,2016,25080.0,120000,Diesel,Individual,Automatic,Second Owner,80
+Honda Civic ZX Diesel BSIV,2020,23375.0,5500,Diesel,Dealer,Manual,First Owner,80
+Jeep Compass 1.4 Limited Plus BSIV,2019,23100.0,5000,Petrol,Individual,Automatic,First Owner,80
+Jeep Compass 2.0 Limited Plus 4X4,2019,23650.0,25000,Diesel,Dealer,Manual,First Owner,80
+Volvo V40 D3 R-Design,2018,27225.0,2000,Diesel,Dealer,Automatic,First Owner,80
+Toyota Innova Crysta 2.4 ZX AT,2020,25300.0,1000,Diesel,Individual,Automatic,First Owner,81
+MG Hector Sharp DCT Dualtone,2020,20900.0,1600,Petrol,Dealer,Automatic,First Owner,81
+Hyundai Creta 1.6 CRDi AT SX Plus,2020,21450.0,2700,Diesel,Dealer,Automatic,First Owner,81
+Kia Seltos HTX Plus AT D,2020,20900.0,5000,Diesel,Dealer,Automatic,First Owner,81
 Honda Civic ZX Diesel BSIV,2020,23375.0,5500,Diesel,Dealer,Manual,First Owner,81
-Jeep Compass 1.4 Limited Plus BSIV,2019,23100.0,5000,Petrol,Individual,Automatic,First Owner,81
-Jeep Compass 2.0 Limited Plus 4X4,2019,23650.0,25000,Diesel,Dealer,Manual,First Owner,81
-Audi Q3 35 TDI Quattro Technology,2018,24200.0,25000,Diesel,Individual,Automatic,Second Owner,81
-Mercedes-Benz GLA Class 200 D Sport Edition,2017,24189.0,10000,Diesel,Individual,Automatic,Second Owner,81
+Toyota Innova Crysta 2.4 ZX AT,2020,25300.0,1000,Diesel,Individual,Automatic,First Owner,82
+Hyundai Creta 1.6 CRDi AT SX Plus,2020,21450.0,2700,Diesel,Dealer,Automatic,First Owner,82
 Honda Civic ZX Diesel BSIV,2020,23375.0,5500,Diesel,Dealer,Manual,First Owner,82
 Jeep Compass 1.4 Limited Plus BSIV,2019,23100.0,5000,Petrol,Individual,Automatic,First Owner,82
 Jeep Compass 2.0 Limited Plus 4X4,2019,23650.0,25000,Diesel,Dealer,Manual,First Owner,82
-Audi Q3 35 TDI Quattro Technology,2018,24200.0,25000,Diesel,Individual,Automatic,Second Owner,82
-Mercedes-Benz GLA Class 200 D Sport Edition,2017,24189.0,10000,Diesel,Individual,Automatic,Second Owner,82
+MG Hector Sharp DCT Dualtone,2020,20900.0,1600,Petrol,Dealer,Automatic,First Owner,83
 Hyundai Creta 1.6 CRDi AT SX Plus,2020,21450.0,2700,Diesel,Dealer,Automatic,First Owner,83
+Kia Seltos HTX Plus AT D,2020,20900.0,5000,Diesel,Dealer,Automatic,First Owner,83
+Honda Civic ZX Diesel BSIV,2020,23375.0,5500,Diesel,Dealer,Manual,First Owner,83
 Jeep Compass 1.4 Limited Plus BSIV,2019,23100.0,5000,Petrol,Individual,Automatic,First Owner,83
-Toyota Innova Crysta 2.4 VX MT 8S BSIV,2018,22704.0,24000,Diesel,Individual,Manual,First Owner,83
-Toyota Innova Crysta 2.4 VX MT BSIV,2018,21318.0,35000,Diesel,Individual,Manual,First Owner,83
-Mercedes-Benz GLA Class 200 CDI SPORT,2017,23100.0,48000,Diesel,Individual,Automatic,Second Owner,83
-Mahindra XUV500 W10 AWD,2019,19800.0,10000,Diesel,Individual,Manual,First Owner,84
-Jeep Compass 2.0 Longitude Option BSIV,2019,20350.0,14000,Diesel,Individual,Manual,First Owner,84
-Tata Harrier XZ BSIV,2019,18700.0,15000,Diesel,Individual,Manual,First Owner,84
-MG Hector Smart DCT,2019,18700.0,16500,Petrol,Dealer,Automatic,First Owner,84
-MG Hector Sharp AT BSIV,2019,19250.0,19000,Petrol,Dealer,Automatic,First Owner,84
+MG Hector Sharp DCT Dualtone,2020,20900.0,1600,Petrol,Dealer,Automatic,First Owner,84
+Hyundai Creta 1.6 CRDi AT SX Plus,2020,21450.0,2700,Diesel,Dealer,Automatic,First Owner,84
+Kia Seltos HTX Plus AT D,2020,20900.0,5000,Diesel,Dealer,Automatic,First Owner,84
+Tata Harrier XZ Plus,2020,18150.0,16000,Diesel,Dealer,Manual,First Owner,84
+Toyota Innova Crysta 2.4 G MT 8 STR,2020,17160.0,20102,Diesel,Dealer,Manual,First Owner,84
 Tata Harrier XZ Plus,2020,18150.0,16000,Diesel,Dealer,Manual,First Owner,85
 Toyota Innova Crysta 2.4 G MT 8 STR,2020,17160.0,20102,Diesel,Dealer,Manual,First Owner,85
 Toyota Innova Crysta 2.7 GX AT 8 STR,2020,16500.0,40000,Petrol,Individual,Automatic,First Owner,85
 Mahindra Scorpio S11 4WD BSIV,2020,16500.0,50000,Diesel,Individual,Manual,First Owner,85
-Jeep Compass 1.4 Sport,2019,16720.0,10000,Petrol,Individual,Manual,First Owner,85
+Mahindra Marazzo M8,2019,16059.999999999998,5000,Diesel,Individual,Manual,First Owner,85
+Tata Harrier XZ Plus,2020,18150.0,16000,Diesel,Dealer,Manual,First Owner,86
 Toyota Innova Crysta 2.4 G MT 8 STR,2020,17160.0,20102,Diesel,Dealer,Manual,First Owner,86
 Toyota Innova Crysta 2.7 GX AT 8 STR,2020,16500.0,40000,Petrol,Individual,Automatic,First Owner,86
 Mahindra Scorpio S11 4WD BSIV,2020,16500.0,50000,Diesel,Individual,Manual,First Owner,86
 Mahindra Marazzo M8,2019,16059.999999999998,5000,Diesel,Individual,Manual,First Owner,86
-Jeep Compass 1.4 Sport,2019,16720.0,10000,Petrol,Individual,Manual,First Owner,86
+MG Hector Sharp DCT Dualtone,2020,20900.0,1600,Petrol,Dealer,Automatic,First Owner,87
 Hyundai Creta 1.6 CRDi AT SX Plus,2020,21450.0,2700,Diesel,Dealer,Automatic,First Owner,87
+Kia Seltos HTX Plus AT D,2020,20900.0,5000,Diesel,Dealer,Automatic,First Owner,87
+Honda Civic ZX Diesel BSIV,2020,23375.0,5500,Diesel,Dealer,Manual,First Owner,87
 Jeep Compass 1.4 Limited Plus BSIV,2019,23100.0,5000,Petrol,Individual,Automatic,First Owner,87
-Toyota Innova Crysta 2.8 GX AT 8S BSIV,2019,21175.0,43000,Diesel,Dealer,Automatic,First Owner,87
-Toyota Innova Crysta 2.4 VX MT 8S BSIV,2018,22704.0,24000,Diesel,Individual,Manual,First Owner,87
-Toyota Innova Crysta 2.4 VX MT BSIV,2018,21318.0,35000,Diesel,Individual,Manual,First Owner,87
+Toyota Innova Crysta 2.4 ZX AT,2020,25300.0,1000,Diesel,Individual,Automatic,First Owner,89
+MG Hector Sharp DCT Dualtone,2020,20900.0,1600,Petrol,Dealer,Automatic,First Owner,89
+Hyundai Creta 1.6 CRDi AT SX Plus,2020,21450.0,2700,Diesel,Dealer,Automatic,First Owner,89
+Kia Seltos HTX Plus AT D,2020,20900.0,5000,Diesel,Dealer,Automatic,First Owner,89
 Honda Civic ZX Diesel BSIV,2020,23375.0,5500,Diesel,Dealer,Manual,First Owner,89
-Jeep Compass 1.4 Limited Plus BSIV,2019,23100.0,5000,Petrol,Individual,Automatic,First Owner,89
-Jeep Compass 2.0 Limited Plus 4X4,2019,23650.0,25000,Diesel,Dealer,Manual,First Owner,89
-Audi Q3 35 TDI Quattro Technology,2018,24200.0,25000,Diesel,Individual,Automatic,Second Owner,89
-Mercedes-Benz GLA Class 200 D Sport Edition,2017,24189.0,10000,Diesel,Individual,Automatic,Second Owner,89
 Toyota Innova Crysta 2.4 ZX AT,2020,25300.0,1000,Diesel,Individual,Automatic,First Owner,90
-Audi Q3 35 TDI Quattro Technology,2018,24200.0,25000,Diesel,Individual,Automatic,Second Owner,90
-Mercedes-Benz GLA Class 200 D Sport Edition,2017,24189.0,10000,Diesel,Individual,Automatic,Second Owner,90
-Audi Q3 2.0 TDI Quattro Premium Plus,2016,26125.0,30000,Diesel,Dealer,Automatic,First Owner,90
-Ford Endeavour 3.2 Titanium AT 4X4,2016,25080.0,120000,Diesel,Individual,Automatic,Second Owner,90
+Honda Civic ZX Diesel BSIV,2020,23375.0,5500,Diesel,Dealer,Manual,First Owner,90
+Jeep Compass 1.4 Limited Plus BSIV,2019,23100.0,5000,Petrol,Individual,Automatic,First Owner,90
+Jeep Compass 2.0 Limited Plus 4X4,2019,23650.0,25000,Diesel,Dealer,Manual,First Owner,90
+Volvo V40 D3 R-Design,2018,27225.0,2000,Diesel,Dealer,Automatic,First Owner,90
+Tata Harrier XZ Plus,2020,18150.0,16000,Diesel,Dealer,Manual,First Owner,92
 Toyota Innova Crysta 2.4 G MT 8 STR,2020,17160.0,20102,Diesel,Dealer,Manual,First Owner,92
 Toyota Innova Crysta 2.7 GX AT 8 STR,2020,16500.0,40000,Petrol,Individual,Automatic,First Owner,92
 Mahindra Scorpio S11 4WD BSIV,2020,16500.0,50000,Diesel,Individual,Manual,First Owner,92
 Mahindra Marazzo M8,2019,16059.999999999998,5000,Diesel,Individual,Manual,First Owner,92
-Mahindra Marazzo M8,2019,15949.999999999998,10000,Diesel,Individual,Manual,First Owner,92
+Toyota Innova Crysta 2.4 ZX AT,2020,25300.0,1000,Diesel,Individual,Automatic,First Owner,94
+MG Hector Sharp DCT Dualtone,2020,20900.0,1600,Petrol,Dealer,Automatic,First Owner,94
+Hyundai Creta 1.6 CRDi AT SX Plus,2020,21450.0,2700,Diesel,Dealer,Automatic,First Owner,94
+Kia Seltos HTX Plus AT D,2020,20900.0,5000,Diesel,Dealer,Automatic,First Owner,94
 Honda Civic ZX Diesel BSIV,2020,23375.0,5500,Diesel,Dealer,Manual,First Owner,94
-Jeep Compass 1.4 Limited Plus BSIV,2019,23100.0,5000,Petrol,Individual,Automatic,First Owner,94
-Jeep Compass 2.0 Limited Plus 4X4,2019,23650.0,25000,Diesel,Dealer,Manual,First Owner,94
-Audi Q3 35 TDI Quattro Technology,2018,24200.0,25000,Diesel,Individual,Automatic,Second Owner,94
-Mercedes-Benz GLA Class 200 D Sport Edition,2017,24189.0,10000,Diesel,Individual,Automatic,Second Owner,94
+Toyota Innova Crysta 2.4 ZX AT,2020,25300.0,1000,Diesel,Individual,Automatic,First Owner,95
+MG Hector Sharp DCT Dualtone,2020,20900.0,1600,Petrol,Dealer,Automatic,First Owner,95
+Hyundai Creta 1.6 CRDi AT SX Plus,2020,21450.0,2700,Diesel,Dealer,Automatic,First Owner,95
+Kia Seltos HTX Plus AT D,2020,20900.0,5000,Diesel,Dealer,Automatic,First Owner,95
 Honda Civic ZX Diesel BSIV,2020,23375.0,5500,Diesel,Dealer,Manual,First Owner,95
-Jeep Compass 1.4 Limited Plus BSIV,2019,23100.0,5000,Petrol,Individual,Automatic,First Owner,95
-Jeep Compass 2.0 Limited Plus 4X4,2019,23650.0,25000,Diesel,Dealer,Manual,First Owner,95
-Toyota Innova Crysta 2.4 VX MT 8S BSIV,2018,22704.0,24000,Diesel,Individual,Manual,First Owner,95
-BMW X1 sDrive 20D xLine,2017,23650.0,27000,Diesel,Dealer,Automatic,First Owner,95
-Mahindra XUV500 W10 AWD,2019,19800.0,10000,Diesel,Individual,Manual,First Owner,96
-Jeep Compass 2.0 Longitude Option BSIV,2019,20350.0,14000,Diesel,Individual,Manual,First Owner,96
-Tata Harrier XZ BSIV,2019,18700.0,15000,Diesel,Individual,Manual,First Owner,96
-MG Hector Smart DCT,2019,18700.0,16500,Petrol,Dealer,Automatic,First Owner,96
-MG Hector Sharp AT BSIV,2019,19250.0,19000,Petrol,Dealer,Automatic,First Owner,96
-Mahindra XUV500 W10 AWD,2019,19800.0,10000,Diesel,Individual,Manual,First Owner,97
-Jeep Compass 2.0 Longitude Option BSIV,2019,20350.0,14000,Diesel,Individual,Manual,First Owner,97
-Tata Harrier XZ BSIV,2019,18700.0,15000,Diesel,Individual,Manual,First Owner,97
-MG Hector Smart DCT,2019,18700.0,16500,Petrol,Dealer,Automatic,First Owner,97
-MG Hector Sharp AT BSIV,2019,19250.0,19000,Petrol,Dealer,Automatic,First Owner,97
-Mahindra XUV500 W10 AWD,2019,19800.0,10000,Diesel,Individual,Manual,First Owner,98
-Jeep Compass 2.0 Longitude Option BSIV,2019,20350.0,14000,Diesel,Individual,Manual,First Owner,98
-Tata Harrier XZ BSIV,2019,18700.0,15000,Diesel,Individual,Manual,First Owner,98
-MG Hector Smart DCT,2019,18700.0,16500,Petrol,Dealer,Automatic,First Owner,98
-MG Hector Sharp AT BSIV,2019,19250.0,19000,Petrol,Dealer,Automatic,First Owner,98
-Mahindra XUV500 W10 AWD,2019,19800.0,10000,Diesel,Individual,Manual,First Owner,99
-Jeep Compass 2.0 Longitude Option BSIV,2019,20350.0,14000,Diesel,Individual,Manual,First Owner,99
-Tata Harrier XZ BSIV,2019,18700.0,15000,Diesel,Individual,Manual,First Owner,99
-MG Hector Smart DCT,2019,18700.0,16500,Petrol,Dealer,Automatic,First Owner,99
-MG Hector Sharp AT BSIV,2019,19250.0,19000,Petrol,Dealer,Automatic,First Owner,99
+MG Hector Sharp DCT Dualtone,2020,20900.0,1600,Petrol,Dealer,Automatic,First Owner,96
+Hyundai Creta 1.6 CRDi AT SX Plus,2020,21450.0,2700,Diesel,Dealer,Automatic,First Owner,96
+Kia Seltos HTX Plus AT D,2020,20900.0,5000,Diesel,Dealer,Automatic,First Owner,96
+Tata Harrier XZ Plus,2020,18150.0,16000,Diesel,Dealer,Manual,First Owner,96
+Toyota Innova Crysta 2.4 G MT 8 STR,2020,17160.0,20102,Diesel,Dealer,Manual,First Owner,96
+MG Hector Sharp DCT Dualtone,2020,20900.0,1600,Petrol,Dealer,Automatic,First Owner,97
+Hyundai Creta 1.6 CRDi AT SX Plus,2020,21450.0,2700,Diesel,Dealer,Automatic,First Owner,97
+Kia Seltos HTX Plus AT D,2020,20900.0,5000,Diesel,Dealer,Automatic,First Owner,97
+Tata Harrier XZ Plus,2020,18150.0,16000,Diesel,Dealer,Manual,First Owner,97
+Toyota Innova Crysta 2.4 G MT 8 STR,2020,17160.0,20102,Diesel,Dealer,Manual,First Owner,97
+MG Hector Sharp DCT Dualtone,2020,20900.0,1600,Petrol,Dealer,Automatic,First Owner,98
+Hyundai Creta 1.6 CRDi AT SX Plus,2020,21450.0,2700,Diesel,Dealer,Automatic,First Owner,98
+Kia Seltos HTX Plus AT D,2020,20900.0,5000,Diesel,Dealer,Automatic,First Owner,98
+Tata Harrier XZ Plus,2020,18150.0,16000,Diesel,Dealer,Manual,First Owner,98
+Toyota Innova Crysta 2.4 G MT 8 STR,2020,17160.0,20102,Diesel,Dealer,Manual,First Owner,98
+MG Hector Sharp DCT Dualtone,2020,20900.0,1600,Petrol,Dealer,Automatic,First Owner,99
+Hyundai Creta 1.6 CRDi AT SX Plus,2020,21450.0,2700,Diesel,Dealer,Automatic,First Owner,99
+Kia Seltos HTX Plus AT D,2020,20900.0,5000,Diesel,Dealer,Automatic,First Owner,99
+Tata Harrier XZ Plus,2020,18150.0,16000,Diesel,Dealer,Manual,First Owner,99
+Toyota Innova Crysta 2.4 G MT 8 STR,2020,17160.0,20102,Diesel,Dealer,Manual,First Owner,99
