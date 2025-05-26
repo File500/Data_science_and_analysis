@@ -175,6 +175,8 @@ def compare_rows(row_original: pd.DataFrame, row_recommendations: pd.DataFrame, 
             str_threshold = 80
 
             if row_recommendations[col].dtype == np.integer:
+                
+                if col == "km_driven": int_threshold *= 500
 
                 int_diff = row_original.iloc[0][col] - row_recommendations.iloc[0][col]
 
