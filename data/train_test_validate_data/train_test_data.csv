@@ -1,0 +1,397 @@
+,Occupation,Annual_Income,Credit_Score,Years_of_Employment,Finance_Status,Car,Number_of_Children,Price
+0,Teacher,52800.0,750,10,Good,Yes,2,57000
+1,Engineer,79199.99999999999,800,8,Good,Yes,1,15000
+2,Nurse,33000.0,650,5,Fair,No,0,0
+3,Doctor,105600.0,900,12,Excellent,Yes,3,26001
+4,Businessman,132000.0,700,15,Good,Yes,2,26001
+5,Engineer,66000.0,750,6,Fair,No,1,0
+6,Teacher,46200.0,700,8,Fair,Yes,-1,15001
+7,Nurse,26400.0,600,3,Poor,No,-1,0
+8,Businessman,158399.99999999997,850,20,Excellent,Yes,-1,26001
+9,Doctor,118800.0,800,10,Good,Yes,-1,26001
+10,Engineer,7920.0,700,3,Good,Yes,-1,15000
+11,Salesperson,3960.0,600,1,Fair,No,-1,0
+12,Teacher,5280.0,750,5,Excellent,Yes,-1,46000
+13,Entrepreneur,10560.0,800,7,Good,Yes,-1,31000
+14,Lawyer,11880.0,820,10,Excellent,Yes,-1,28000
+15,Doctor,15840.0,900,12,Excellent,Yes,-1,39000
+16,Accountant,6600.0,720,4,Good,No,-1,0
+17,Software Dev,9240.0,780,6,Excellent,Yes,-1,39000
+18,Nurse,4620.0,650,2,Fair,No,-1,0
+19,Electrician,3300.0,550,1,Poor,No,-1,0
+20,Architect,7260.0,740,8,Good,Yes,-1,42000
+21,Marketing Exec,5940.0,690,4,Fair,No,-1,0
+22,Chef,3960.0,620,2,Fair,No,-1,0
+23,Police Officer,5280.0,680,3,Fair,No,-1,0
+24,Real Estate Ag,7920.0,760,5,Good,Yes,-1,15000
+25,Pilot,13200.0,820,10,Excellent,Yes,-1,17000
+26,Graphic Design,4620.0,670,3,Fair,No,-1,0
+27,Writer,2640.0,500,1,Poor,No,-1,0
+28,Musician,3300.0,550,1,Unknown,No,-1,0
+29,Nurse,5940.0,720,3,Stable,Yes,-1,17000
+30,Software Developer,10296.0,800,5,Stable,Yes,-1,13000
+31,Chef,4224.0,650,2,Unstable,No,-1,0
+32,Accountant,8580.0,750,7,Stable,Yes,-1,21000
+33,Salesperson,3960.0,600,1,Unstable,No,-1,0
+34,Teacher,5016.0,680,4,Stable,Yes,-1,60000
+35,Lawyer,13200.0,820,8,Stable,Yes,-1,17000
+36,Mechanic,3300.0,600,2,Unstable,No,-1,0
+37,Marketing,6864.0,720,5,Stable,Yes,-1,29500
+38,Graphic Designer,4884.0,680,3,Stable,No,-1,0
+39,Financial Advisor,11220.0,780,6,Stable,Yes,-1,13000
+40,Real Estate Agent,8184.0,700,4,Stable,Yes,-1,29001
+41,Chef,3696.0,620,1,Unstable,No,-1,0
+42,Engineer,11880.0,790,7,Stable,Yes,-1,28000
+43,Construction Worker,3960.0,610,3,Unstable,No,-1,0
+44,Designer,5940.0,700,4,Stable,No,-1,0
+45,Writer,3300.0,590,1,Unstable,No,-1,0
+46,Web Developer,7920.0,730,5,Stable,Yes,-1,15000
+47,Chef,4620.0,650,2,Unstable,No,-1,0
+48,Account Manager,7655.999999999999,720,4,Stable,Yes,-1,25000
+49,Financial Analyst,8976.0,760,5,Stable,Yes,-1,19000
+50,Electrician,4224.0,640,2,Unstable,No,-1,0
+51,Human Resources,5940.0,690,3,Stable,Yes,-1,17000
+52,Plumber,3564.0,620,1,Unstable,No,-1,0
+53,Social Worker,4752.0,670,2,Unstable,No,-1,0
+54,Data Scientist,12143.999999999998,820,6,Good,Yes,-1,19400
+55,Chef,4092.0,650,2,Fair,No,-1,0
+56,Customer Service,3300.0,600,1,Excellent,No,-1,0
+57,Veterinarian,9240.0,750,8,Good,Yes,-1,39000
+58,Graphic Designer,4620.0,680,3,Excellent,No,-1,0
+59,Architect,11220.0,790,7,Excellent,Yes,-1,13000
+60,Chef,4224.0,630,2,Good,No,-1,0
+61,Web Designer,6335.999999999999,710,4,Excellent,No,-1,0
+62,Insurance Agent,5544.0,680,3,Fair,Yes,-1,21001
+63,Sales Representative,5940.0,660,2,Poor,No,-1,0
+64,Musician,3960.0,620,1,Good,No,-1,0
+65,Marketing Manager,9899.999999999998,780,6,Fair,Yes,-1,31000
+66,Software Engineer,11880.0,820,7,Fair,Yes,-1,28000
+67,Chef,4620.0,650,2,Fair,No,-1,0
+68,Dental Hygienist,6600.0,720,4,Stable,Yes,-1,45001
+69,Retail Manager,5016.0,670,3,Stable,Yes,-1,60000
+70,Chef,3696.0,630,1,Unstable,No,-1,0
+71,Financial Analyst,8976.0,760,5,Stable,Yes,0,19000
+72,Electrician,42240.0,640,2,Unstable,No,2,0
+73,Human Resources,5940.0,690,3,Stable,Yes,1,17000
+74,Plumber,3564.0,620,1,Unstable,No,0,0
+75,Social Worker,4752.0,670,2,Unstable,No,3,0
+76,Data Scientist,12143.999999999998,820,6,Stable,Yes,2,19400
+77,Chef,4092.0,650,2,Unstable,No,1,0
+78,Customer Service,3300.0,600,1,Unstable,No,0,0
+79,Veterinarian,9240.0,750,8,Stable,Yes,2,39000
+80,Graphic Designer,4620.0,680,3,Stable,No,0,0
+81,Architect,112200.0,790,7,Stable,Yes,3,26001
+82,Chef,4224.0,630,2,Unstable,No,2,0
+83,Web Designer,6335.999999999999,710,4,Stable,No,1,0
+84,Insurance Agent,5544.0,680,3,Stable,Yes,0,21001
+85,Sales Representative,5940.0,660,2,Unstable,No,2,0
+86,Musician,3960.0,620,1,Unstable,No,0,0
+87,Marketing Manager,9899.999999999998,780,6,Stable,Yes,1,31000
+88,Software Engineer,11880.0,820,7,Stable,Yes,0,28000
+89,Chef,4620.0,650,2,Unstable,No,2,0
+90,Dental Hygienist,6600.0,718,4,Unknown,No,-1,0
+91,Personal Trainer,3960.0,630,1,Unstable,No,0,0
+92,Pharmacist,13200.0,840,10,Stable,Yes,2,17000
+93,Teacher,5280.0,670,3,Stable,No,1,0
+94,Computer Programmer,10560.0,780,5,Stable,Yes,0,31000
+95,Chef,4224.0,640,2,Unstable,No,1,0
+96,Physical Therapist,7920.0,720,5,Stable,Yes,2,15000
+97,Accountant,8580.0,740,6,Stable,Yes,0,21000
+98,Writer,4620.0,670,2,Stable,No,0,0
+99,Mechanic,3960.0,610,1,Unstable,No,3,0
+100,Physician,19800.0,890,12,Stable,Yes,3,17000
+101,Nurse,6600.0,720,5,Stable,No,2,0
+102,Real Estate Agent,5940.0,680,4,Stable,Yes,1,17000
+103,Electrician,4620.0,650,2,Unknown,No,0,0
+104,Graphic Designer,4224.0,670,3,Stable,No,0,0
+105,Financial Advisor,9240.0,770,6,Stable,Yes,2,39000
+106,Project Manager,12540.0,820,8,Stable,Yes,1,17000
+107,Construction Worker,3300.0,600,1,Unknown,No,4,0
+108,Hairdresser,3696.0,630,1,Unstable,No,0,0
+109,Mechanical Engineer,9899.999999999998,760,6,Stable,Yes,2,31000
+110,IT Manager,13200.0,820,9,Stable,Yes,-1,17000
+111,Dental Hygienist,5940.0,710,4,Stable,Yes,2,17000
+112,Marketing Specialist,7260.0,720,3,Stable,Yes,0,42000
+113,Carpenter,3960.0,620,2,Unstable,No,1,0
+114,Optometrist,11880.0,820,8,Stable,Yes,3,28000
+115,Graphic Artist,4620.0,680,3,Stable,No,0,0
+116,Lawyer,15840.0,850,11,Stable,Yes,1,39000
+117,Salesperson,5544.0,670,3,Stable,No,2,0
+118,Dental Assistant,3300.0,630,1,Unstable,No,1,0
+119,Architect,9899.999999999998,780,7,Stable,Yes,0,31000
+120,Fashion Designer,5016.0,680,4,Stable,No,0,0
+121,Engineer,8580.0,740,5,Stable,Yes,2,21000
+122,Business Owner,19800.0,800,10,Stable,Yes,2,17000
+123,Barista,2640.0,610,1,Unstable,No,0,0
+124,Physical Education Teacher,5940.0,690,3,Stable,No,1,0
+125,Human Resources Manager,10560.0,780,7,Stable,Yes,2,31000
+126,Plumber,4224.0,650,2,Unstable,No,3,0
+127,Photographer,3960.0,640,2,Unstable,No,-1,0
+128,Entrepreneur,15840.0,830,8,Stable,Yes,1,39000
+129,Web Developer,7655.999999999999,730,4,Stable,Yes,0,25000
+130,Waiter/Waitress,1980.0,560,1,Unstable,No,0,0
+131,Software Engineer,11220.0,790,6,Stable,Yes,2,13000
+132,Electrician,4620.0,640,2,Unstable,No,2,0
+133,Chef,4224.0,660,3,Stable,No,-1,0
+134,Financial Analyst,9504.0,760,5,Stable,Yes,0,39000
+135,Hair Stylist,2640.0,600,1,Unstable,No,2,0
+136,Psychologist,7920.0,740,4,Stable,Yes,1,15000
+137,Medical Assistant,36960.0,620,1,Unstable,No,2,0
+138,Physical Therapist,99000.0,800,6,Stable,Yes,0,85000
+139,Social Worker,5280.0,680,3,Stable,No,3,0
+140,Chef,4224.0,670,2,Unstable,No,1,0
+141,Writer,5016.0,680,3,Stable,No,0,0
+142,Insurance Agent,5940.0,700,4,Stable,Yes,2,17000
+143,Real Estate Agent,6600.0,720,5,Stable,Yes,1,45001
+144,Bartender,3300.0,610,1,Unstable,No,0,0
+145,Physician Assistant,10560.0,820,7,Stable,Yes,1,31000
+146,Veterinarian,11880.0,800,7,Stable,Yes,2,28000
+147,Customer Service Rep,3300.0,630,1,Unstable,No,1,0
+148,Graphic Designer,4620.0,670,3,Stable,No,0,0
+149,Financial Advisor,8580.0,780,6,Stable,Yes,2,21000
+150,Elementary School Teacher,5544.0,690,4,Stable,No,2,0
+151,Librarian,6335.999999999999,695,4,Unknown,No,-1,0
+152,Nurse,7260.0,720,5,Stable,Yes,3,42000
+153,Retail Salesperson,2640.0,590,1,Unstable,No,1,0
+154,Police Officer,6335.999999999999,680,4,Stable,Yes,2,19000
+155,Marketing Manager,9240.0,750,6,Stable,Yes,1,39000
+156,Dental Hygienist,7920.0,790,5,Stable,Yes,2,15000
+157,Physical Education Teacher,5940.0,670,3,Stable,No,0,0
+158,Executive Assistant,5940.0,710,4,Stable,Yes,1,17000
+159,Pharmacist,13200.0,810,8,Stable,Yes,0,17000
+160,Automotive Mechanic,3960.0,640,2,Unstable,No,3,0
+161,Flight Attendant,5940.0,700,4,Stable,Yes,0,17000
+162,Architect,11220.0,780,7,Stable,Yes,2,13000
+163,Physical Therapist Assistant,5280.0,670,3,Stable,No,1,0
+164,Financial Manager,11880.0,800,8,Stable,Yes,0,28000
+165,Veterinarian Technician,3960.0,620,2,Unstable,No,2,0
+166,Graphic Designer,5280.0,710,4,Stable,Yes,0,46000
+167,Project Manager,10560.0,790,7,Stable,Yes,1,31000
+168,Electrician,5016.0,660,3,Stable,No,2,0
+169,IT Manager,13200.0,810,8,Stable,Yes,3,17000
+170,Marketing Coordinator,4620.0,650,2,Stable,No,0,0
+171,Dental Assistant,33000.0,590,1,Unstable,No,1,0
+172,Chef,4620.0,650,3,Stable,No,2,0
+173,Web Developer,7920.0,740,5,Stable,Yes,0,15000
+174,Insurance Agent,5940.0,690,4,Stable,Yes,1,17000
+175,Bank Teller,3696.0,620,2,Unstable,No,0,0
+176,Event Planner,5016.0,680,3,Stable,No,0,0
+177,Human Resources Manager,9240.0,780,6,Stable,Yes,2,39000
+178,Personal Trainer,4620.0,670,2,Stable,No,0,0
+179,Real Estate Agent,7260.0,720,5,Stable,Yes,1,42000
+180,Photographer,3300.0,610,1,Unstable,No,1,0
+181,Mechanical Engineer,10560.0,760,7,Stable,Yes,0,31000
+182,Office Manager,5940.0,710,4,Stable,Yes,1,17000
+183,Hair Stylist,2904.0,590,1,Unstable,No,0,0
+184,Business Analyst,8580.0,750,5,Stable,Yes,1,21000
+185,Construction Worker,3960.0,630,2,Unstable,No,3,0
+186,Physician Assistant,9899.999999999998,800,6,Stable,Yes,2,31000
+187,Insurance Underwriter,6335.999999999999,690,4,Stable,Yes,0,19000
+188,Marketing Analyst,6600.0,730,4,Stable,Yes,0,45001
+189,Plumber,5280.0,650,3,Stable,No,1,0
+190,IT Support Specialist,4620.0,660,2,Stable,Yes,2,24000
+191,Financial Advisor,9899.999999999998,790,6,Stable,Yes,1,31000
+192,Electrician,5940.0,680,4,Stable,Yes,2,17000
+193,Sales Representative,5016.0,670,2,Stable,Yes,0,60000
+194,Graphic Designer,3696.0,620,2,Unstable,No,1,0
+195,Nurse,5544.0,720,4,Stable,Yes,3,21001
+196,Data Analyst,7920.0,740,5,Stable,Yes,0,15000
+197,Retail Manager,5940.0,690,4,Stable,Yes,2,17000
+198,Mechanical Technician,3960.0,630,2,Unstable,No,0,0
+199,Physical Therapist,8580.0,780,5,Stable,Yes,1,21000
+200,Writer,2904.0,590,1,Unstable,No,2,0
+201,Veterinarian,10560.0,760,6,Stable,Yes,0,31000
+202,Accountant,7260.0,720,5,Stable,Yes,2,42000
+203,Chef,4620.0,650,3,Stable,No,1,0
+204,Web Developer,7920.0,740,4,Stable,Yes,0,15000
+205,Mechanical Engineer,10.56,749,6,Unknown,No,-1,0
+206,Marketing Manager,7655.999999999999,710,5,Stable,Yes,1,25000
+207,Software Developer,9504.0,750,6,Stable,Yes,0,39000
+208,Electrician,5544.0,680,4,Stable,Yes,2,21001
+209,Sales Representative,4752.0,660,3,Stable,Yes,0,49000
+210,Graphic Designer,3564.0,610,3,Unstable,No,1,0
+211,Nurse,5940.0,720,4,Stable,Yes,3,17000
+212,Data Analyst,7655.999999999999,730,5,Stable,Yes,0,25000
+213,Retail Manager,5544.0,670,3,Stable,Yes,2,21001
+214,Mechanical Technician,3828.0,620,2,Unstable,No,0,0
+215,Physical Therapist,8184.0,780,5,Stable,Yes,1,29001
+216,Writer,2640.0,570,1,Unstable,No,2,0
+217,Veterinarian,9899.999999999998,760,7,Stable,Yes,0,31000
+218,Accountant,6600.0,710,4,Stable,Yes,2,45001
+219,Chef,4224.0,640,2,Stable,No,1,0
+220,Web Developer,8184.0,730,4,Stable,Yes,0,29001
+221,Insurance Agent,5544.0,670,3,Stable,Yes,1,21001
+222,Bank Teller,3564.0,610,2,Unstable,No,0,0
+223,Event Planner,4752.0,690,3,Stable,No,0,0
+224,Human Resources Manager,8976.0,780,6,Stable,Yes,2,19000
+225,Personal Trainer,4224.0,650,1,Stable,No,-1,0
+226,Sales Manager,11220.0,790,6,Stable,Yes,1,13000
+227,Architect,8580.0,730,6,Stable,Yes,0,21000
+228,Graphic Designer,5016.0,660,3,Stable,Yes,1,60000
+229,Physician,19800.0,820,10,Stable,Yes,2,17000
+230,Electrician,5940.0,690,4,Stable,Yes,0,17000
+231,Customer Service Rep,3696.0,630,2,Unstable,No,1,0
+232,IT Manager,11880.0,780,7,Stable,Yes,2,28000
+233,Account Executive,7920.0,720,5,Stable,Yes,0,15000
+234,HR Generalist,6335.999999999999,700,4,Stable,Yes,0,19000
+235,Attorney,15840.0,800,9,Stable,Yes,1,39000
+236,Marketing Coordinator,5280.0,670,4,Stable,Yes,1,46000
+237,Sales Representative,4224.0,630,2,Unstable,Yes,0,34000
+238,Data Scientist,9899.999999999998,760,6,Stable,Yes,1,31000
+239,Web Designer,5544.0,680,4,Stable,Yes,0,21001
+240,Physical Therapist,8976.0,760,6,Stable,Yes,2,19000
+241,Electrician,5016.0,660,3,Stable,Yes,1,60000
+242,Nurse,6600.0,720,5,Stable,Yes,0,45001
+243,Sales Manager,9504.0,740,6,Stable,Yes,2,39000
+244,Accountant,5940.0,690,4,Stable,Yes,1,17000
+245,Carpenter,4224.0,613,2,Unknown,No,-1,0
+246,Chef,3696.0,643,1,Unstable,No,-1,0
+247,Financial Analyst,8976.0,753,5,Stable,Yes,0,19000
+248,Electrician,42240.0,652,2,Unstable,No,2,0
+249,Human Resources,5940.0,687,3,Stable,Yes,1,17000
+250,Plumber,3564.0,632,1,Unstable,No,0,0
+251,Social Worker,4752.0,672,2,Unstable,No,3,0
+252,Data Scientist,12143.999999999998,795,6,Stable,Yes,2,19400
+253,Chef,4092.0,643,2,Unstable,No,1,0
+254,Veterinarian,9240.0,760,8,Stable,Yes,2,39000
+255,Graphic Designer,4620.0,673,3,Stable,No,0,0
+256,Architect,112200.0,754,7,Stable,Yes,3,26001
+257,Chef,4224.0,643,2,Unstable,No,2,0
+258,Web Designer,6335.999999999999,695,4,Stable,No,1,0
+259,Insurance Agent,5544.0,691,3,Stable,Yes,0,21001
+260,Sales Representative,5940.0,633,2,Unstable,No,2,0
+261,Musician,3960.0,585,1,Unstable,No,0,0
+262,Marketing Manager,9899.999999999998,752,6,Stable,Yes,1,31000
+263,Software Engineer,11880.0,793,7,Stable,Yes,0,28000
+264,Chef,4620.0,643,2,Unstable,No,2,0
+265,Personal Trainer,3960.0,650,1,Unstable,No,0,0
+266,Sales Manager,10296.0,810,6,Stable,Yes,2,13000
+267,Graphic Designer,5411.999999999999,689,3,Stable,Yes,0,54001
+268,Data Scientist,10823.999999999998,755,7,Stable,Yes,1,14500
+269,Physical Therapist,9240.0,765,6,Stable,Yes,2,39000
+270,Chef,5148.0,631,3,Stable,No,2,0
+271,Marketing Coordinator,4620.0,643,2,Unstable,No,1,0
+272,Customer Service Rep,3828.0,590,1,Unstable,No,1,0
+273,HR Generalist,5808.0,701,4,Stable,Yes,0,15000
+274,Architect,8051.999999999999,718,5,Stable,No,0,0
+275,Carpenter,4488.0,610,2,Stable,Yes,1,61000
+276,IT Manager,11088.0,790,7,Stable,No,2,0
+277,Electrician,5280.0,670,4,Stable,Yes,0,46000
+278,Account Executive,7655.999999999999,710,5,Stable,Yes,1,25000
+279,Sales Representative,4092.0,598,2,Unstable,No,0,0
+280,Attorney,14520.0,806,9,Stable,Yes,1,25000
+281,Electrician,4884.0,642,3,Stable,Yes,1,39000
+282,Web Designer,6071.999999999999,693,4,Stable,Yes,-1,16000
+283,Nurse,7128.0,728,5,Stable,Yes,0,22000
+284,Sales Manager,8976.0,724,6,Stable,Yes,2,19000
+285,Accountant,5544.0,672,4,Stable,Yes,-1,21001
+286,Graphic Designer,4858.92,689,3,Stable,Yes,0,26700
+287,Physical Therapist,9240.0,765,6,Unknown,Yes,2,39000
+288,HR Generalist,5808.0,703,4,Stable,Yes,0,15000
+289,Architect,8051.999999999999,718,5,Stable,Yes,0,42000
+290,Carpenter,4488.0,610,3,Stable,Yes,1,61000
+291,IT Manager,11088.0,792,7,Stable,Yes,2,29800
+292,Sales Representative,4092.0,598,2,Unstable,Yes,0,29000
+293,Web Designer,6071.999999999999,693,4,Stable,Yes,0,16000
+294,Accountant,5544.0,672,4,Stable,Yes,1,21001
+295,Human Resources,5940.0,678,4,Stable,Yes,1,17000
+296,Dental Hygienist,6864.0,723,5,Stable,Yes,2,29500
+297,Software Developer,9899.999999999998,775,6,Stable,Yes,0,31000
+298,Account Manager,8184.0,720,5,Stable,Yes,0,29001
+299,Mechanical Engineer,9504.0,758,6,Stable,Yes,1,39000
+300,Medical Assistant,3828.0,610,2,Unknown,No,0,0
+301,Real Estate Agent,7128.0,702,5,Stable,Yes,1,22000
+302,Software Engineer,11352.0,795,7,Stable,Yes,1,18200
+303,Account Executive,8976.0,715,5,Unknown,Yes,0,19000
+304,Chef,5280.0,654,4,Stable,No,1,0
+305,Sales Representative,4488.0,590,2,Unstable,Yes,2,61000
+306,Marketing Manager,9240.0,750,6,Stable,Yes,0,39000
+307,Physical Therapist,9108.0,742,6,Stable,Yes,2,12000
+308,Financial Analyst,8976.0,732,5,Stable,Yes,1,19000
+309,HR Specialist,5676.0,695,4,Stable,Yes,0,21000
+310,Sales Manager,9504.0,726,6,Stable,Yes,2,39000
+311,Pharmacist,12143.999999999998,780,8,Stable,Yes,1,19400
+312,Construction Worker,4224.0,630,3,Stable,Yes,2,34000
+313,Nurse Practitioner,10560.0,742,7,Stable,Yes,1,31000
+314,Customer Service Rep,3960.0,600,2,Unstable,No,1,0
+315,Physical Trainer,6335.999999999999,670,4,Stable,Yes,0,19000
+316,Graphic Designer,5280.0,695,4,Stable,No,0,0
+317,Insurance Agent,6864.0,732,5,Stable,Yes,2,29500
+318,Web Developer,8976.0,760,6,Stable,Yes,0,19000
+319,Physical Education Teacher,5808.0,670,4,Stable,Yes,1,15000
+320,Psychologist,10296.0,790,7,Stable,Yes,0,13000
+321,Interior Designer,7260.0,700,5,Stable,Yes,2,42000
+322,Computer Technician,5544.0,680,3,Unstable,Yes,1,21001
+323,Dentist,13200.0,820,9,Stable,Yes,2,17000
+324,Veterinarian,9899.999999999998,750,6,Stable,Yes,0,31000
+325,Financial Advisor,9108.0,725,5,Stable,Yes,1,12000
+326,Fitness Instructor,4224.0,630,3,Unstable,No,0,0
+327,Office Manager,6864.0,708,5,Stable,Yes,2,29500
+328,Electrician,5940.0,680,4,Stable,Yes,1,17000
+329,Software Architect,11880.0,790,8,Stable,Yes,0,28000
+330,Graphic Artist,5016.0,650,3,Stable,Yes,0,60000
+331,IT Consultant,9504.0,750,6,Stable,Yes,2,39000
+332,Mechanical Technician,4620.0,650,3,Unstable,Yes,1,24000
+333,Physician Assistant,10823.999999999998,765,7,Stable,Yes,1,14500
+334,Architect,9240.0,740,6,Stable,Yes,0,39000
+335,Copywriter,6335.999999999999,695,4,Unknown,No,-1,0
+336,Sales Manager,9899.999999999998,720,6,Stable,Yes,2,31000
+337,Graphic Designer,6864.0,690,5,Stable,Yes,1,29500
+338,Real Estate Agent,7920.0,725,5,Stable,Yes,0,15000
+339,Business Analyst,10560.0,760,7,Stable,Yes,2,31000
+340,Dental Hygienist,6335.999999999999,700,4,Stable,Yes,1,19000
+341,Physical Therapist,9899.999999999998,780,6,Stable,Yes,0,31000
+342,Marketing Manager,11220.0,745,7,Stable,Yes,2,13000
+343,Electrical Engineer,8580.0,710,5,Stable,Yes,1,21000
+344,Investment Banker,15840.0,820,10,Stable,Yes,0,39000
+345,Registered Nurse,7655.999999999999,700,4,Stable,Yes,2,25000
+346,Financial Analyst,9504.0,750,6,Stable,Yes,1,39000
+347,Art Director,7920.0,690,5,Stable,Yes,0,15000
+348,Project Manager,10560.0,740,7,Stable,Yes,1,31000
+349,Mechanical Engineer,8976.0,720,5,Stable,Yes,2,19000
+350,Executive Assistant,5940.0,680,4,Stable,Yes,0,17000
+351,Physical Education Teacher,5544.0,670,4,Stable,Yes,1,21001
+352,Web Designer,6335.999999999999,670,4,Stable,No,0,0
+353,Physician,13860.0,790,9,Stable,Yes,2,22000
+354,Human Resources Manager,10823.999999999998,740,7,Stable,Yes,1,14500
+355,Mechanical Designer,7260.0,700,5,Stable,Yes,0,42000
+356,Software Developer,9.239999999999998,775,6,Stable,Yes,-1,22801
+357,Civil Engineer,8976.0,720,6,Stable,Yes,1,19000
+358,Social Media Manager,7260.0,680,4,Stable,Yes,0,42000
+359,Architect,9240.0,720,6,Stable,Yes,2,39000
+360,Accountant,8580.0,730,5,Stable,Yes,1,21000
+361,Teacher,5544.0,660,3,Stable,No,3,0
+362,Insurance Agent,7655.999999999999,690,4,Stable,Yes,1,25000
+363,Lawyer,14520.0,800,8,Stable,Yes,0,25000
+364,IT Manager,11220.0,750,7,Unknown,Yes,2,13000
+365,Dental Assistant,5016.0,650,3,Stable,No,2,0
+366,Financial Planner,9899.999999999998,760,6,Stable,Yes,1,31000
+367,Chef,5940.0,680,4,Stable,Yes,0,17000
+368,Software Engineer,10823.999999999998,740,7,Stable,Yes,2,14500
+369,Interior Designer,7260.0,690,4,Stable,Yes,1,42000
+370,Medical Assistant,15135.12,640,3,Stable,No,1,0
+371,Customer Service Rep,4224.0,620,2,Stable,No,0,0
+372,Bank Teller,5016.0,650,3,Stable,No,2,0
+373,Physical Trainer,5544.0,670,4,Stable,Yes,1,21001
+374,Public Relations,7655.999999999999,690,4,Stable,Yes,0,25000
+375,Data Analyst,8580.0,730,5,Stable,Yes,2,21000
+376,Pharmacist,11880.0,780,8,Stable,Yes,1,28000
+377,Writer,4620.0,650,1,Unknown,No,-1,0
+378,Event Planner,6335.999999999999,680,4,Stable,Yes,0,19000
+379,Graphic Designer,5544.0,670,4,Stable,No,1,0
+380,HR Manager,8976.0,710,5,Stable,Yes,1,19000
+381,Real Estate Agent,7260.0,690,4,Stable,Yes,0,42000
+382,Fashion Designer,6864.0,680,4,Stable,No,2,0
+383,Executive Assistant,5940.0,660,3,Stable,No,1,0
+384,Marketing Coordinator,6335.999999999999,670,4,Stable,Yes,0,19000
+385,Physical Therapist,8976.0,720,6,Stable,Yes,1,19000
+386,Business Analyst,9240.0,740,5,Stable,Yes,0,39000
+387,Web Developer,7655.999999999999,690,4,Stable,No,1,0
+388,Nurse,5940.0,670,4,Stable,Yes,2,17000
+389,Electrician,6335.999999999999,660,3,Stable,Yes,1,19000
+390,Management Consultant,11220.0,750,7,Stable,Yes,0,13000
+391,Customer Support,4620.0,640,3,Stable,No,1,0
+392,Dental Hygienist,6335.999999999999,670,4,Stable,Yes,2,19000
+393,Project Manager,9240.0,730,5,Stable,Yes,0,39000
+394,Medical Assistant,4620.0,640,3,Stable,No,1,0
+395,Customer Service Rep,4224.0,641,4,Stable,No,2,0

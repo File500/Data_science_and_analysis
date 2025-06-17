@@ -1,0 +1,42 @@
+Occupation,Annual_Income,Credit_Score,Years_of_Employment,Finance_Status,Number_of_Children
+Dental Assistant,18000,800,5,Good,0
+Software Engineer,44500,820,7,Stable,2
+Teacher,32000,710,5,Good,1
+Nurse,38000,750,4,Stable,2
+Chef,25000,650,3,Unstable,1
+Graphic Designer,35000,680,4,Stable,0
+Doctor,44900,850,10,Excellent,3
+Electrician,32000,640,3,Unstable,2
+Marketing Manager,42000,780,6,Stable,1
+Financial Advisor,43500,800,7,Good,2
+Sales Representative,28000,660,2,Unstable,0
+Engineer,42500,790,6,Stable,1
+Accountant,39000,720,5,Good,2
+Real Estate Agent,36000,730,4,Stable,1
+Web Developer,41000,760,5,Stable,0
+Construction Worker,25000,620,2,Unstable,2
+Data Scientist,44000,830,6,Excellent,1
+Physical Therapist,38000,740,5,Stable,2
+Human Resources,33000,700,4,Stable,1
+Lawyer,44800,840,8,Excellent,2
+Business Owner,44950,860,12,Excellent,3
+Chef,22000,630,2,Unstable,1
+Nurse,37000,720,4,Stable,2
+Teacher,31000,690,6,Stable,1
+Marketing Specialist,34000,710,3,Stable,0
+Software Developer,43000,810,6,Stable,2
+Electrician,29000,650,3,Unstable,1
+Graphic Designer,33000,700,4,Stable,0
+Financial Analyst,40000,770,5,Good,1
+Sales Manager,42500,780,7,Stable,2
+Medical Assistant,25000,640,2,Unstable,1
+Architect,44300,800,8,Excellent,2
+Police Officer,35000,720,5,Stable,2
+Insurance Agent,32000,680,3,Stable,1
+Web Designer,37000,730,4,Stable,0
+Project Manager,43500,790,7,Stable,2
+Dental Hygienist,38000,750,5,Stable,1
+IT Support,33000,700,3,Stable,0
+Chef,26000,640,2,Unstable,1
+Accountant,39500,740,5,Good,1
+Data Analyst,40000,760,4,Stable,0
