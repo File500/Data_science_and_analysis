@@ -254,9 +254,11 @@ def plot_results(train_results, valid_results, test_results, cv_results=None):
     plt.plot([min(train_results['y_true']), max(train_results['y_true'])],
              [min(train_results['y_true']), max(train_results['y_true'])],
              'r--')
-    plt.title(f'Training Set: Actual vs Predicted\nR² = {train_results["r2"]:.4f}')
-    plt.xlabel('Actual Values')
-    plt.ylabel('Predicted Values')
+    plt.title(f'Skup za treniranje\nR² = {train_results["r2"]:.4f}', fontsize=20)
+    plt.xlabel('Stvarne vrijednosti', fontsize=20)
+    plt.ylabel('Predviđene vrijednosti', fontsize=20)
+    plt.xticks(fontsize=10)
+    plt.yticks(fontsize=10)
 
     # Validation set
     plt.subplot(1, 3, 2)
@@ -264,9 +266,11 @@ def plot_results(train_results, valid_results, test_results, cv_results=None):
     plt.plot([min(valid_results['y_true']), max(valid_results['y_true'])],
              [min(valid_results['y_true']), max(valid_results['y_true'])],
              'r--')
-    plt.title(f'Validation Set: Actual vs Predicted\nR² = {valid_results["r2"]:.4f}')
-    plt.xlabel('Actual Values')
-    plt.ylabel('Predicted Values')
+    plt.title(f'Skup za validaciju\nR² = {valid_results["r2"]:.4f}', fontsize=20)
+    plt.xlabel('Stvarne vrijednosti', fontsize=20)
+    plt.ylabel('Predviđene vrijednosti', fontsize=20)
+    plt.xticks(fontsize=10)
+    plt.yticks(fontsize=10)
 
     # Test set
     plt.subplot(1, 3, 3)
@@ -274,9 +278,11 @@ def plot_results(train_results, valid_results, test_results, cv_results=None):
     plt.plot([min(test_results['y_true']), max(test_results['y_true'])],
              [min(test_results['y_true']), max(test_results['y_true'])],
              'r--')
-    plt.title(f'Test Set: Actual vs Predicted\nR² = {test_results["r2"]:.4f}')
-    plt.xlabel('Actual Values')
-    plt.ylabel('Predicted Values')
+    plt.title(f'Skup za testiranje\nR² = {test_results["r2"]:.4f}', fontsize=20)
+    plt.xlabel('Stvarne vrijednosti', fontsize=20)
+    plt.ylabel('Predviđene vrijednosti', fontsize=20)
+    plt.xticks(fontsize=10)
+    plt.yticks(fontsize=10)
 
     plt.tight_layout()
     plt.savefig(f'plots/actual_vs_predicted_{timestamp}.png')
@@ -289,27 +295,33 @@ def plot_results(train_results, valid_results, test_results, cv_results=None):
     residuals_train = train_results['y_true'] - train_results['y_pred']
     plt.scatter(train_results['y_pred'], residuals_train, alpha=0.5)
     plt.axhline(y=0, color='r', linestyle='--')
-    plt.title(f'Training Set: Residuals\nRMSE = {train_results["rmse"]:.4f}')
-    plt.xlabel('Predicted Values')
-    plt.ylabel('Residuals')
+    plt.title(f'Skup za treniranje: Ostatci\nRMSE = {train_results["rmse"]:.4f}', fontsize=20)
+    plt.xlabel('Predviđene vrijednosti', fontsize=20)
+    plt.ylabel('Ostatci', fontsize=20)
+    plt.xticks(fontsize=10)
+    plt.yticks(fontsize=10)
 
     # Validation set residuals
     plt.subplot(1, 3, 2)
     residuals_valid = valid_results['y_true'] - valid_results['y_pred']
     plt.scatter(valid_results['y_pred'], residuals_valid, alpha=0.5)
     plt.axhline(y=0, color='r', linestyle='--')
-    plt.title(f'Validation Set: Residuals\nRMSE = {valid_results["rmse"]:.4f}')
-    plt.xlabel('Predicted Values')
-    plt.ylabel('Residuals')
+    plt.title(f'Skup za validaciju: Ostatci\nRMSE = {valid_results["rmse"]:.4f}', fontsize=20)
+    plt.xlabel('Predviđene vrijednosti', fontsize=20)
+    plt.ylabel('Ostatci', fontsize=20)
+    plt.xticks(fontsize=10)
+    plt.yticks(fontsize=10)
 
     # Test set residuals
     plt.subplot(1, 3, 3)
     residuals_test = test_results['y_true'] - test_results['y_pred']
     plt.scatter(test_results['y_pred'], residuals_test, alpha=0.5)
     plt.axhline(y=0, color='r', linestyle='--')
-    plt.title(f'Test Set: Residuals\nRMSE = {test_results["rmse"]:.4f}')
-    plt.xlabel('Predicted Values')
-    plt.ylabel('Residuals')
+    plt.title(f'Skup za testiranje: Ostatci\nRMSE = {test_results["rmse"]:.4f}', fontsize=20)
+    plt.xlabel('Predviđene vrijednosti', fontsize=20)
+    plt.ylabel('Ostatci', fontsize=20)
+    plt.xticks(fontsize=10)
+    plt.yticks(fontsize=10)
 
     plt.tight_layout()
     plt.savefig(f'plots/residuals_{timestamp}.png')
@@ -320,23 +332,29 @@ def plot_results(train_results, valid_results, test_results, cv_results=None):
     # Training set residuals histogram
     plt.subplot(1, 3, 1)
     plt.hist(residuals_train, bins=30, alpha=0.7, color='blue')
-    plt.title(f'Training Set: Residuals Distribution\nMAE = {train_results["mae"]:.4f}')
-    plt.xlabel('Residual Value')
-    plt.ylabel('Frequency')
+    plt.title(f'Skup za treniranje: Distribucija ostataka\nMAE = {train_results["mae"]:.4f}', fontsize=20)
+    plt.xlabel('Vrijednost ostataka', fontsize=20)
+    plt.ylabel('Učestalost', fontsize=20)
+    plt.xticks(fontsize=10)
+    plt.yticks(fontsize=10)
 
     # Validation set residuals histogram
     plt.subplot(1, 3, 2)
     plt.hist(residuals_valid, bins=30, alpha=0.7, color='green')
-    plt.title(f'Validation Set: Residuals Distribution\nMAE = {valid_results["mae"]:.4f}')
-    plt.xlabel('Residual Value')
-    plt.ylabel('Frequency')
+    plt.title(f'Skup za validaciju: Distribucija ostataka\nMAE = {valid_results["mae"]:.4f}', fontsize=20)
+    plt.xlabel('Vrijednost ostataka', fontsize=20)
+    plt.ylabel('Učestalost', fontsize=20)
+    plt.xticks(fontsize=10)
+    plt.yticks(fontsize=10)
 
     # Test set residuals histogram
     plt.subplot(1, 3, 3)
     plt.hist(residuals_test, bins=30, alpha=0.7, color='orange')
-    plt.title(f'Test Set: Residuals Distribution\nMAE = {test_results["mae"]:.4f}')
-    plt.xlabel('Residual Value')
-    plt.ylabel('Frequency')
+    plt.title(f'Skup za testiranje: Distribucija ostataka\nMAE = {test_results["mae"]:.4f}', fontsize=20)
+    plt.xlabel('Vrijednost ostataka', fontsize=20)
+    plt.ylabel('Učestalost', fontsize=20)
+    plt.xticks(fontsize=10)
+    plt.yticks(fontsize=10)
 
     plt.tight_layout()
     plt.savefig(f'plots/residuals_histogram_{timestamp}.png')
@@ -350,25 +368,31 @@ def plot_results(train_results, valid_results, test_results, cv_results=None):
         y_true, y_pred = cv_results[2], cv_results[1]
         plt.scatter(y_true, y_pred, alpha=0.5)
         plt.plot([min(y_true), max(y_true)], [min(y_true), max(y_true)], 'r--')
-        plt.title('Cross-Validation: Actual vs Predicted')
-        plt.xlabel('Actual Values')
-        plt.ylabel('Predicted Values')
+        plt.title('Unakrsna validacija: Stvarne vs Predviđene vrijednosti', fontsize=20)
+        plt.xlabel('Stvarne vrijednosti', fontsize=20)
+        plt.ylabel('Predviđene vrijednosti', fontsize=20)
+        plt.xticks(fontsize=10)
+        plt.yticks(fontsize=10)
 
         # CV residuals
         plt.subplot(2, 2, 2)
         residuals_cv = y_true - y_pred
         plt.scatter(y_pred, residuals_cv, alpha=0.5)
         plt.axhline(y=0, color='r', linestyle='--')
-        plt.title('Cross-Validation: Residuals')
-        plt.xlabel('Predicted Values')
-        plt.ylabel('Residuals')
+        plt.title('Unakrsna validacija: Ostatci', fontsize=20)
+        plt.xlabel('Predviđene vrijednosti', fontsize=20)
+        plt.ylabel('Ostatci', fontsize=20)
+        plt.xticks(fontsize=10)
+        plt.yticks(fontsize=10)
 
         # CV residuals histogram
         plt.subplot(2, 2, 3)
         plt.hist(residuals_cv, bins=30, alpha=0.7, color='purple')
-        plt.title('Cross-Validation: Residuals Distribution')
-        plt.xlabel('Residual Value')
-        plt.ylabel('Frequency')
+        plt.title('Unakrsna validacija: Distribucija ostataka', fontsize=20)
+        plt.xlabel('Vrijednost ostataka', fontsize=20)
+        plt.ylabel('Učestalost', fontsize=20)
+        plt.xticks(fontsize=10)
+        plt.yticks(fontsize=10)
 
         # CV scores across folds
         plt.subplot(2, 2, 4)
@@ -378,21 +402,22 @@ def plot_results(train_results, valid_results, test_results, cv_results=None):
 
         ax1 = plt.gca()
         ax1.bar(folds, rmse_scores, alpha=0.7, color='blue', label='RMSE')
-        ax1.set_xlabel('Fold')
-        ax1.set_ylabel('RMSE', color='blue')
-        ax1.tick_params(axis='y', labelcolor='blue')
+        ax1.set_xlabel('Dio', fontsize=20)
+        ax1.set_ylabel('RMSE', color='blue', fontsize=20)
+        ax1.tick_params(axis='y', labelcolor='blue', labelsize=16)
+        ax1.tick_params(axis='x', labelsize=16)
 
         ax2 = ax1.twinx()
         ax2.plot(folds, r2_scores, 'r-o', label='R²')
-        ax2.set_ylabel('R²', color='red')
-        ax2.tick_params(axis='y', labelcolor='red')
+        ax2.set_ylabel('R²', color='red', fontsize=20)
+        ax2.tick_params(axis='y', labelcolor='red', labelsize=16)
 
-        plt.title('Cross-Validation: Metrics by Fold')
+        plt.title('Unakrsna validacija: Metrike po dijelu', fontsize=20)
 
         # Add a legend
         lines1, labels1 = ax1.get_legend_handles_labels()
         lines2, labels2 = ax2.get_legend_handles_labels()
-        ax1.legend(lines1 + lines2, labels1 + labels2, loc='upper right')
+        ax1.legend(lines1 + lines2, labels1 + labels2, loc='upper right', fontsize=20)
 
         plt.tight_layout()
         plt.savefig(f'plots/cross_validation_{timestamp}.png')
@@ -406,7 +431,7 @@ def plot_results(train_results, valid_results, test_results, cv_results=None):
         if hasattr(X_train, 'columns'):
             feature_names = X_train.columns
         else:
-            feature_names = [f'Feature {i}' for i in range(len(feature_importance))]
+            feature_names = [f'Značajka {i}' for i in range(len(feature_importance))]
 
         # Sort features by importance
         indices = np.argsort(feature_importance)[::-1]
@@ -415,9 +440,10 @@ def plot_results(train_results, valid_results, test_results, cv_results=None):
 
         # Plot feature importance
         plt.barh(range(len(sorted_importance)), sorted_importance, align='center')
-        plt.yticks(range(len(sorted_importance)), sorted_feature_names)
-        plt.title('Feature Importance')
-        plt.xlabel('Importance')
+        plt.yticks(range(len(sorted_importance)), sorted_feature_names, fontsize=10)
+        plt.xticks(fontsize=10)
+        plt.title('Važnost značajki', fontsize=20)
+        plt.xlabel('Važnost', fontsize=20)
         plt.tight_layout()
         plt.savefig(f'plots/feature_importance_{timestamp}.png')
     except (AttributeError, NameError):

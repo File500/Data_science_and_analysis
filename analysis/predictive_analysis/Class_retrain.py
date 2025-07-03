@@ -361,54 +361,6 @@ def perform_cross_validation(X_train, y_train, params, n_folds=5):
 
     return cv_scores, cv_predictions, cv_probabilities, y_train
 
-    # Train model
-    model = xgb.XGBClassifier(
-        objective=objective,
-        colsample_bytree=params['model__colsample_bytree'],
-        learning_rate=params['model__learning_rate'],
-        max_depth=params['model__max_depth'],
-        min_child_weight=params['model__min_child_weight'],
-        n_estimators=params['model__n_estimators'],
-        subsample=params['model__subsample'],
-        random_state=RANDOM_SEED,
-        use_label_encoder=False,
-        verbosity=0
-    )
-    model.fit(X_fold_train, y_fold_train, verbose=False)
-
-    # Predict and evaluate
-    y_pred = model.predict(X_fold_val)
-    y_prob = model.predict_proba(X_fold_val)
-
-    # Store predictions and probabilities
-    cv_predictions[val_idx] = y_pred
-    if is_binary:
-        cv_probabilities[val_idx] = y_prob[:, 1]  # Probability of positive class
-    else:
-        for i, idx in enumerate(val_idx):
-            cv_probabilities[idx] = y_prob[i]
-
-    # Calculate metrics
-    accuracy = accuracy_score(y_fold_val, y_pred)
-
-    if is_binary:
-        precision = precision_score(y_fold_val, y_pred, average='binary')
-        recall = recall_score(y_fold_val, y_pred, average='binary')
-        f1 = f1_score(y_fold_val, y_pred, average='binary')
-    else:
-        precision = precision_score(y_fold_val, y_pred, average='weighted')
-        recall = recall_score(y_fold_val, y_pred, average='weighted')
-        f1 = f1_score(y_fold_val, y_pred, average='weighted')
-
-    cv_scores.append({
-        'fold': fold,
-        'accuracy': accuracy,
-        'precision': precision,
-        'recall': recall,
-        'f1': f1
-    })
-
-    print(f"Fold {fold}: Accuracy = {accuracy:.4f}, F1 = {f1:.4f}, Precision = {precision:.4f}, Recall = {recall:.4f}")
 
 def evaluate_model(model, X, y, dataset_name):
     """
@@ -488,25 +440,31 @@ def plot_results(train_results, valid_results, test_results, cv_results):
     plt.subplot(1, 3, 1)
     cm = train_results['conf_matrix']
     sns.heatmap(cm, annot=True, fmt='d', cmap='Blues', cbar=False)
-    plt.title(f'Training Set: Confusion Matrix\nAccuracy = {train_results["accuracy"]:.4f}')
-    plt.xlabel('Predicted Label')
-    plt.ylabel('True Label')
+    plt.title(f'Skup za treniranje:\nMatrica greške\nTočnost = {train_results["accuracy"]:.4f}', fontsize=20)
+    plt.xlabel('Predviđeni razred', fontsize=20)
+    plt.ylabel('Stvarni razred', fontsize=20)
+    plt.xticks(fontsize=10)
+    plt.yticks(fontsize=10)
 
     # Validation set confusion matrix
     plt.subplot(1, 3, 2)
     cm = valid_results['conf_matrix']
     sns.heatmap(cm, annot=True, fmt='d', cmap='Blues', cbar=False)
-    plt.title(f'Validation Set: Confusion Matrix\nAccuracy = {valid_results["accuracy"]:.4f}')
-    plt.xlabel('Predicted Label')
-    plt.ylabel('True Label')
+    plt.title(f'Skup za validaciju:\nMatrica greške\nTočnost = {valid_results["accuracy"]:.4f}', fontsize=20)
+    plt.xlabel('Predviđeni razred', fontsize=20)
+    plt.ylabel('Stvarni razred', fontsize=20)
+    plt.xticks(fontsize=10)
+    plt.yticks(fontsize=10)
 
     # Test set confusion matrix
     plt.subplot(1, 3, 3)
     cm = test_results['conf_matrix']
     sns.heatmap(cm, annot=True, fmt='d', cmap='Blues', cbar=False)
-    plt.title(f'Test Set: Confusion Matrix\nAccuracy = {test_results["accuracy"]:.4f}')
-    plt.xlabel('Predicted Label')
-    plt.ylabel('True Label')
+    plt.title(f'Skup za testiranje:\nMatrica greške\nTočnost = {test_results["accuracy"]:.4f}', fontsize=20)
+    plt.xlabel('Predviđeni razred', fontsize=20)
+    plt.ylabel('Stvarni razred', fontsize=20)
+    plt.xticks(fontsize=10)
+    plt.yticks(fontsize=10)
 
     plt.tight_layout()
     plt.savefig(f'plots_2/confusion_matrices_{timestamp}.png')
@@ -518,40 +476,46 @@ def plot_results(train_results, valid_results, test_results, cv_results):
     plt.subplot(1, 3, 1)
     fpr_train, tpr_train, _ = roc_curve(train_results['y_true'], train_results['y_prob'])
     roc_auc_train = auc(fpr_train, tpr_train)
-    plt.plot(fpr_train, tpr_train, lw=2, label=f'ROC curve (AUC = {roc_auc_train:.2f})')
+    plt.plot(fpr_train, tpr_train, lw=2, label=f'krivulja ROC\n(AUC = {roc_auc_train:.2f})')
     plt.plot([0, 1], [0, 1], 'k--', lw=2)
     plt.xlim([0.0, 1.0])
     plt.ylim([0.0, 1.05])
-    plt.xlabel('False Positive Rate')
-    plt.ylabel('True Positive Rate')
-    plt.title('Training Set: ROC Curve')
-    plt.legend(loc="lower right")
+    plt.xlabel('Stopa lažno pozitivnih', fontsize=20)
+    plt.ylabel('Stopa stvarno pozitivnih', fontsize=20)
+    plt.title('Skup za treniranje:\nkrivulja ROC', fontsize=20)
+    plt.legend(loc="lower right", fontsize=15)
+    plt.xticks(fontsize=10)
+    plt.yticks(fontsize=10)
 
     # Validation set ROC curve
     plt.subplot(1, 3, 2)
     fpr_valid, tpr_valid, _ = roc_curve(valid_results['y_true'], valid_results['y_prob'])
     roc_auc_valid = auc(fpr_valid, tpr_valid)
-    plt.plot(fpr_valid, tpr_valid, lw=2, label=f'ROC curve (AUC = {roc_auc_valid:.2f})')
+    plt.plot(fpr_valid, tpr_valid, lw=2, label=f'krivulja ROC\n(AUC = {roc_auc_valid:.2f})')
     plt.plot([0, 1], [0, 1], 'k--', lw=2)
     plt.xlim([0.0, 1.0])
     plt.ylim([0.0, 1.05])
-    plt.xlabel('False Positive Rate')
-    plt.ylabel('True Positive Rate')
-    plt.title('Validation Set: ROC Curve')
-    plt.legend(loc="lower right")
+    plt.xlabel('Stopa lažno pozitivnih', fontsize=20)
+    plt.ylabel('Stopa stvarno pozitivnih', fontsize=20)
+    plt.title('Skup za validaciju:\nkrivulja ROC', fontsize=20)
+    plt.legend(loc="lower right", fontsize=15)
+    plt.xticks(fontsize=10)
+    plt.yticks(fontsize=10)
 
     # Test set ROC curve
     plt.subplot(1, 3, 3)
     fpr_test, tpr_test, _ = roc_curve(test_results['y_true'], test_results['y_prob'])
     roc_auc_test = auc(fpr_test, tpr_test)
-    plt.plot(fpr_test, tpr_test, lw=2, label=f'ROC curve (AUC = {roc_auc_test:.2f})')
+    plt.plot(fpr_test, tpr_test, lw=2, label=f'krivulja ROC\n(AUC = {roc_auc_test:.2f})')
     plt.plot([0, 1], [0, 1], 'k--', lw=2)
     plt.xlim([0.0, 1.0])
     plt.ylim([0.0, 1.05])
-    plt.xlabel('False Positive Rate')
-    plt.ylabel('True Positive Rate')
-    plt.title('Test Set: ROC Curve')
-    plt.legend(loc="lower right")
+    plt.xlabel('Stopa lažno pozitivnih', fontsize=20)
+    plt.ylabel('Stopa stvarno pozitivnih', fontsize=20)
+    plt.title('Skup za testiranje:\nkrivulja ROC', fontsize=20)
+    plt.legend(loc="lower right", fontsize=15)
+    plt.xticks(fontsize=10)
+    plt.yticks(fontsize=10)
 
     plt.tight_layout()
     plt.savefig(f'plots_2/roc_curves_{timestamp}.png')
@@ -564,36 +528,42 @@ def plot_results(train_results, valid_results, test_results, cv_results):
     precision_train, recall_train, _ = precision_recall_curve(train_results['y_true'], train_results['y_prob'])
     avg_precision_train = average_precision_score(train_results['y_true'], train_results['y_prob'])
     plt.plot(recall_train, precision_train, lw=2, label=f'AP = {avg_precision_train:.2f}')
-    plt.xlabel('Recall')
-    plt.ylabel('Precision')
+    plt.xlabel('Odziv', fontsize=20)
+    plt.ylabel('Preciznost', fontsize=20)
     plt.ylim([0.0, 1.05])
     plt.xlim([0.0, 1.0])
-    plt.title('Training Set: Precision-Recall Curve')
-    plt.legend(loc="lower left")
+    plt.title('Skup za treniranje:\nkrivulja Preciznost-Odziv', fontsize=20)
+    plt.legend(loc="lower left", fontsize=20)
+    plt.xticks(fontsize=10)
+    plt.yticks(fontsize=10)
 
     # Validation set Precision-Recall curve
     plt.subplot(1, 3, 2)
     precision_valid, recall_valid, _ = precision_recall_curve(valid_results['y_true'], valid_results['y_prob'])
     avg_precision_valid = average_precision_score(valid_results['y_true'], valid_results['y_prob'])
     plt.plot(recall_valid, precision_valid, lw=2, label=f'AP = {avg_precision_valid:.2f}')
-    plt.xlabel('Recall')
-    plt.ylabel('Precision')
+    plt.xlabel('Odziv', fontsize=20)
+    plt.ylabel('Preciznost', fontsize=20)
     plt.ylim([0.0, 1.05])
     plt.xlim([0.0, 1.0])
-    plt.title('Validation Set: Precision-Recall Curve')
-    plt.legend(loc="lower left")
+    plt.title('Skup za validaciju:\nkrivulja Preciznost-Odziv', fontsize=20)
+    plt.legend(loc="lower left", fontsize=20)
+    plt.xticks(fontsize=10)
+    plt.yticks(fontsize=10)
 
     # Test set Precision-Recall curve
     plt.subplot(1, 3, 3)
     precision_test, recall_test, _ = precision_recall_curve(test_results['y_true'], test_results['y_prob'])
     avg_precision_test = average_precision_score(test_results['y_true'], test_results['y_prob'])
     plt.plot(recall_test, precision_test, lw=2, label=f'AP = {avg_precision_test:.2f}')
-    plt.xlabel('Recall')
-    plt.ylabel('Precision')
+    plt.xlabel('Odziv', fontsize=20)
+    plt.ylabel('Preciznost', fontsize=20)
     plt.ylim([0.0, 1.05])
     plt.xlim([0.0, 1.0])
-    plt.title('Test Set: Precision-Recall Curve')
-    plt.legend(loc="lower left")
+    plt.title('Skup za testiranje:\nkrivulja Preciznost-Odziv', fontsize=20)
+    plt.legend(loc="lower left", fontsize=20)
+    plt.xticks(fontsize=10)
+    plt.yticks(fontsize=10)
 
     plt.tight_layout()
     plt.savefig(f'plots_2/precision_recall_curves_{timestamp}.png')
@@ -606,20 +576,21 @@ def plot_results(train_results, valid_results, test_results, cv_results):
     precision_scores = [score['precision'] for score in cv_results[0]]
     recall_scores = [score['recall'] for score in cv_results[0]]
 
-    plt.plot(folds, accuracy_scores, 'o-', label='Accuracy')
-    plt.plot(folds, f1_scores, 's-', label='F1 Score')
-    plt.plot(folds, precision_scores, '^-', label='Precision')
-    plt.plot(folds, recall_scores, 'D-', label='Recall')
+    plt.plot(folds, accuracy_scores, 'o-', label='Točnost')
+    plt.plot(folds, f1_scores, 's-', label='F1 metrika')
+    plt.plot(folds, precision_scores, '^-', label='Preciznost')
+    plt.plot(folds, recall_scores, 'D-', label='Odziv')
 
-    plt.title('Cross-Validation: Metrics by Fold')
-    plt.xlabel('Fold')
-    plt.ylabel('Score')
-    plt.xticks(folds)
-    plt.ylim(0, 1)
-    plt.legend()
+    plt.title('Unakrsna validacija:\nMetrike po preklopu', fontsize=20)
+    plt.xlabel('Preklop', fontsize=20)
+    plt.ylabel('Rezultat', fontsize=20)
+    plt.xticks(folds, fontsize=10)
+    plt.yticks(fontsize=10)
+    plt.ylim(0.8, 1)  # Limitiraj y-os na [0.8, 1]
+    plt.legend(bbox_to_anchor=(1.05, 1), loc='upper left', fontsize=20)  # Legenda van grafa
     plt.grid(True, alpha=0.3)
 
-    plt.tight_layout()
+    plt.tight_layout()  # Dodano za bolje raspoređivanje s legendom van grafa
     plt.savefig(f'plots_2/cross_validation_{timestamp}.png')
 
     # Plot 5: Probability distributions by class
@@ -634,12 +605,14 @@ def plot_results(train_results, valid_results, test_results, cv_results):
         train_results['y_true'], pd.Series) else [p for i, p in enumerate(train_results['y_prob']) if
                                                   train_results['y_true'][i] == 1]
 
-    plt.hist(probas_0, bins=20, alpha=0.5, color='blue', label='Class 0')
-    plt.hist(probas_1, bins=20, alpha=0.5, color='red', label='Class 1')
-    plt.title('Training Set: Probability Distribution by Class')
-    plt.xlabel('Predicted Probability for Class 1')
-    plt.ylabel('Frequency')
-    plt.legend()
+    plt.hist(probas_0, bins=20, alpha=0.5, color='blue', label='razred 0')
+    plt.hist(probas_1, bins=20, alpha=0.5, color='red', label='razred 1')
+    plt.title('Skup za treniranje:\nDistribucija vjerojatnosti\npo razredu', fontsize=20)
+    plt.xlabel('Predviđena vjerojatnost\nza razred 1', fontsize=20)
+    plt.ylabel('Učestalost', fontsize=20)
+    plt.legend(fontsize=20)
+    plt.xticks(fontsize=10)
+    plt.yticks(fontsize=10)
 
     # Validation set probability distribution
     plt.subplot(1, 3, 2)
@@ -650,12 +623,14 @@ def plot_results(train_results, valid_results, test_results, cv_results):
         valid_results['y_true'], pd.Series) else [p for i, p in enumerate(valid_results['y_prob']) if
                                                   valid_results['y_true'][i] == 1]
 
-    plt.hist(probas_0, bins=20, alpha=0.5, color='blue', label='Class 0')
-    plt.hist(probas_1, bins=20, alpha=0.5, color='red', label='Class 1')
-    plt.title('Validation Set: Probability Distribution by Class')
-    plt.xlabel('Predicted Probability for Class 1')
-    plt.ylabel('Frequency')
-    plt.legend()
+    plt.hist(probas_0, bins=20, alpha=0.5, color='blue', label='razred 0')
+    plt.hist(probas_1, bins=20, alpha=0.5, color='red', label='razred 1')
+    plt.title('Skup za validaciju:\nDistribucija vjerojatnosti\npo razredu', fontsize=20)
+    plt.xlabel('Predviđena vjerojatnost\nza razred 1', fontsize=20)
+    plt.ylabel('Učestalost', fontsize=20)
+    plt.legend(fontsize=20)
+    plt.xticks(fontsize=10)
+    plt.yticks(fontsize=10)
 
     # Test set probability distribution
     plt.subplot(1, 3, 3)
@@ -666,19 +641,18 @@ def plot_results(train_results, valid_results, test_results, cv_results):
         test_results['y_true'], pd.Series) else [p for i, p in enumerate(test_results['y_prob']) if
                                                  test_results['y_true'][i] == 1]
 
-    plt.hist(probas_0, bins=20, alpha=0.5, color='blue', label='Class 0')
-    plt.hist(probas_1, bins=20, alpha=0.5, color='red', label='Class 1')
-    plt.title('Test Set: Probability Distribution by Class')
-    plt.xlabel('Predicted Probability for Class 1')
-    plt.ylabel('Frequency')
-    plt.legend()
-
+    plt.hist(probas_0, bins=20, alpha=0.5, color='blue', label='razred 0')
+    plt.hist(probas_1, bins=20, alpha=0.5, color='red', label='razred 1')
+    plt.title('Skup za testiranje:\nDistribucija vjerojatnosti\npo razredu', fontsize=20)
+    plt.xlabel('Predviđena vjerojatnost\nza razred 1', fontsize=20)
+    plt.ylabel('Učestalost', fontsize=20)
+    plt.legend(fontsize=20)
+    plt.xticks(fontsize=10)
+    plt.yticks(fontsize=10)
     plt.tight_layout()
     plt.savefig(f'plots_2/probability_distribution_{timestamp}.png')
 
-    print(f"All plots saved in 'plots_2/' directory with timestamp {timestamp}")
-
-    # Plot 7: Decision boundaries or thresholds
+    # Plot 6: Decision boundaries or thresholds
     try:
         # Create a plot showing different performance metrics at different threshold values
         thresholds = np.linspace(0, 1, 100)
@@ -698,54 +672,27 @@ def plot_results(train_results, valid_results, test_results, cv_results):
                 f1_scores.append(f1_score(test_results['y_true'], y_pred, zero_division=0))
 
         plt.figure(figsize=(10, 6))
-        plt.plot(thresholds, accuracies, label='Accuracy')
-        plt.plot(thresholds, precisions, label='Precision')
-        plt.plot(thresholds, recalls, label='Recall')
-        plt.plot(thresholds, f1_scores, label='F1 Score')
+        plt.plot(thresholds, accuracies, label='Točnost')
+        plt.plot(thresholds, precisions, label='Preciznost')
+        plt.plot(thresholds, recalls, label='Odziv')
+        plt.plot(thresholds, f1_scores, label='F1 metrika')
 
         # Add vertical line at default threshold (0.5)
-        plt.axvline(x=0.5, color='r', linestyle='--', alpha=0.5, label='Default threshold (0.5)')
+        plt.axvline(x=0.5, color='r', linestyle='--', alpha=0.5, label='Zadani prag (0.5)')
 
-        plt.title('Performance Metrics vs. Classification Threshold')
-        plt.xlabel('Threshold')
-        plt.ylabel('Score')
-        plt.legend()
+        plt.title('Metrike performansi vs. prag razredufikacije', fontsize=20)
+        plt.xlabel('Prag', fontsize=20)
+        plt.ylabel('Rezultat', fontsize=20)
+        plt.legend(fontsize=20)
         plt.grid(True, alpha=0.3)
+        plt.xticks(fontsize=10)
+        plt.yticks(fontsize=10)
         plt.tight_layout()
         plt.savefig(f'plots_2/threshold_performance_{timestamp}.png')
     except:
         print("Could not create threshold performance plot.")
 
     print(f"All plots saved in 'plots_2/' directory with timestamp {timestamp}")
-
-    plt.tight_layout()
-    plt.savefig(f'plots_2/confusion_matrices_{timestamp}.png')
-
-    # Plot 4: Cross-validation results
-    plt.figure(figsize=(12, 6))
-    folds = [score['fold'] for score in cv_results[0]]
-    accuracy_scores = [score['accuracy'] for score in cv_results[0]]
-    f1_scores = [score['f1'] for score in cv_results[0]]
-    precision_scores = [score['precision'] for score in cv_results[0]]
-    recall_scores = [score['recall'] for score in cv_results[0]]
-
-    plt.plot(folds, accuracy_scores, 'o-', label='Accuracy')
-    plt.plot(folds, f1_scores, 's-', label='F1 Score')
-    plt.plot(folds, precision_scores, '^-', label='Precision')
-    plt.plot(folds, recall_scores, 'D-', label='Recall')
-
-    plt.title('Cross-Validation: Metrics by Fold')
-    plt.xlabel('Fold')
-    plt.ylabel('Score')
-    plt.xticks(folds)
-    plt.ylim(0, 1)
-    plt.legend()
-    plt.grid(True, alpha=0.3)
-
-    plt.tight_layout()
-    plt.savefig(f'plots_2/cross_validation_{timestamp}.png')
-
-    print(f"All plots saved in 'plots/' directory with timestamp {timestamp}")
 
 
 def save_model(model, scaler, label_encoder, metrics, params):
